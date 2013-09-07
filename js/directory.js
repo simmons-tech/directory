@@ -22,7 +22,7 @@ function submitIfEnter(key) {
 
 function getMatches(string) {
   results = []
-  terms = string.split(" ");
+  var terms = string.split(" ");
   for (var i = 0; i < terms.length; i++) {
     findByName(terms[i]);
     findByKerb(terms[i]);
@@ -36,7 +36,7 @@ function getMatches(string) {
 }
 
 function search() {
-  results = getMatches(input);
+  var results = getMatches(input);
   $('.results').empty();
   $('#Rooms').children().children().fadeOut(300); // clear previous results
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);

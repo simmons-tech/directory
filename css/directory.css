@@ -42,7 +42,7 @@ small {
 .search-box {
   position: absolute;
   top: 15px; right: 100px;
-  width: 40%;
+  width: 36%;
   border: solid 1px #ddd;
   padding: 6px 12px;
   outline: 0;
