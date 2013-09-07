@@ -1,0 +1,172 @@
+html, body {
+  min-width: 1024px; min-height: 768px;
+  margin: 0; padding: 0; border: 0;
+  background-color: #f7f7f7;
+  font-family: Lato, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+small {
+  font-size: 12px;
+  color: #777;
+}
+
+.wrapper {
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  background-color: white;
+  position: relative;
+  display: block;
+}
+
+.header {     height:  60px; margin: 0px 9% 10px 9%; }
+.footer { min-height: 270px; margin: 10px 9% 0px 9%; }
+
+.masthead {
+  position: absolute;
+  top: 11px; left: 14px;
+  height: 40px;
+  border: 0; margin: 0; padding: 0;
+}
+
+.search-box {
+  position: absolute;
+  top: 15px; right: 100px;
+  width: 36%;
+  border: solid 1px #ddd;
+  padding: 6px 12px;
+  outline: 0;
+}
+
+.search-btn {
+  background-color: #222;
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  top: 15px; right: 25px;
+  width: 75px;
+  padding: 7px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+}
+
+.map-wrapper {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.map-wrapper:after {
+    padding-top: 37.5%; /* 8:3 ratio */
+    display: block;
+    content: '';
+}
+
+.map {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;
+  background-image: url('../img/base.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  width: 200px;
+  padding: 3px 13px;
+  background-color: white;
+  text-align: left;
+  color: #222;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn .circ {
+  position: absolute;
+  top: 4px;
+  height: 10px; width: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn.active .circ {
+  position: absolute;
+  top: 4px;
+  height: 0px; width: 0px;
+  border-radius: 10px;
+  border-width: 7px;
+}
+
+.btn .text {
+  font-family: Lato;
+  display: inline;
+  position: relative;
+  left: 30px;
+  color: #777;
+}
+
+.btn.active .text {
+  font-family: Lato;
+  display: inline;
+  position: relative;
+  left: 30px;
+  color: #222;
+}
+
+.circ-lounges    { border: solid 2px #00AEEF; }
+.circ-kitchens   { border: solid 2px #662D91; }
+.circ-firestairs { border: solid 2px #D96069; }
+.circ-facilities { border: solid 2px #FFDE17; }
+.circ-laundry    { border: solid 2px #8DC63F; }
+.circ-elevators  { border: solid 2px #009444; }
+.circ-dining     { border: solid 2px #603913; }
+
+.column {
+  position: relative;
+  float: left;
+  min-width: 180px;
+  max-width: 360px;
+  padding-left: 10px;
+  border-left: solid 1px #ddd;
+  margin: 25px;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.results {
+  margin-top: 10px;
+  max-height: 172px;
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.result {
+  display: block;
+  cursor: pointer;
+  background-color: white;
+  padding: 6px 12px 8px 12px;
+  font-size: 12px;
+}
+
+.result:hover {
+  background-color: #f7f7f7;
+}
+
+.about {
+  margin: 5px 9% 10px 9%;
+  text-align: right;
+}
