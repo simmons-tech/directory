@@ -32,6 +32,7 @@ function getMatches(string) {
   bestMatchValue = 0;
   var terms = string.split(" ");
   for (var i = 0; i < terms.length; i++) {
+    if (terms[i] == "") continue;
     findByName(terms[i]);
     findByKerb(terms[i]);
     findByRoom(terms[i]);
