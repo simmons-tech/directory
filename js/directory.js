@@ -20,19 +20,30 @@ function submitIfEnter(key) {
   }
 }
 
+var bestMatchValue = 0;
+var matchPoints = [];
+
 function getMatches(string) {
-  results = []
+  matchPoints = []
+  for (var i = 0; i < everyone.length; i++) {
+	matchPoints.push(0)
+  }
+  results = [];
+  bestMatchValue = 0;
   var terms = string.split(" ");
   for (var i = 0; i < terms.length; i++) {
     findByName(terms[i]);
     findByKerb(terms[i]);
     findByRoom(terms[i]);
   }
-  var uniqueResults = [];
-  $.each(results, function(i, el) {
-      if($.inArray(el, uniqueResults) === -1) uniqueResults.push(el);
-  });
-  return uniqueResults;
+  if (bestMatchValue == 0) return results;
+  leniency = 0; /* 0 only shows result which have the most matches.  1 or more shows sets which have "leniency" less matches than the result with the most matches */
+  for (var i = 0; i < everyone.length; i++) {
+    if (matchPoints[i] >= bestMatchValue - leniency) {
+		results.push(everyone[i]);
+     }
+  }
+  return results;
 }
 
 function search() {
@@ -49,7 +60,8 @@ function search() {
 function findByRoom(room) {
   for (var i = 0; i < everyone.length; i++) {
     if (everyone[i][4] == room) {
-      results.push(everyone[i]);
+      matchPoints[i] += 1;
+      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
     }
   }
 }
@@ -57,7 +69,8 @@ function findByRoom(room) {
 function findByKerb(kerb) {
   for (var i = 0; i < everyone.length; i++) {
     if (everyone[i][3] == kerb) {
-      results.push(everyone[i]);
+      matchPoints[i] += 1;
+      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
     }
   }
 }
@@ -67,11 +80,13 @@ function findByName(name) {
   for (var i = 0; i < everyone.length; i++) {
     // first name
     if (everyone[i][1].indexOf(name) != -1) {
-      results.push(everyone[i]);
+      matchPoints[i] += 1;
+      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
     }
     // last name
     if (everyone[i][0].indexOf(name) != -1) {
-      results.push(everyone[i]);
+      matchPoints[i] += 1;
+      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
     }
   }
 }
