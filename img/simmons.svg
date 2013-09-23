@@ -901,7 +901,7 @@
 			<path fill="#BB762A" d="M3615.575,1040c-0.878,7.899-3.454,21.511-10.922,38.833c-9.126,21.171-16.808,38.976-20.342,47.167H3428
 				v-86H3615.575 M3624,1032h-204v102h169.572c0,0,9.84-22.799,22.428-52C3624.933,1052,3624,1032,3624,1032L3624,1032z"/>
 		</g>
-		<g id="r340" opacity="0.8">
+		<g id="r340A" opacity="0.8">
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" d="M3829.673,1130c-4.144-4.433-18.491-21.93-13.741-47.263
 				c4.185-22.32-5.053-38.213-12.213-46.737H4060v94H3829.673z"/>
 			<path fill="#BB762A" d="M4056,1040v86h-224.526c-4.671-5.482-15.638-21.049-11.61-42.525c3.559-18.983-1.982-33.65-8.278-43.475
@@ -1001,11 +1001,11 @@
 		</g>
 	</g>
 	<g id="Rooms__x28_4th_N_x29_">
-		<g id="r340B_1_" opacity="0.8">
+		<g id="r440" opacity="0.8">
 			<rect x="4138" y="934" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="230" height="94"/>
 			<path fill="#BB762A" d="M4364,938v86h-222v-86H4364 M4372,930h-238v102h238V930L4372,930z"/>
 		</g>
-		<g id="r337_1_" opacity="0.8">
+		<g id="r438" opacity="0.8">
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" d="M3424,1028v-94h193.437c-3.134,7.774-6.396,22.467,0.333,43.233
 				c6.443,19.885,4.052,42.521,2.84,50.767H3424z"/>
 			<path fill="#BB762A" d="M3611.926,938c-2.485,9.068-3.697,22.764,2.039,40.466c5.44,16.791,4.281,35.829,3.136,45.534H3428v-86
@@ -1206,7 +1206,7 @@
 			<rect x="1282" y="832" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M1372,836v86h-86v-86H1372 M1380,828h-102v102h102V828L1380,828z"/>
 		</g>
-		<g id="r527" opacity="0.8">
+		<g id="r527C" opacity="0.8">
 			<rect x="1384" y="832" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M1474,836v86h-86v-86H1474 M1482,828h-102v102h102V828L1482,828z"/>
 		</g>
@@ -1729,84 +1729,84 @@
 			<path fill="#BB762A" d="M1168,428v86h-86v-86H1168 M1176,420h-102v102h102V420L1176,420z"/>
 		</g>
 	</g>
-	<g id="Rooms__x28_10th_S_x29_" display="none">
-		<g id="r1073" display="inline" opacity="0.8">
+	<g id="Rooms__x28_10th_S_x29_">
+		<g id="r1073" opacity="0.8">
 			<rect x="3322" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M3412,326v86h-86v-86H3412 M3420,318h-102v102h102V318L3420,318z"/>
 		</g>
-		<g id="r1074" display="inline" opacity="0.8">
+		<g id="r1074" opacity="0.8">
 			<rect x="3424" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M3514,326v86h-86v-86H3514 M3522,318h-102v102h102V318L3522,318z"/>
 		</g>
-		<g id="r1075" display="inline" opacity="0.8">
+		<g id="r1075" opacity="0.8">
 			<rect x="3526" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M3616,326v86h-86v-86H3616 M3624,318h-102v102h102V318L3624,318z"/>
 		</g>
-		<g id="r1076" display="inline" opacity="0.8">
+		<g id="r1076" opacity="0.8">
 			<rect x="3628" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M3718,326v86h-86v-86H3718 M3726,318h-102v102h102V318L3726,318z"/>
 		</g>
-		<g id="r1077" display="inline" opacity="0.8">
+		<g id="r1077" opacity="0.8">
 			<rect x="3730" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M3820,326v86h-86v-86H3820 M3828,318h-102v102h102V318L3828,318z"/>
 		</g>
-		<g id="r1078B" display="inline" opacity="0.8">
+		<g id="r1078B" opacity="0.8">
 			<rect x="3832" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="196" height="94"/>
 			<path fill="#BB762A" d="M4024,326v86h-188v-86H4024 M4032,318h-204v102h204V318L4032,318z"/>
 		</g>
-		<g id="r1078A" display="inline" opacity="0.8">
+		<g id="r1078A" opacity="0.8">
 			<rect x="4036" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M4126,326v86h-86v-86H4126 M4134,318h-102v102h102V318L4134,318z"/>
 		</g>
-		<g id="r1072" display="inline" opacity="0.8">
+		<g id="r1072" opacity="0.8">
 			<rect x="2710" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="196" height="94"/>
 			<path fill="#BB762A" d="M2902,326v86h-188v-86H2902 M2910,318h-204v102h204V318L2910,318z"/>
 		</g>
-		<g id="r1066" display="inline" opacity="0.8">
+		<g id="r1066" opacity="0.8">
 			<rect x="2506" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="196" height="94"/>
 			<path fill="#BB762A" d="M2698,326v86h-188v-86H2698 M2706,318h-204v102h204V318L2706,318z"/>
 		</g>
-		<g id="r1065" display="inline" opacity="0.8">
+		<g id="r1065" opacity="0.8">
 			<rect x="2404" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M2494,326v86h-86v-86H2494 M2502,318h-102v102h102V318L2502,318z"/>
 		</g>
-		<g id="r1064" display="inline" opacity="0.8">
+		<g id="r1064" opacity="0.8">
 			<rect x="2200" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="196" height="94"/>
 			<path fill="#BB762A" d="M2392,326v86h-188v-86H2392 M2400,318h-204v102h204V318L2400,318z"/>
 		</g>
-		<g id="r1052A" display="inline" opacity="0.8">
+		<g id="r1052A" opacity="0.8">
 			<rect x="1996" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="230" height="94"/>
 			<path fill="#BB762A" d="M2222,326v86h-222v-86H2222 M2230,318h-238v102h238V318L2230,318z"/>
 		</g>
-		<g id="r1052B" display="inline" opacity="0.8">
+		<g id="r1052B" opacity="0.8">
 			<rect x="1894" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M1984,326v86h-86v-86H1984 M1992,318h-102v102h102V318L1992,318z"/>
 		</g>
-		<g id="r1021C" display="inline" opacity="0.8">
+		<g id="r1021C" opacity="0.8">
 			<rect x="432" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="230" height="94"/>
 			<path fill="#BB762A" d="M658,326v86H436v-86H658 M666,318H428v102h238V318L666,318z"/>
 		</g>
-		<g id="r1021A" display="inline" opacity="0.8">
+		<g id="r1021A" opacity="0.8">
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" d="M670,416v-94h128.373c0.57,7.817,0.932,27.384-7.803,41.942
 				c-12.306,20.51-22.182,44.282-25.293,52.058H670z"/>
 			<path fill="#BB762A" d="M794.581,326c0.286,8.763-0.413,24.171-7.441,35.884c-11.319,18.866-20.6,40.438-24.559,50.116H674v-86
 				H794.581 M802,318H666v102h102c0,0,11.375-29.625,26-54C806,346,802,318,802,318L802,318z"/>
 		</g>
-		<g id="r1043" display="inline" opacity="0.8">
+		<g id="r1043" opacity="0.8">
 			<path fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" d="M838.086,416c-4.247-6.333-18.508-29.922-5.258-43.171
 				c13.913-13.913,11.65-39.979,9.969-50.829H968v94H838.086z"/>
 			<path fill="#BB762A" d="M964,326v86H840.269c-4.69-7.483-14.707-26.248-4.612-36.343c8.245-8.245,12.414-20.934,12.39-37.714
 				c-0.006-4.411-0.312-8.516-0.695-11.942H964 M972,318H838c0,0,8.124,35.876-8,52c-18,18,6,50,6,50h136V318L972,318z"/>
 		</g>
-		<g id="r1044" display="inline" opacity="0.8">
+		<g id="r1044" opacity="0.8">
 			<rect x="976" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M1066,326v86h-86v-86H1066 M1074,318H972v102h102V318L1074,318z"/>
 		</g>
-		<g id="r1045" display="inline" opacity="0.8">
+		<g id="r1045" opacity="0.8">
 			<rect x="1078" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="94" height="94"/>
 			<path fill="#BB762A" d="M1168,326v86h-86v-86H1168 M1176,318h-102v102h102V318L1176,318z"/>
 		</g>
-		<g id="r1046" display="inline" opacity="0.8">
+		<g id="r1046" opacity="0.8">
 			<rect x="1180" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="128" height="94"/>
 			<path fill="#BB762A" d="M1304,326v86h-120v-86H1304 M1312,318h-136v102h136V318L1312,318z"/>
 		</g>
@@ -1828,7 +1828,7 @@
 			<rect x="3798" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="264" height="94"/>
 			<path fill="#BB762A" d="M4058,326v86h-256v-86H4058 M4066,318h-272v102h272V318L4066,318z"/>
 		</g>
-		<g id="r1022D" opacity="0.8">
+		<g id="r1021D" opacity="0.8">
 			<rect x="434" y="322" fill-rule="evenodd" clip-rule="evenodd" fill="#FCAF17" width="160" height="94"/>
 			<path fill="#BB762A" d="M590,326v86H438v-86H590 M598,318H430v102h168V318L598,318z"/>
 		</g>
