@@ -6,7 +6,7 @@
 
 this.RPC_call = function( path, callback ) {
 	console.log("Tried to call to http://simapi.xvm.mit.edu/" + path);
-        $.getJSON("http://simapi.xvm.mit.edu/" + path, callback);
+    $.getJSON("http://simapi.xvm.mit.edu/" + path, callback);
 	return "";
 }
 

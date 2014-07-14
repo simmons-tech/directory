@@ -34,10 +34,10 @@ function processArray(items, process) {
 function search() {
   var displayPeople = function(results) {
     results = results['usernames'];
-    //processArray(results, displayByKerb);
-    for(var i = 0; i < results.length; i++) {
-      displayByKerb(results[i]);
-    }
+    processArray(results, displayByKerb);
+    //for(var i = 0; i < results.length; i++) {
+    //  displayByKerb(results[i]);
+    //}
   }
 
   $('.results').empty();
@@ -56,36 +56,10 @@ function search() {
 }
 
 function displayByKerb(kerb) {
-  rooming_assignment.get_room_by_person(kerb, display);
+  rooming_assignment.get_room_by_person(kerb, function(result){display(result['room']);});
 };
 
 function display(roomnum) {
-  console.log(roomnum);
-  /*var role = ""
-  if (result[5] != "") {
-    role = " '" + result[5].slice(-2)
-  }
-  else {
-    if (result[4] == "365" || result[4] == "772") {
-      role = " (Housemaster)"
-    }
-    else if (result[4] == "580") {
-      role = " (RLAD)"
-    }
-    // hack for apts currently for res. scholars
-    else if (result[4] == "436" ||
-             result[4] == "480" ||
-             result[4] == "528" ||
-             result[4] == "1080") {
-      role = " (Residential Scholar)"
-    }
-    else {
-      role = " (GRT)"
-    }
-  }
-  $('.results').append(
-    "<div class='result' onclick='input=" + '"' + result[3] + '"' + "; search();'>Rm " + result[4] + " &mdash; <strong>" + result[1] + " " + result[0] + role + "</strong> (" + result[3] + "@mit.edu)" + "</div>" 
-  );*/
   $('#r' + roomnum).fadeIn(300);
 
     // set onclicks for all rooms
@@ -101,17 +75,17 @@ function display(roomnum) {
 function getRole( roomnum ) {
   var role;
   // TODO: Students!
-  if (result[4] == "365" || result[4] == "772") {
+  if (roomnum == "365" || roomnum == "772") {
     role = "Housemaster"
   }
-  else if (result[4] == "580") {
+  else if (roomnum == "580") {
     role = "RLAD"
   }
   // hack for apts currently for res. scholars
-  else if (result[4] == "436" ||
-           result[4] == "480" ||
-           result[4] == "528" ||
-           result[4] == "1080") {
+  else if (roomnum == "436" ||
+           roomnum == "480" ||
+           roomnum == "528" ||
+           roomnum == "1080") {
     role = "Residential Scholar"
   }
   // GRTs
@@ -122,9 +96,20 @@ function getRole( roomnum ) {
 }
 
 function updateResultDiv( roomnum ) {
+  console.log("HERE");
+  console.log(roomnum);
   result = ['TODO', 'TODO', 'TODO', 'TODO'];
   role = getRole(roomnum);
-  $('.results').append(
-    "<div class='result' onclick='input=" + '"' + roomnum + '"' + "; search();'>Rm " + roomnum + " &mdash; <strong>" + result[1] + " " + result[0] + " (" + role + ")</strong> (" + result[3] + "@mit.edu)" + "</div>" 
-  );
+  var addPeople = function( results ) {
+    results = results['usernames'];
+    for(var i=0; i < results.length; i++ ) {
+      people.get_person(results[i],console.log)
+      console.log(results[i]);
+      $('.results').append(
+        "<div class='result' onclick='input=" + '"' + roomnum + '"' + "; search();'>Rm " + roomnum + " &mdash; <strong>" + result[1] + " " + result[0] + " (" + role + ")</strong> (" + result[3] + "@mit.edu)" + "</div>" 
+      );
+    }
+  }
+  rooming_assignment.get_people_by_room(roomnum, addPeople);
+
 }
