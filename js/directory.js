@@ -98,6 +98,7 @@ function search(input) {
   for (var i = 0; i < results.length; i++) {
     display(results[i]);
   }
+  $(".modal").hide();
 }
 
 function findByRoom(room) {

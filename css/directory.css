@@ -1,3 +1,70 @@
+/* NEW */
+
+.horizontal-region {
+  display: block;
+  width: 100%;
+}
+
+.content {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-color: #A3CEFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 200px;
+}
+.list {
+  background-color: #F7F7F7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 10px #DDD;
+}
+.foot {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  height: 60px;
+}
+
+.masthead {
+  position: relative;
+  top: 0px; left: 0px;
+  color: white;
+  font-size: 24px;
+}
+
+.magnifying-glass {
+  display: block;
+  position: absolute;
+  top: 0px; right: 0px;
+  height: 40px; width: 40px;
+  border: solid 1px white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pop-up {
+  z-index: 1000;
+}
+
+.darkness {
+  z-index: 1000;
+  background-color: black;
+  height: 100%; width: 100%;
+  position: fixed;
+  opacity: 0.5;
+}
+
+/* OLD */
+
 html, body {
   min-width: 1024px; min-height: 768px;
   margin: 0; padding: 0; border: 0;
@@ -15,47 +82,39 @@ small {
   color: #777;
 }
 
-.wrapper {
-  position: relative;
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-}
-
-.header,
-.footer {
-  background-color: white;
-  position: relative;
-  display: block;
-}
-
-.header {     height:  60px; margin: 0px 9% 10px 9%; }
-.footer { min-height: 270px; margin: 10px 9% 0px 9%; }
-
-.masthead {
+.search {
+  display: inline-block;
   position: absolute;
-  top: 11px; left: 14px;
-  height: 40px;
-  border: 0; margin: 0; padding: 0;
+  width: 400px;
+  top: 33%;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 1001;
+}
+
+.search-box,
+.search-btn {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  border-radius: 16px; 
 }
 
 .search-box {
-  position: absolute;
-  top: 15px; right: 100px;
-  width: 36%;
+  left: 0px;
+  width: 280px;
   border: solid 1px #ddd;
-  padding: 6px 12px;
+  padding: 10px 16px;
   outline: 0;
 }
 
 .search-btn {
+  right: 0px;
+  width: 80px;
+  padding: 10px;
   background-color: #222;
   color: white;
   font-weight: 400;
-  position: absolute;
-  top: 15px; right: 25px;
-  width: 75px;
-  padding: 7px;
   text-align: center;
   cursor: pointer;
   border: 0;
@@ -163,7 +222,8 @@ small {
 }
 
 .result:hover {
-  background-color: #f7f7f7;
+  background-color: #A3CEFF;
+  color: white;
 }
 
 .about {
