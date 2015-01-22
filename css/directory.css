@@ -293,13 +293,9 @@ a {
   padding: 10px;
 }
 
-.ui-autocomplete .ui-menu-item:first-child {
-  border-radius: 5px 5px 0px 0px;
-}
-
-.ui-autocomplete .ui-menu-item:last-child {
-  border-radius: 0px 0px 5px 5px;
-}
+.ui-autocomplete .ui-menu-item:first-child { border-radius: 5px 5px 0px 0px; }
+.ui-autocomplete .ui-menu-item:last-child  { border-radius: 0px 0px 5px 5px; }
+.ui-autocomplete .ui-menu-item:only-child  { border-radius: 5px 5px 5px 5px; }
 
 .ui-autocomplete .ui-menu-item.ui-state-focus {
   background-color: #eee;
