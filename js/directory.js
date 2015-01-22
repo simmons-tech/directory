@@ -93,8 +93,10 @@ function search(input) {
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
   $(".modal").hide();
 
-  for (var i = 0; i < results.length; i++) {
-    display(results[i]);
+  if (input != "") { // return none instead of all 
+    for (var i = 0; i < results.length; i++) {
+      display(results[i]);
+    }
   }
 };
 
