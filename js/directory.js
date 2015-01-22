@@ -1,43 +1,53 @@
 var people;
 
 $(document).ready( function(){
+  // create tooltips
+  $('#Rooms').children().children().tipsy({gravity: 'e', opacity: 1.0});
+
+  // initialize people directory
   people = new People();
+
   // initially hide all rooms
   $('#Rooms').children().children().fadeOut(0);
-var projects = [
-      {
-        value: "jquery",
-        label: "jQuery",
-        desc: "the write less, do more, JavaScript library",
-        icon: "jquery_32x32.png"
-      },
-      {
-        value: "jquery-ui",
-        label: "jQuery UI",
-        desc: "the official user interface library for jQuery",
-        icon: "jqueryui_32x32.png"
-      },
-      {
-        value: "sizzlejs",
-        label: "Sizzle JS",
-        desc: "a pure-JavaScript CSS selector engine",
-        icon: "sizzlejs_32x32.png"
+  $(".magnifying-glass").click(function() {
+    $(".modal").show();
+    $(".search-box").focus();
+    $(".search-box").autocomplete("search");
+  });
+  $(".darkness").click(function() {
+    $(".search-box").autocomplete("close");
+    $(".modal").hide();
+  });
+  $(".search-box").focus();
+
+  // autocomplete functions
+  $( ".search-box" ).autocomplete({
+    minLength: 0,
+    source: function(request, response) {
+      var matched = people.match(request.term);
+      var results = [];
+      for (var i = 0; i < matched.length; i++) {
+        var m = matched[i];
+        results.push({
+          value: people.getKerb(m),
+          label: people.getFName(m) + " " + people.getLName(m),
+          desc: people.getKerb(m) + " (" + people.getRoom(m) + ")"
+        });
       }
-    ];
- 
-    $( ".search-box" ).autocomplete({
-      minLength: 0,
-      source: function(request, response) {
-        response(people.match(request.term));
-      },
-      focus: function( event, ui ) {
-        $( ".search-box" ).val( ui.item.label );
-        return false;
-      },
-      select: function( event, ui ) {
-        return false;
-      }
-    })
+      response(results);
+    },
+    focus: function( event, ui ) {
+      $( ".search-box" ).val( ui.item.label );
+      return false;
+    },
+    select: function( event, ui ) {
+      return false;
+    },
+    messages: {
+      noResults: '',
+      results: function() {}
+    }
+  })
     .autocomplete( "instance" )._renderItem = function( ul, item ) {
       return $( "<li>" )
         .append( "<a>" + item.label + "<br>" + item.desc + "</a>" )
@@ -51,125 +61,69 @@ function userHasTyped(input) {
     $('#Facilities, #Dining, #Firestairs, #Elevators, #Lounges').fadeIn(300);
     $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-elevators, .btn-lounges').addClass('active');
   }
-}
+};
 
 function submitIfEnter(key) {
   if (key.keyCode == 13) {
     $('.search-btn').click();
   }
-}
-
-var bestMatchValue = 0;
-var matchPoints = [];
-
-function getMatches(string) {
-  // TODO: replace with autocomplete
-  matchPoints = []
-  for (var i = 0; i < people.numPeople(); i++) {
-	matchPoints.push(0)
-  }
-  results = [];
-  bestMatchValue = 0;
-  var terms = string.split(" ");
-  for (var i = 0; i < terms.length; i++) {
-    if (terms[i] == "") continue;
-    findByName(terms[i]);
-    findByKerb(terms[i]);
-    findByRoom(terms[i]);
-  }
-  if (bestMatchValue == 0) return results;
-  leniency = 0; /* 0 only shows result which have the most matches.  1 or more shows sets which have "leniency" less matches than the result with the most matches */
-  for (var i = 0; i < people.numPeople(); i++) {
-    if (matchPoints[i] >= bestMatchValue - leniency) {
-      // TODO: Get rid of getPerson and only use getter methods
-	  results.push(people.getPerson(i));
-    }
-  }
-  return results;
-}
+};
 
 function search(input) {
   input = input || $('.search-box').val();
-  var results = getMatches(input);
+  var results = people.match(input);
+
+  // clear previous results and search box
   $('.results').empty();
-  $('#Rooms').children().children().fadeOut(300); // clear previous results
+  $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
+  $(".modal").hide();
+
   for (var i = 0; i < results.length; i++) {
     display(results[i]);
   }
-  $(".modal").hide();
-}
-
-function findByRoom(room) {
-  for (var i = 0; i < people.numPeople(); i++) {
-    if (people.getRoom(i) == room) {
-      matchPoints[i] += 1;
-      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
-    }
-  }
-}
-
-function findByKerb(kerb) {
-  for (var i = 0; i < people.numPeople(); i++) {
-    if (people.getKerb(i) == kerb) {
-      matchPoints[i] += 1;
-      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
-    }
-  }
-}
-
-function findByName(name) {
-  name = name.charAt(0).toUpperCase() + name.slice(1);
-  for (var i = 0; i < people.numPeople(); i++) {
-    // first name
-    if (people.getFName(i).indexOf(name) != -1) {
-      matchPoints[i] += 1;
-      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
-    }
-    // last name
-    if (people.getLName(i).indexOf(name) != -1) {
-      matchPoints[i] += 1;
-      if (matchPoints[i] > bestMatchValue) bestMatchValue = matchPoints[i];
-    }
-  }
-}
+};
 
 function display(result) {
   var role = "";
-  if (result[5] != "") {
-    // TODO: replace with people.getYear(result).slice(-2)
-    role = " '" + result[5].slice(-2);
+  if (people.getYear(result) != "") {
+    role = " '" + people.getYear(result).slice(-2);
   }
   else {
     // TODO: replace with Role field in people
-    if (result[4] == "365" || result[4] == "772") {
+    var room = people.getRoom(result);
+    if (room == "365" || room == "772") {
       role = " (Housemaster)";
     }
-    else if (result[4] == "580") {
+    else if (room == "580") {
       role = " (RLAD)";
     }
     // hack for apts currently for res. scholars
-    else if (result[4] == "436" ||
-             result[4] == "480" ||
-             result[4] == "528" ||
-             result[4] == "1080") {
+    else if (room == "436" ||
+             room == "480" ||
+             room == "528" ||
+             room == "1080") {
       role = " (Residential Scholar)";
     }
     else {
       role = " (GRT)";
     }
   }
+  var room = people.getRoom(result);
+  var fname = people.getFName(result);
+  var lname = people.getLName(result);
+  var kerb = people.getKerb(result);
   $('.results').append(
-    "<div class='result' onclick='search(\"" + result[3] + "\");'>Rm " + result[4] + " &mdash; <strong>" + result[1] + " " + result[0] + role + "</strong> (" + result[3] + "@mit.edu)" + "</div>" 
+    "<div class='result' onclick='search(\"" + kerb + "\");'>Rm " + room + " &mdash; <strong>" + fname + " " + lname + role + "</strong> (" + kerb + "@mit.edu)" + "</div>" 
   );
-  $('#r' + result[4]).fadeIn(300);
+  $('#r' + room).fadeIn(300);
 
     // set onclicks for all rooms
-  $('#r' + result[4]).attr("onclick", "search(\"" + result[4] + "\");");
-  $('#r' + result[4]).attr("style", "cursor: pointer;");
+  $('#r' + room).attr("onclick", "search(\"" + room + "\");");
+  $('#r' + room).attr("style", "cursor: pointer;");
 
   // set titles for tooltips
-  $('#r' + result[4]).attr("title", "Room " + result[4] + ", " + result[1] + " " + result[0]);
+  $('#r' + room).attr("title", "Room " + room + ", " + fname + " " + lname);
 
-}
+};
