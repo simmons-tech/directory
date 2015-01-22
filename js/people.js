@@ -35,7 +35,7 @@ People.prototype.getFullName = function(i) {
 };
 
 People.prototype.contains = function(s1, s2) {
-  return s1.toLowerCase().indexOf(s2.toLowerCase()) !== -1;
+  return s1.toLowerCase().indexOf(s2.toLowerCase()) === 0;
 };
 
 People.prototype.match = function(s, things) {
