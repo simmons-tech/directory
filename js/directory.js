@@ -47,7 +47,7 @@ $(document).ready( function(){
           desc: people.getKerb(m) + " (" + people.getRoom(m) + ")"
         });
       }
-      response(results);
+      response(results.slice(0, 6)); // limit number of results to 6
     },
     focus: function( event, ui ) {
       $( ".search-box" ).val( ui.item.label );

@@ -9,6 +9,10 @@ html, body {
   color: #222;
 }
 
+html {
+    overflow-y: scroll; /* force to prevent inevitable jump */ 
+}
+
 a {
   text-decoration: none;
 }
@@ -274,4 +278,29 @@ a {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
+}
+
+.ui-autocomplete {
+  list-style-type: none;
+  max-width: 558px;
+  overflow: hidden;
+  padding-top: 3px;
+  padding-left: 21px;
+}
+
+.ui-autocomplete .ui-menu-item {
+  background-color: white;
+  padding: 10px;
+}
+
+.ui-autocomplete .ui-menu-item:first-child {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.ui-autocomplete .ui-menu-item:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.ui-autocomplete .ui-menu-item.ui-state-focus {
+  background-color: #eee;
 }
