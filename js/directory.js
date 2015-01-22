@@ -12,6 +12,7 @@ $(document).ready( function(){
   $(".magnifying-glass").click(function() {
     $(".modal").show();
     $(".search-box").focus();
+    $(".search-box").autocomplete("search");
   });
   $(".darkness").click(function() {
     $(".search-box").autocomplete("close");
@@ -60,7 +61,7 @@ $(document).ready( function(){
 
 function userHasTyped(input) {
   // show everything
-  if (input == "") {
+  if (input === "") {
     $('#Facilities, #Dining, #Firestairs, #Elevators, #Lounges').fadeIn(300);
     $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-elevators, .btn-lounges').addClass('active');
   }
