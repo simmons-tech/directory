@@ -4,6 +4,45 @@ $(document).ready( function(){
   people = new People();
   // initially hide all rooms
   $('#Rooms').children().children().fadeOut(0);
+var projects = [
+      {
+        value: "jquery",
+        label: "jQuery",
+        desc: "the write less, do more, JavaScript library",
+        icon: "jquery_32x32.png"
+      },
+      {
+        value: "jquery-ui",
+        label: "jQuery UI",
+        desc: "the official user interface library for jQuery",
+        icon: "jqueryui_32x32.png"
+      },
+      {
+        value: "sizzlejs",
+        label: "Sizzle JS",
+        desc: "a pure-JavaScript CSS selector engine",
+        icon: "sizzlejs_32x32.png"
+      }
+    ];
+ 
+    $( ".search-box" ).autocomplete({
+      minLength: 0,
+      source: function(request, response) {
+        response(people.match(request.term));
+      },
+      focus: function( event, ui ) {
+        $( ".search-box" ).val( ui.item.label );
+        return false;
+      },
+      select: function( event, ui ) {
+        return false;
+      }
+    })
+    .autocomplete( "instance" )._renderItem = function( ul, item ) {
+      return $( "<li>" )
+        .append( "<a>" + item.label + "<br>" + item.desc + "</a>" )
+        .appendTo( ul );
+    };
 });
 
 function userHasTyped(input) {
@@ -42,6 +81,7 @@ function getMatches(string) {
   leniency = 0; /* 0 only shows result which have the most matches.  1 or more shows sets which have "leniency" less matches than the result with the most matches */
   for (var i = 0; i < people.numPeople(); i++) {
     if (matchPoints[i] >= bestMatchValue - leniency) {
+      // TODO: Get rid of getPerson and only use getter methods
 	  results.push(people.getPerson(i));
     }
   }
