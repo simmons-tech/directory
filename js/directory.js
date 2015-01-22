@@ -9,9 +9,14 @@ $(document).ready( function(){
 
   // initially hide all rooms
   $('#Rooms').children().children().fadeOut(0);
-  $(".magnifying-glass, .darkness").click(function() {
-    $(".modal").toggle();
+  $(".magnifying-glass").click(function() {
+    $(".modal").show();
     $(".search-box").focus();
+    $(".search-box").autocomplete("search");
+  });
+  $(".darkness").click(function() {
+    $(".search-box").autocomplete("close");
+    $(".modal").hide();
   });
   $(".search-box").focus();
 
@@ -37,6 +42,10 @@ $(document).ready( function(){
     },
     select: function( event, ui ) {
       return false;
+    },
+    messages: {
+      noResults: '',
+      results: function() {}
     }
   })
     .autocomplete( "instance" )._renderItem = function( ul, item ) {
