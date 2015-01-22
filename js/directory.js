@@ -12,7 +12,9 @@ $(document).ready( function(){
   $(".magnifying-glass").click(function() {
     $(".modal").show();
     $(".search-box").focus();
-    $(".search-box").autocomplete("search");
+    if ($(".search-box").val() !== "") {
+      $(".search-box").autocomplete("search");
+    }
   });
   $(".darkness").click(function() {
     $(".search-box").autocomplete("close");
@@ -60,6 +62,7 @@ function userHasTyped(input) {
   if (input == "") {
     $('#Facilities, #Dining, #Firestairs, #Elevators, #Lounges').fadeIn(300);
     $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-elevators, .btn-lounges').addClass('active');
+    $('.search-box').autocomplete('close');
   }
 };
 

@@ -37,10 +37,13 @@ People.prototype.contains = function(s1, s2) {
 People.prototype.match = function(s) {
   var results = [];
   for (var i = 0; i < this.numPeople(); i++) {
+    var fullName = this.getFName(i) + " " + this.getLName(i);
     var cont = this.contains(this.getRoom(i), s) ||
       this.contains(this.getKerb(i), s) ||
       this.contains(this.getFName(i), s) ||
-      this.contains(this.getLName(i), s);
+      this.contains(this.getLName(i), s) ||
+      this.contains(this.getYear(i), s) ||
+      this.contains(fullName, s);
     if (cont) {
       results.push(i);
     }
