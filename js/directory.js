@@ -12,9 +12,6 @@ $(document).ready( function(){
   $(".magnifying-glass").click(function() {
     $(".modal").show();
     $(".search-box").focus();
-    if ($(".search-box").val() !== "") {
-      $(".search-box").autocomplete("search");
-    }
   });
   $(".darkness").click(function() {
     $(".search-box").autocomplete("close");
@@ -26,6 +23,10 @@ $(document).ready( function(){
   $( ".search-box" ).autocomplete({
     minLength: 0,
     source: function(request, response) {
+      if (request.term == "") {
+        response([]);
+        return;
+      }
       var matched = people.match(request.term);
       var results = [];
       for (var i = 0; i < matched.length; i++) {
@@ -58,11 +59,10 @@ $(document).ready( function(){
 });
 
 function userHasTyped(input) {
-  // show everything 
+  // show everything
   if (input == "") {
     $('#Facilities, #Dining, #Firestairs, #Elevators, #Lounges').fadeIn(300);
     $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-elevators, .btn-lounges').addClass('active');
-    $('.search-box').autocomplete('close');
   }
 };
 
