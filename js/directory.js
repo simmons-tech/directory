@@ -9,16 +9,25 @@ $(document).ready( function(){
 
   // initially hide all rooms
   $('#Rooms').children().children().fadeOut(0);
+
+  // toggle modal
   $(".magnifying-glass").click(function() {
     $(".modal").show();
+    $(".darkness").fadeIn(300);
+    $(".search").animate({top: "33%"}, 150);
     $(".search-box").focus();
     $(".search-box").autocomplete("search");
   });
   $(".darkness").click(function() {
     $(".search-box").autocomplete("close");
-    $(".modal").hide();
+    $(".darkness").fadeOut(300);
+    $(".search").animate({top: "-60px"}, 150);
   });
+
+  // initial animation
   $(".search-box").focus();
+  $(".search").animate({top: "33%"}, 1000);
+  $(".darkness").fadeIn(700);
 
   // autocomplete functions
   $( ".search-box" ).autocomplete({

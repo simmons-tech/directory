@@ -1,10 +1,11 @@
 /* GENERAL */
 
 html, body {
-  min-width: 1024px; min-height: 768px;
+  min-width: 750px;
   margin: 0; padding: 0; border: 0;
-  background-color: #f7f7f7;
+  background-color: #F7F7F7;
   font-family: Roboto, sans-serif;
+  overflow-x: hidden;
   color: #222;
 }
 
@@ -102,7 +103,7 @@ a {
 /* MODAL */
 
 .modal {
-  z-index: 1001;
+  z-index: 11001;
 }
 
 .darkness {
@@ -145,13 +146,18 @@ a {
   right: 3px; top: 3px;
   width: 120px;
   padding: 14px;
-  background-color: #444;
+  background-color: #222;
   font-size: 18px;
   font-weight: 400;
   color: white;
   text-align: center;
   cursor: pointer;
   border: 0;
+  transition: all 0.2s;
+}
+
+.search-btn:hover {
+  background-color: #111;
 }
 
 /* ... */
@@ -227,26 +233,24 @@ a {
 .circ-elevators  { border: solid 2px #009444; }
 .circ-dining     { border: solid 2px #603913; }
 
-.column {
-  position: relative;
-  float: left;
-  min-width: 180px;
-  max-width: 360px;
-  padding-left: 10px;
-  border-left: solid 1px #ddd;
-  margin: 25px;
-}
-
 .controls {
   margin-top: 15px;
 }
 
+/* RESULTS */
+
+.results-masthead {
+  position: relative;
+  top: 0px; left: 0px;
+  font-weight: 300;
+  font-size: 48px;
+  color: #444;
+}
+
 .results {
-  margin-top: 10px;
-  max-height: 172px;
   z-index: 1000;
-  overflow-y: auto;
   overflow-x: hidden;
+  padding-top: 20px;
 }
 
 .result {
@@ -258,6 +262,16 @@ a {
 }
 
 .result:hover {
-  background-color: #A3CEFF;
-  color: white;
+  background-color: #0645ad;
+  color: #FFFFFF;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }

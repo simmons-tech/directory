@@ -24,17 +24,17 @@
 <body>
 
   <div class="modal">
-    <div class="search">
-      <input type="text" onkeydown="submitIfEnter(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search residents by name, email, or room number">
+    <div class="search" style="top: -100%">
+      <input type="text" onkeydown="submitIfEnter(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search by name, email, or room number">
       <button class="search-btn" onclick="search()">Search</button>
     </div>
-    <div class="darkness"></div>
+    <div class="darkness" style="display:none;"></div>
   </div>
 
   <div class="horizontal-region main">
     <div class="content">
       <div class="nav">
-        <div class="masthead">Directory</div>
+        <div class="masthead noselect">Directory</div>
         <div class="nav-box magnifying-glass">
           <img src="img/magnifying-glass.png" class="nav-icon">
         </div>
@@ -525,6 +525,7 @@
               <rect x="1926" y="1136" fill-rule="evenodd" clip-rule="evenodd" fill="#FFDE17" width="778" height="98"/>
               <path fill="#FFFFFF" d="M2702,1138v94h-616.206H1928v-94H2702 M2706,1134h-782v102h161.794H2706V1134L2706,1134z"/>
             </g>
+            <!-- HIDES CIRCULAR LABELS FOR SPACES, AND WASHROOMS
             <g>
               <circle fill-rule="evenodd" clip-rule="evenodd" fill="#6D6E71" cx="3664" cy="1374" r="24"/>
               <g>
@@ -651,6 +652,7 @@
                   l4.344-13.099C2857.766,1271.799,2858.919,1270.169,2861.124,1270.169L2861.124,1270.169z"/>
               </g>
             </g>
+          -->
           </g>
           <g id="Laundry">
             <g id="r346" opacity="0.6">
@@ -2167,8 +2169,7 @@
 
   <div class="horizontal-region list">
     <div class="content">
-      <strong>Search Results</strong></br>
-      <small>All matches appear here.</small>
+      <div class="results-masthead">Results</div>
       <div class="results"></div>
     </div>
   </div>
