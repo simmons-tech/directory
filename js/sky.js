@@ -20,7 +20,7 @@ function simulateSky() {
       setSky(hours, minutes);
       console.log("TIME: " + hours + ":" + minutes);
   }
-}
+};
 
 function setSky(hours, minutes) {
   midday = (11 * 60 + 30); // 11:30AM
@@ -49,4 +49,4 @@ function setSky(hours, minutes) {
     $(".sky-night").css("opacity", val);
   }
 
-}
+};
