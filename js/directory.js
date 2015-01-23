@@ -14,9 +14,14 @@ $(document).ready( function(){
   $('.magnifying-glass').click(function() {
     $('.modal').show();
     $('.darkness').fadeIn(300);
-    $('.search').animate({top: '33%'}, 150);
-    $('.search-box').focus();
-    $('.search-box').autocomplete('search');
+    $('.search').animate(
+      {top: '33%'},
+      150,
+      "swing",
+      function() {
+        $('.search-box').focus();
+        $('.search-box').autocomplete('search');
+      });
   });
   $('.darkness').click(closeDarkness);
 
@@ -95,7 +100,7 @@ function search(input) {
   $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
-  $('.modal').hide();
+  closeDarkness();
 
   if (input != '') { // return none instead of all 
     for (var i = 0; i < results.length; i++) {
