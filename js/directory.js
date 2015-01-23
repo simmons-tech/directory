@@ -139,15 +139,20 @@ function display(result) {
   var lname = people.getLName(result);
   var kerb = people.getKerb(result);
   $('.results').append(
-    '<div class=\'result\' onclick=\'search(\"' + kerb + '\');\'>Rm ' + room + ' &mdash; <strong>' + fname + ' ' + lname + role + '</strong> (' + kerb + '@mit.edu)' + '</div>'
+    '<div class=\'result\' onclick=\'search(\"' + kerb + '\");\'>Rm ' + room + ' &mdash; <strong>' + fname + ' ' + lname + role + '</strong> (' + kerb + '@mit.edu)' + '</div>'
   );
   $('#r' + room).fadeIn(300);
 
     // set onclicks for all rooms
-  $('#r' + room).attr('onclick', 'search(\"' + room + '\');');
+  $('#r' + room).attr('onclick', 'search(\"' + room + '\");');
   $('#r' + room).attr('style', 'cursor: pointer;');
 
   // set titles for tooltips
-  $('#r' + room).attr('title', 'Room ' + room + ', ' + fname + ' ' + lname);
+  var currAttr = $('#r' + room).attr('title');
+  if (!currAttr) {
+    $('#r' + room).attr('title', 'Room ' + room + ', ' + fname + ' ' + lname);
+  } else {
+    $('#r' + room).attr('title', currAttr + ', ' + fname + ' ' + lname);
+  }
 
 };
