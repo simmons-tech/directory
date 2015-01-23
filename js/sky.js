@@ -27,7 +27,7 @@ function setSky(hours, minutes) {
   mins_from_midday = (60 * hours + minutes) - midday;
 
   // reset
-  $(".sky-golden, .sky-dusk, .sky-night").css("opacity", 0);
+  $(".sky-golden, .sky-dusk, .sky-night, .simmons-night").css("opacity", 0);
 
   // 45 mins up, 45 mins down, centered 5 hrs from midday
   golden = Math.abs(Math.abs(mins_from_midday) - 300);
@@ -46,7 +46,7 @@ function setSky(hours, minutes) {
   night = Math.abs(mins_from_midday) - 330;
   if (night > 0 ) {
     val = night/60;
-    $(".sky-night").css("opacity", val);
+    $(".sky-night, .simmons-night").css("opacity", val);
   }
 
 };
