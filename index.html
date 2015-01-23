@@ -25,7 +25,7 @@
 
   <div class="modal">
     <div class="search" style="top: -100%">
-      <input type="text" onkeydown="submitIfEnter(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search by name, email, or room number">
+      <input type="text" onkeydown="handleKeyDown(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search by name, email, or room number">
       <button class="search-btn" onclick="search()">Search</button>
     </div>
     <div class="darkness" style="display:none;"></div>

@@ -18,11 +18,7 @@ $(document).ready( function(){
     $(".search-box").focus();
     $(".search-box").autocomplete("search");
   });
-  $(".darkness").click(function() {
-    $(".search-box").autocomplete("close");
-    $(".darkness").fadeOut(300);
-    $(".search").animate({top: "-60px"}, 150);
-  });
+  $(".darkness").click(closeDarkness);
 
   // initial animation
   $(".search-box").focus();
@@ -68,6 +64,12 @@ $(document).ready( function(){
     };
 });
 
+function closeDarkness() {
+  $(".search-box").autocomplete("close");
+  $(".darkness").fadeOut(300);
+  $(".search").animate({top: "-60px"}, 150);
+}
+
 function userHasTyped(input) {
   // show everything
   if (input === "") {
@@ -76,9 +78,11 @@ function userHasTyped(input) {
   }
 };
 
-function submitIfEnter(key) {
+function handleKeyDown(key) {
   if (key.keyCode == 13) {
     $('.search-btn').click();
+  } else if (key.keyCode == 27) {
+    closeDarkness();
   }
 };
 
