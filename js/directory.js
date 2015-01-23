@@ -11,25 +11,25 @@ $(document).ready( function(){
   $('#Rooms').children().children().fadeOut(0);
 
   // toggle modal
-  $(".magnifying-glass").click(function() {
-    $(".modal").show();
-    $(".darkness").fadeIn(300);
-    $(".search").animate({top: "33%"}, 150);
-    $(".search-box").focus();
-    $(".search-box").autocomplete("search");
+  $('.magnifying-glass').click(function() {
+    $('.modal').show();
+    $('.darkness').fadeIn(300);
+    $('.search').animate({top: '33%'}, 150);
+    $('.search-box').focus();
+    $('.search-box').autocomplete('search');
   });
-  $(".darkness").click(closeDarkness);
+  $('.darkness').click(closeDarkness);
 
   // initial animation
-  $(".search-box").focus();
-  $(".search").animate({top: "33%"}, 1000);
-  $(".darkness").fadeIn(700);
+  $('.search-box').focus();
+  $('.search').animate({top: '33%'}, 1000);
+  $('.darkness').fadeIn(700);
 
   // autocomplete functions
-  $( ".search-box" ).autocomplete({
+  $( '.search-box' ).autocomplete({
     minLength: 0,
     source: function(request, response) {
-      if (request.term == "") {
+      if (request.term == '') {
         response([]);
         return;
       }
@@ -39,14 +39,14 @@ $(document).ready( function(){
         var m = matched[i];
         results.push({
           value: people.getKerb(m),
-          label: people.getFName(m) + " " + people.getLName(m),
-          desc: people.getKerb(m) + " (" + people.getRoom(m) + ")"
+          label: people.getFName(m) + ' ' + people.getLName(m),
+          desc: people.getKerb(m) + ' (' + people.getRoom(m) + ')'
         });
       }
       response(results.slice(0, 6)); // limit number of results to 6
     },
     focus: function( event, ui ) {
-      $( ".search-box" ).val( ui.item.label );
+      $( '.search-box' ).val( ui.item.label );
       return false;
     },
     select: function( event, ui ) {
@@ -57,22 +57,22 @@ $(document).ready( function(){
       results: function() {}
     }
   })
-    .autocomplete( "instance" )._renderItem = function( ul, item ) {
-      return $( "<li>" )
-        .append( "<a>" + item.label + "<br>" + item.desc + "</a>" )
+    .autocomplete( 'instance' )._renderItem = function( ul, item ) {
+      return $( '<li>' )
+        .append( '<a>' + item.label + '<br>' + item.desc + '</a>' )
         .appendTo( ul );
     };
 });
 
 function closeDarkness() {
-  $(".search-box").autocomplete("close");
-  $(".darkness").fadeOut(300);
-  $(".search").animate({top: "-60px"}, 150);
+  $('.search-box').autocomplete('close');
+  $('.darkness').fadeOut(300);
+  $('.search').animate({top: '-60px'}, 150);
 }
 
 function userHasTyped(input) {
   // show everything
-  if (input === "") {
+  if (input === '') {
     $('#Facilities, #Dining, #Firestairs, #Elevators, #Lounges').fadeIn(300);
     $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-elevators, .btn-lounges').addClass('active');
   }
@@ -95,9 +95,9 @@ function search(input) {
   $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
-  $(".modal").hide();
+  $('.modal').hide();
 
-  if (input != "") { // return none instead of all 
+  if (input != '') { // return none instead of all 
     for (var i = 0; i < results.length; i++) {
       display(results[i]);
     }
@@ -105,28 +105,28 @@ function search(input) {
 };
 
 function display(result) {
-  var role = "";
-  if (people.getYear(result) != "") {
-    role = " '" + people.getYear(result).slice(-2);
+  var role = '';
+  if (people.getYear(result) != '') {
+    role = ' \'' + people.getYear(result).slice(-2);
   }
   else {
     // TODO: replace with Role field in people
     var room = people.getRoom(result);
-    if (room == "365" || room == "772") {
-      role = " (Housemaster)";
+    if (room == '365' || room == '772') {
+      role = ' (Housemaster)';
     }
-    else if (room == "580") {
-      role = " (RLAD)";
+    else if (room == '580') {
+      role = ' (RLAD)';
     }
     // hack for apts currently for res. scholars
-    else if (room == "436" ||
-             room == "480" ||
-             room == "528" ||
-             room == "1080") {
-      role = " (Residential Scholar)";
+    else if (room == '436' ||
+             room == '480' ||
+             room == '528' ||
+             room == '1080') {
+      role = ' (Residential Scholar)';
     }
     else {
-      role = " (GRT)";
+      role = ' (GRT)';
     }
   }
   var room = people.getRoom(result);
@@ -134,15 +134,15 @@ function display(result) {
   var lname = people.getLName(result);
   var kerb = people.getKerb(result);
   $('.results').append(
-    "<div class='result' onclick='search(\"" + kerb + "\");'>Rm " + room + " &mdash; <strong>" + fname + " " + lname + role + "</strong> (" + kerb + "@mit.edu)" + "</div>" 
+    '<div class=\'result\' onclick=\'search(\"' + kerb + '\');\'>Rm ' + room + ' &mdash; <strong>' + fname + ' ' + lname + role + '</strong> (' + kerb + '@mit.edu)' + '</div>'
   );
   $('#r' + room).fadeIn(300);
 
     // set onclicks for all rooms
-  $('#r' + room).attr("onclick", "search(\"" + room + "\");");
-  $('#r' + room).attr("style", "cursor: pointer;");
+  $('#r' + room).attr('onclick', 'search(\"' + room + '\');');
+  $('#r' + room).attr('style', 'cursor: pointer;');
 
   // set titles for tooltips
-  $('#r' + room).attr("title", "Room " + room + ", " + fname + " " + lname);
+  $('#r' + room).attr('title', 'Room ' + room + ', ' + fname + ' ' + lname);
 
 };
