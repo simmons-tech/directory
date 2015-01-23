@@ -36,7 +36,7 @@ a {
 }
 
 .main {
-  background-color: #a0dbe6;
+  background-color: black;
   z-index: 3;
 }
 
@@ -67,7 +67,7 @@ a {
 
 .nav {
   position: relative;
-  height: 70px;
+  height: 150px;
   top: 40px;
   z-index: 10;
 }
@@ -180,9 +180,9 @@ a {
 .map {
   position: absolute;
   top: 0; bottom: 0; right: 0; left: 0;
-  background-image: url('../img/base.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  z-index: 10; /* to appear in front of bg elements */
 }
 
 .btn {
@@ -300,3 +300,23 @@ a {
 .ui-autocomplete .ui-menu-item.ui-state-focus {
   background-color: #eee;
 }
+
+/* SKY */
+
+.bg {
+  position: absolute;
+  top: 0px; left: 0px;
+  height: 100%; width: 100%;
+}
+
+/* svg itself is z-index: 10; */
+
+.simmons-night { z-index: 7; opacity: 0; }
+.simmons-day   { z-index: 6; opacity: 1; }
+.extras        { z-index: 6; opacity: 1; }
+
+.sky-golden    { z-index: 5; opacity: 0; }
+.sky-night     { z-index: 4; opacity: 0; }
+.sky-dusk      { z-index: 3; opacity: 0; }
+.sky-cloudy    { z-index: 2; opacity: 0; }
+.sky-clear     { z-index: 1; opacity: 1; }
