@@ -42,7 +42,7 @@ function simulateSky() {
       if (hours == 24) {
         window.clearInterval(interval); // break out
       }
-      setSky(3, hours, minutes);
+      setSky(4, hours, minutes);
       console.log("TIME: " + hours + ":" + minutes);
   }
 };
@@ -51,6 +51,8 @@ function setSky(month, hours, minutes) {
 
   // Determine approximate length of day and mid-day time
   // in minutes, based on month, for Boston MA.
+
+  month += 1; // who the fuck zero-indexes the calendar -__-
 
   var length;
   var midday;
