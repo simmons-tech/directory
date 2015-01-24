@@ -17,6 +17,22 @@ a {
   text-decoration: none;
 }
 
+.masthead {
+  position: relative;
+  font-weight: 300;
+  font-size: 48px;
+  color: #222;
+}
+
+.masthead-directory {
+  top: 20px; left: 20px;
+}
+
+.masthead-results {
+  top: 0px; left: 0px;
+}
+
+
 .ui-autocomplete {
     z-index: 1005;
 }
@@ -35,8 +51,14 @@ a {
   margin-right: auto;
 }
 
+.nav {
+  background-color: #FFFFFF;
+  height: 100px;
+  z-index: 4;
+}
+
 .main {
-  background-color: black;
+  background-color: #000000;
   z-index: 3;
 }
 
@@ -68,22 +90,16 @@ a {
 
 /* NAV */
 
-.nav {
-  position: relative;
-  height: 150px;
-  top: 40px;
-  z-index: 10;
-}
-
 .nav-box {
   display: block;
   position: absolute;
-  top: 0px;
+  top: 20px;
   height: 60px;
   background-color: rgba(255,255,255,0);
-  border: solid 2px white;
+  border: solid 2px #000;
   border-radius: 3px;
   cursor: pointer;
+  opacity: 0.4;
   transition: all 0.4s;
 }
 
@@ -91,20 +107,12 @@ a {
 /* ...others here... */
 
 .nav-box:hover {
-  background-color: rgba(255,255,255,0.25);
+  opacity: 0.7;
 }
 
 .nav-icon {
   height: 40px;
   margin: 10px;
-}
-
-.masthead {
-  position: relative;
-  top: 0px; left: 0px;
-  font-weight: 300;
-  font-size: 48px;
-  color: white;
 }
 
 /* MODAL */
@@ -239,14 +247,6 @@ a {
 }
 
 /* RESULTS */
-
-.results-masthead {
-  position: relative;
-  top: 0px; left: 0px;
-  font-weight: 300;
-  font-size: 48px;
-  color: #444;
-}
 
 .results {
   z-index: 1000;
