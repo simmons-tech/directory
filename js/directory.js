@@ -89,13 +89,13 @@ function getTopOf(modal) {
   centerOfMap = $('.nav').height() + $('.main').height() / 2;
   if (modal == 'search') {
     searchHeight = $('.search-box').outerHeight();
-    top = centerOfMap - (searchHeight/2);
+    topPx = centerOfMap - (searchHeight/2);
   }
   else if (modal == 'map-preferences') {
     mapPreferencesHeight = $('.map-preferences').outerHeight();
-    top = centerOfMap - (mapPreferencesHeight/2);
+    topPx = centerOfMap - (mapPreferencesHeight/2);
   }
-  return top;
+  return topPx;
 }
 
 function userHasTyped(input) {
