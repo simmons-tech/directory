@@ -216,7 +216,6 @@ a {
 }
 
 .btn .text {
-  font-family: Lato;
   display: inline;
   position: relative;
   left: 30px;
@@ -224,10 +223,6 @@ a {
 }
 
 .btn.active .text {
-  font-family: Lato;
-  display: inline;
-  position: relative;
-  left: 30px;
   color: #222;
 }
 
@@ -346,11 +341,23 @@ a {
 .map-preferences {
   display: block;
   position: absolute;
-  width: 400px;
+  width: 360px;
   left: 50%;
   margin-left: -200px;
   z-index: 1001;
-  padding: 10px;
+  padding: 20px;
   background-color: #FFF;
   border-radius: 3px;
+}
+
+.map-preferences-masthead {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.map-preferences-instructions {
+  font-weight: 300;
+  font-size: 18px;
+  color: #777;
 }

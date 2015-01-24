@@ -15,7 +15,7 @@ $(document).ready( function(){
     $('.modal').show();
     $('.darkness').fadeIn(300);
     $('.search').animate(
-      {top: '33%'},
+      {top: '250px'},
       150,
       "swing",
       function() {
@@ -28,7 +28,7 @@ $(document).ready( function(){
   $('.gear').click( function() {
     $('.modal').show();
     $('.darkness').fadeIn(300);
-    $('.map-preferences').animate( {top: '33%'} );
+    $('.map-preferences').animate( {top: '250px'} );
   });
 
   // to close modals
