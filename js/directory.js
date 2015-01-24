@@ -10,7 +10,7 @@ $(document).ready( function(){
   // initially hide all rooms
   $('#Rooms').children().children().fadeOut(0);
 
-  // toggle modal
+  // modal: search
   $('.magnifying-glass').click(function() {
     $('.modal').show();
     $('.darkness').fadeIn(300);
@@ -23,6 +23,15 @@ $(document).ready( function(){
         $('.search-box').autocomplete('search');
       });
   });
+
+  // modal: map preferences
+  $('.gear').click( function() {
+    $('.modal').show();
+    $('.darkness').fadeIn(300);
+    $('.map-preferences').animate( {top: '33%'} );
+  });
+
+  // to close modals
   $('.darkness').click(closeDarkness);
 
   // initial animation
@@ -73,6 +82,7 @@ function closeDarkness() {
   $('.search-box').autocomplete('close');
   $('.darkness').fadeOut(300);
   $('.search').animate({top: '-60px'}, 150);
+  $('.map-preferences').animate({top: '-300px'}, 150);
 }
 
 function userHasTyped(input) {

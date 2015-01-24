@@ -51,15 +51,18 @@ a {
   padding: 40px 0 40px 0;
 }
 
-.feedback {
-  text-align: right;
+.feedback, .credits {
+  display: inline-block;
   font-size: 0.8em;
   color: #777;
   opacity: 0.4;
   transition: all 0.4s;
 }
 
-.foot:hover .feedback {
+.credits  { float: left;  }
+.feedback { float: right; }
+
+.foot:hover .feedback, .foot:hover .credits {
   opacity: 1.0;
 }
 
@@ -107,7 +110,7 @@ a {
 /* MODAL */
 
 .modal {
-  z-index: 11001;
+  z-index: 10001;
 }
 
 .darkness {
@@ -122,7 +125,6 @@ a {
   display: inline-block;
   position: absolute;
   width: 600px;
-  top: 33%;
   left: 50%;
   margin-left: -300px;
   z-index: 1001;
@@ -320,3 +322,35 @@ a {
 .sky-dusk      { z-index: 3; opacity: 0; }
 .sky-cloudy    { z-index: 2; opacity: 0; }
 .sky-clear     { z-index: 1; opacity: 1; }
+
+.gear {
+  display: block;
+  position: absolute;
+  bottom: 5%; right: 9%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 500;
+}
+
+.gear-icon {
+  position: relative;
+  height: 24px; width: 24px;
+  transition: all 0.2s;
+  opacity: 0.2;
+}
+
+.gear:hover .gear-icon {
+  opacity: 0.7;
+}
+
+.map-preferences {
+  display: block;
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  z-index: 1001;
+  padding: 10px;
+  background-color: #FFF;
+  border-radius: 3px;
+}
