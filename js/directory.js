@@ -15,7 +15,7 @@ $(document).ready( function(){
     $('.modal').show();
     $('.darkness').fadeIn(300);
     $('.search').animate(
-      {top: '250px'},
+      {top: getTopOf('search') },
       150,
       "swing",
       function() {
@@ -28,7 +28,7 @@ $(document).ready( function(){
   $('.gear').click( function() {
     $('.modal').show();
     $('.darkness').fadeIn(300);
-    $('.map-preferences').animate( {top: '250px'} );
+    $('.map-preferences').animate( {top: getTopOf('map-preferences') } );
   });
 
   // to close modals
@@ -36,7 +36,7 @@ $(document).ready( function(){
 
   // initial animation
   $('.search-box').focus();
-  $('.search').animate({top: '33%'}, 1000);
+  $('.search').animate({top: getTopOf('search') }, 1000);
   $('.darkness').fadeIn(700);
 
   // autocomplete functions
@@ -83,6 +83,19 @@ function closeDarkness() {
   $('.darkness').fadeOut(300);
   $('.search').animate({top: '-60px'}, 150);
   $('.map-preferences').animate({top: '-300px'}, 150);
+}
+
+function getTopOf(modal) {
+  centerOfMap = $('.nav').height() + $('.main').height() / 2;
+  if (modal == 'search') {
+    searchHeight = $('.search-box').outerHeight();
+    top = centerOfMap - (searchHeight/2);
+  }
+  else if (modal == 'map-preferences') {
+    mapPreferencesHeight = $('.map-preferences').outerHeight();
+    top = centerOfMap - (mapPreferencesHeight/2);
+  }
+  return top;
 }
 
 function userHasTyped(input) {

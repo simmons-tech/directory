@@ -1,7 +1,7 @@
 /* GENERAL */
 
 html, body {
-  min-width: 750px;
+  min-width: 640px;
   margin: 0; padding: 0; border: 0;
   background-color: #F7F7F7;
   font-family: Roboto, sans-serif;
@@ -21,7 +21,7 @@ a {
   position: relative;
   font-weight: 300;
   font-size: 48px;
-  color: #222;
+  color: #444;
 }
 
 .masthead-directory {
