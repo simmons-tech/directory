@@ -83,7 +83,7 @@ function closeDarkness() {
   $('.darkness').fadeOut(300);
   $('.search').animate({top: '-60px'}, 150);
   $('.map-preferences').animate({top: '-300px'}, 150);
-}
+};
 
 function getTopOf(modal) {
   centerOfMap = $('.nav').height() + $('.main').height() / 2;
@@ -96,7 +96,7 @@ function getTopOf(modal) {
     topPx = centerOfMap - (mapPreferencesHeight/2);
   }
   return topPx;
-}
+};
 
 function userHasTyped(input) {
   // show everything
