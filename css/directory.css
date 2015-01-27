@@ -321,17 +321,18 @@ a {
 .gear {
   display: block;
   position: absolute;
-  bottom: 5%; right: 9%;
-  padding: 10px;
+  width: 2.0%; height: 5.2%; /* approximates 8:5 ratio of map */
+  bottom: 3.2%; right: 8.0%;
+  padding: 1%;
   cursor: pointer;
   z-index: 500;
 }
 
 .gear-icon {
   position: relative;
-  height: 24px; width: 24px;
-  transition: all 0.2s;
+  width: 100%;
   opacity: 0.2;
+  transition: all 0.2s;
 }
 
 .gear:hover .gear-icon {
