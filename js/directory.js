@@ -119,7 +119,7 @@ function search(input) {
   var results = people.match(input);
 
   // clear previous results and search box
-  $('.results').empty();
+  $('.results-table').empty();
   $(".results-explanation").html("No results.");
   $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
@@ -170,8 +170,8 @@ function display(result) {
   var fname = people.getFName(result);
   var lname = people.getLName(result);
   var kerb = people.getKerb(result);
-  $('.results').append(
-    '<div class=\'result\' onclick=\'search(\"' + kerb + '\");\'>Rm ' + room + ' &mdash; <strong>' + fname + ' ' + lname + role + '</strong> (' + kerb + '@mit.edu)' + '</div>'
+  $('.results-table').append(
+    '<tr> <td>'+fname+'</td> <td>'+lname+'</td> <td>'+kerb+'</td> <td>'+room+'</td> </tr> '
   );
   $('#r' + room).fadeIn(300);
 
