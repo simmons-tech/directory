@@ -32,7 +32,6 @@ a {
   top: 0px; left: 0px;
 }
 
-
 .ui-autocomplete {
     z-index: 1005;
 }
@@ -252,6 +251,12 @@ a {
   z-index: 1000;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+.results-explanation {
+  margin-top: 5px;
+  margin-left: 2px;
+  color: #777;
 }
 
 .result {

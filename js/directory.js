@@ -120,14 +120,23 @@ function search(input) {
 
   // clear previous results and search box
   $('.results').empty();
+  $(".results-explanation").html("No results.");
   $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
   closeDarkness();
 
-  if (input != '') { // return none instead of all 
-    for (var i = 0; i < results.length; i++) {
+  if (input != '') { // return none instead of all
+    var numberOfResults = results.length;
+    for (var i = 0; i < numberOfResults; i++) {
       display(results[i]);
+    }
+    // if/else purely for correct pluralization of word "result(s)"
+    if (numberOfResults > 1) {
+      $(".results-explanation").html(numberOfResults + " results for \"" + input + "\"");
+    }
+    else {
+      $(".results-explanation").html(numberOfResults + " result for \"" + input + "\"");
     }
   }
 };
