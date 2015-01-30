@@ -307,6 +307,10 @@ a {
   background-color: #eee;
 }
 
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
 /* SKY */
 
 .bg {
