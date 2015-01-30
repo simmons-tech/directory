@@ -60,10 +60,10 @@ $(document).ready( function(){
       response(results.slice(0, 6)); // limit number of results to 6
     },
     focus: function( event, ui ) {
-      $( '.search-box' ).val( ui.item.label );
       return false;
     },
     select: function( event, ui ) {
+      $( '.search-box' ).val( ui.item.label );
       return false;
     },
     messages: {
