@@ -57,7 +57,7 @@ $(document).ready( function(){
           desc: people.getKerb(m) + ' (' + people.getRoom(m) + ')'
         });
       }
-      response(results.slice(0, 6)); // limit number of results to 6
+      response(results);
     },
     focus: function( event, ui ) {
       return false;
@@ -71,11 +71,12 @@ $(document).ready( function(){
       results: function() {}
     }
   })
-    .autocomplete( 'instance' )._renderItem = function( ul, item ) {
-      return $( '<li>' )
-        .append( '<a>' + item.label + '<br>' + item.desc + '</a>' )
-        .appendTo( ul );
-    };
+  .autocomplete({appendTo: '.autocomplete-list'})
+  .autocomplete( 'instance' )._renderItem = function( ul, item ) {
+    return $( '<li>' )
+      .append( '<a>' + item.label + '<br>' + item.desc + '</a>' )
+      .appendTo( ul );
+  };
 });
 
 function closeDarkness() {

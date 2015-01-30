@@ -173,6 +173,10 @@ a {
   background-color: #111;
 }
 
+.autocomplete-list {
+  position: absolute;
+}
+
 /* ... */
 
 .map-wrapper {
