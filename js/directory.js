@@ -1,4 +1,5 @@
 var people;
+var darknessOpen;
 
 $(document).ready( function(){
   // create tooltips
@@ -12,8 +13,7 @@ $(document).ready( function(){
 
   // modal: search
   $('.magnifying-glass').click(function() {
-    $('.modal').show();
-    $('.darkness').fadeIn(300);
+    openDarkness();
     $('.search').animate(
       {top: getTopOf('search') },
       150,
@@ -26,8 +26,7 @@ $(document).ready( function(){
 
   // modal: map preferences
   $('.gear').click( function() {
-    $('.modal').show();
-    $('.darkness').fadeIn(300);
+    openDarkness();
     $('.map-preferences').animate( {top: getTopOf('map-preferences') } );
   });
 
@@ -38,6 +37,7 @@ $(document).ready( function(){
   $('.search-box').focus();
   $('.search').animate({top: getTopOf('search') }, 1000);
   $('.darkness').fadeIn(700);
+  darknessOpen = true;
 
   // autocomplete functions
   $( '.search-box' ).autocomplete({
@@ -80,14 +80,24 @@ $(document).ready( function(){
 });
 
 function onSearchBoxClick() {
-  $('.search-box').autocomplete('search');
+  if (darknessOpen) {
+    $('.search-box').autocomplete('search');
+  }
 };
+
+function openDarkness() {
+  $('.modal').show();
+  $('.darkness').fadeIn(300);
+  darknessOpen = true;
+};
+
 
 function closeDarkness() {
   $('.search-box').autocomplete('close');
   $('.darkness').fadeOut(300);
   $('.search').animate({top: '-60px'}, 150);
   $('.map-preferences').animate({top: '-300px'}, 150);
+  darknessOpen = false;
 };
 
 function getTopOf(modal) {
