@@ -79,6 +79,10 @@ $(document).ready( function(){
   };
 });
 
+function onSearchBoxClick() {
+  $('.search-box').autocomplete('search');
+};
+
 function closeDarkness() {
   $('.search-box').autocomplete('close');
   $('.darkness').fadeOut(300);
