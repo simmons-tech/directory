@@ -47,7 +47,7 @@ $(document).ready( function(){
         response([]);
         return;
       }
-      var matched = people.match(request.term);
+      var matched = matchWithExtra(request.term);
       var results = [];
       for (var i = 0; i < matched.length; i++) {
         var m = matched[i];
@@ -78,6 +78,30 @@ $(document).ready( function(){
       .appendTo( ul );
   };
 });
+
+function contains(s1, s2) {
+  return s1.toLowerCase().indexOf(s2.toLowerCase()) === 0;
+};
+
+function match(s, things) {
+  things = things || ['lname', 'fname', 'title', 'kerb', 'room', 'year', 'fullname', 'lounge'];
+  var results = [];
+  for (var i = 0; i < people.numPeople(); i++) {
+    for (var j = 0; j < things.length; j++) {
+      var str = people.get(i, things[j]);
+      if (str !== "" && contains(str, s)) {
+        results.push(i);
+        break;
+      }
+    }
+  }
+  return results;
+};
+
+function matchWithExtra(s, things) {
+  var results = match(s, things);
+  return results;
+};
 
 function onSearchBoxClick() {
   if (darknessOpen) {
@@ -131,7 +155,7 @@ function handleKeyDown(key) {
 
 function search(input) {
   input = input || $('.search-box').val();
-  var results = people.match(input);
+  var results = match(input);
 
   // clear previous results and search box
   $('.results-table').empty();
