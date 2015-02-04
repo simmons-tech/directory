@@ -112,7 +112,17 @@ function matchAutocomplete(s) {
       });
     }
   }
-  var matched = match(s, ['lname', 'fname', 'title', 'kerb', 'room', 'fullname']);
+  var typeList = people.getTypeList();
+  for (var i = 0; i < typeList.length; i++) {
+    if (contains(typeList[i], s)) {
+      categoryResults.push({
+        value: typeList[i],
+        label: typeList[i],
+        desc: 'Type'
+      });
+    }
+  }
+  var matched = match(s, ['lname', 'fname', 'title', 'kerb', 'room', 'fullname', 'email']);
   var results = [];
   for (var i = 0; i < matched.length; i++) {
     var m = matched[i];
@@ -126,7 +136,7 @@ function matchAutocomplete(s) {
 };
 
 function match(s, things) {
-  things = things || ['lname', 'fname', 'title', 'kerb', 'room', 'year', 'fullname', 'lounge', 'section'];
+  things = things || ['lname', 'fname', 'title', 'kerb', 'room', 'year', 'fullname', 'lounge', 'section', 'type', 'email'];
   var results = [];
   for (var i = 0; i < people.numPeople(); i++) {
     for (var j = 0; j < things.length; j++) {

@@ -2,8 +2,8 @@ var People = function() {
   // initialize things
   this.generateYears();
   this.generateSections();
-  this.generateRoomTypes();
-  this.sampleLounges = ['', '1Nyan', '2Nyan', '3Nyan', '4Nyan', '5Nyan'];
+  this.generateTypes();
+  this.generateLounges();
 };
 
 People.prototype.generateYears = function() {
@@ -49,8 +49,30 @@ People.prototype.generateSections = function() {
   }
 };
 
-People.prototype.generateRoomTypes = function() {
-  console.log('generateRoomTypes');
+People.prototype.generateTypes = function() {
+  this.types = [];
+  var typeSet = {};
+  for (var i = 0; i < this.numPeople(); i++) {
+    typeSet[this.getType(i)] = true;
+  }
+  for (var x in typeSet) {
+    if (Object.prototype.hasOwnProperty.call(typeSet, x)) {
+      this.types.push(x);
+    }
+  }
+};
+
+People.prototype.generateLounges = function() {
+  this.lounges = [];
+  var loungeSet = {};
+  for (var i = 0; i < this.numPeople(); i++) {
+    loungeSet[this.getLounge(i)] = true;
+  }
+  for (var x in loungeSet) {
+    if (Object.prototype.hasOwnProperty.call(loungeSet, x)) {
+      this.lounges.push(x);
+    }
+  }
 };
 
 People.prototype.getYearList = function() {
@@ -62,7 +84,11 @@ People.prototype.getSectionList = function() {
 };
 
 People.prototype.getLoungeList = function() {
-  return this.sampleLounges;
+  return this.lounges;
+};
+
+People.prototype.getTypeList = function() {
+  return this.types;
 };
 
 People.prototype.numPeople = function() {
@@ -82,7 +108,6 @@ People.prototype.getTitle = function(i) {
 };
 
 People.prototype.getKerb = function(i) {
-console.log(i);
   return everyone[i][3];
 };
 
@@ -95,7 +120,15 @@ People.prototype.getYear = function(i) {
 };
 
 People.prototype.getLounge = function(i) {
-  return this.sampleLounges[i % this.sampleLounges.length];
+  return everyone[i][6];
+};
+
+People.prototype.getType = function(i) {
+  return everyone[i][7];
+};
+
+People.prototype.getEmail = function(i) {
+  return everyone[i][8];
 };
 
 People.prototype.getFullName = function(i) {
@@ -126,6 +159,10 @@ People.prototype.get = function(i, item) {
     str = this.getLounge(i);
   } else if (item == 'section') {
     str = this.getSection(i);
+  } else if (item == 'type') {
+    str = this.getType(i);
+  } else if (item == 'email') {
+    str = this.getEmail(i);
   } else {
     console.log("People.match error: tried to match on " + item);
   }
