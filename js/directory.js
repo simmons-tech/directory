@@ -37,6 +37,7 @@ $(document).ready( function(){
   $('.search-box').focus();
   $('.search').animate({top: getTopOf('search') }, 1000);
   $('.darkness').fadeIn(700);
+  $('.search-btn').one('click', search);
   darknessOpen = true;
 
   // autocomplete functions
@@ -158,6 +159,7 @@ function onSearchBoxClick() {
 
 function openDarkness() {
   $('.modal').show();
+  $('.search-btn').one('click', search);
   $('.darkness').fadeIn(300);
   darknessOpen = true;
 };
@@ -200,13 +202,17 @@ function handleKeyDown(key) {
   }
 };
 
-function search(input) {
+function search(event, input) {
+  if (!darknessOpen) {
+    return;
+  }
   input = input || $('.search-box').val();
   var results = matchSearch(input);
 
   // clear previous results and search box
   $('.results-table').empty();
   $(".results-explanation").html("No results.");
+  $('#Rooms').children().children().attr('title', '');
   $('#Rooms').children().children().fadeOut(300);
   $('#Facilities, #Dining, #Firestairs, #Laundry, #Kitchens, #Lounges').fadeOut(300);
   $('.btn-facilities, .btn-dining, .btn-firestairs, .btn-laundry, .btn-kitchens, .btn-lounges').removeClass('active');
@@ -262,7 +268,7 @@ function display(result) {
   $('#r' + room).fadeIn(300);
 
     // set onclicks for all rooms
-  $('#r' + room).attr('onclick', 'search(\"' + room + '\");');
+  $('#r' + room).attr('onclick', 'search(undefined, \"' + room + '\");');
   $('#r' + room).attr('style', 'cursor: pointer;');
 
   // set titles for tooltips
@@ -272,5 +278,4 @@ function display(result) {
   } else {
     $('#r' + room).attr('title', currAttr + ', ' + fname + ' ' + lname);
   }
-
 };
