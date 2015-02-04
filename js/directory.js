@@ -47,16 +47,7 @@ $(document).ready( function(){
         response([]);
         return;
       }
-      var matched = matchWithExtra(request.term);
-      var results = [];
-      for (var i = 0; i < matched.length; i++) {
-        var m = matched[i];
-        results.push({
-          value: people.getKerb(m),
-          label: people.getFName(m) + ' ' + people.getLName(m),
-          desc: people.getKerb(m) + ' (' + people.getRoom(m) + ')'
-        });
-      }
+      var results = matchAutocomplete(request.term);
       response(results);
     },
     focus: function( event, ui ) {
@@ -83,8 +74,59 @@ function contains(s1, s2) {
   return s1.toLowerCase().indexOf(s2.toLowerCase()) === 0;
 };
 
+function matchSearch(s) {
+  var results = match(s); // search for everything explicitly
+  return results;
+};
+
+function matchAutocomplete(s) {
+  var categoryResults = [];
+  // search years, lounges, sections
+  var yearList = people.getYearList();
+  for (var i = 0; i < yearList.length; i++) {
+    if (contains(yearList[i], s)) {
+      categoryResults.push({
+        value: yearList[i],
+        label: yearList[i],
+        desc: 'Year'
+      });
+    }
+  }
+  var loungeList = people.getLoungeList();
+  for (var i = 0; i < loungeList.length; i++) {
+    if (contains(loungeList[i], s)) {
+      categoryResults.push({
+        value: loungeList[i],
+        label: loungeList[i],
+        desc: 'Lounge'
+      });
+    }
+  }
+  var sectionList = people.getSectionList();
+  for (var i = 0; i < sectionList.length; i++) {
+    if (contains(sectionList[i], s)) {
+      categoryResults.push({
+        value: sectionList[i],
+        label: sectionList[i],
+        desc: 'Section'
+      });
+    }
+  }
+  var matched = match(s, ['lname', 'fname', 'title', 'kerb', 'room', 'fullname']);
+  var results = [];
+  for (var i = 0; i < matched.length; i++) {
+    var m = matched[i];
+    results.push({
+      value: people.getKerb(m),
+      label: people.getFName(m) + ' ' + people.getLName(m),
+      desc: people.getKerb(m) + ' (' + people.getRoom(m) + ')'
+    });
+  }
+  return categoryResults.concat(results);
+};
+
 function match(s, things) {
-  things = things || ['lname', 'fname', 'title', 'kerb', 'room', 'year', 'fullname', 'lounge'];
+  things = things || ['lname', 'fname', 'title', 'kerb', 'room', 'year', 'fullname', 'lounge', 'section'];
   var results = [];
   for (var i = 0; i < people.numPeople(); i++) {
     for (var j = 0; j < things.length; j++) {
@@ -95,11 +137,6 @@ function match(s, things) {
       }
     }
   }
-  return results;
-};
-
-function matchWithExtra(s, things) {
-  var results = match(s, things);
   return results;
 };
 
@@ -155,7 +192,7 @@ function handleKeyDown(key) {
 
 function search(input) {
   input = input || $('.search-box').val();
-  var results = match(input);
+  var results = matchSearch(input);
 
   // clear previous results and search box
   $('.results-table').empty();
