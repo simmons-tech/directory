@@ -211,7 +211,7 @@ function search(event, input) {
 
   // clear previous results and search box
   ClearDownload();
-  $('.results-table').empty();
+  $('.results-table tbody').empty();
   $(".results-explanation").html("No results.");
   $('#Rooms').children().children().attr('title', '');
   $('#Rooms').children().children().fadeOut(300);
@@ -264,7 +264,7 @@ function display(result) {
   var fname = people.getFName(result);
   var lname = people.getLName(result);
   var kerb = people.getKerb(result);
-  $('.results-table').append(
+  $('.results-table tbody').append(
     '<tr> <td>'+fname+'</td> <td>'+lname+'</td> <td>'+kerb+'</td> <td>'+room+'</td> </tr> '
   );
   $('#r' + room).fadeIn(300);

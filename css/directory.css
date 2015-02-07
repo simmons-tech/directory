@@ -375,3 +375,8 @@ a {
   font-size: 18px;
   color: #777;
 }
+
+th {
+  cursor: n-resize;
+  background-color: #eee;
+}
