@@ -1,7 +1,7 @@
 /* GENERAL */
 
 html, body {
-  min-width: 640px;
+  min-width: 700px;
   margin: 0; padding: 0; border: 0;
   background-color: #F7F7F7;
   font-family: Roboto, sans-serif;
@@ -376,7 +376,24 @@ a {
   color: #777;
 }
 
-th {
+.results-table th {
+  text-align: left;
+  font-weight: 400;
+  color: #222;
   cursor: n-resize;
-  background-color: #eee;
+  background-color: #f7f7f7;
+  padding: 8px 50px 8px 20px;
+}
+
+.results-table td {
+  font-weight: 300;
+  color: #444;
+  padding: 8px 50px 8px 20px;
+  border-bottom: solid 1px #f7f7f7;
+  border-left: solid 1px #f7f7f7;
+}
+
+
+.results-table td:last-child {
+  border-right: solid 1px #f7f7f7;
 }
