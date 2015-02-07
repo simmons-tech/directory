@@ -286,9 +286,10 @@ function PrepareDownload(searchTerm) {
     // container
     $('.results-download').show();
 
-    table = $('.results-table');
-    csv = '';
-    table.find('tr').each(function() {
+    var tbody = $('.results-table tbody');
+    var csv = '';
+
+    tbody.find('tr').each(function() {
       $(this).find('td').each(function() {
         csv += $(this).text() + ', ';
       });
