@@ -174,7 +174,7 @@ function closeDarkness() {
 };
 
 function getTopOf(modal) {
-  centerOfMap = $('.nav').height() + $('.main').height() / 2;
+  centerOfMap = $('.nav-region').height() + $('.main').height() / 2;
   if (modal == 'search') {
     searchHeight = $('.search-box').outerHeight();
     topPx = centerOfMap - (searchHeight/2);
