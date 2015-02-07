@@ -210,7 +210,7 @@ function search(event, input) {
   var results = matchSearch(input);
 
   // clear previous results and search box
-  ClearExcelExport();
+  ClearDownload();
   $('.results-table').empty();
   $(".results-explanation").html("No results.");
   $('#Rooms').children().children().attr('title', '');
@@ -231,7 +231,7 @@ function search(event, input) {
     else {
       $(".results-explanation").html(numberOfResults + " result for \"" + input + "\"");
     }
-    PrepExcelExport(input);
+    PrepareDownload(input);
   }
 };
 
@@ -282,10 +282,11 @@ function display(result) {
   }
 };
 
-function PrepExcelExport(searchTerm) {
+function PrepareDownload(searchTerm) {
+    // container
+    $('.results-download').show();
 
     table = $('.results-table');
-
     csv = '';
     table.find('tr').each(function() {
       $(this).find('td').each(function() {
@@ -294,11 +295,12 @@ function PrepExcelExport(searchTerm) {
       csv += '\n';
     });
 
-    $('.excel-link').attr('href', 'data:application/vnd.ms-excel,' + encodeURIComponent(csv));
-    $('.excel-link').attr('download', 'Simmons Directory results for ' + searchTerm + '.csv');
+    $('.download-link').attr('href', 'data:application/vnd.ms-excel,' + encodeURIComponent(csv));
+    $('.download-link').attr('download', 'Simmons Directory results for ' + searchTerm + '.csv');
 };
 
-function ClearExcelExport() {
-    $('.excel-link').attr('href', '');
-    $('.excel-link').attr('download', '');
+function ClearDownload() {
+    $('.download-link').attr('href', '');
+    $('.download-link').attr('download', '');
+    $('.results-download').hide();
 };
