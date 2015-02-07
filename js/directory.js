@@ -210,6 +210,7 @@ function search(event, input) {
   var results = matchSearch(input);
 
   // clear previous results and search box
+  ClearExcelExport();
   $('.results-table').empty();
   $(".results-explanation").html("No results.");
   $('#Rooms').children().children().attr('title', '');
@@ -230,6 +231,7 @@ function search(event, input) {
     else {
       $(".results-explanation").html(numberOfResults + " result for \"" + input + "\"");
     }
+    PrepExcelExport(input);
   }
 };
 
@@ -278,4 +280,25 @@ function display(result) {
   } else {
     $('#r' + room).attr('title', currAttr + ', ' + fname + ' ' + lname);
   }
+};
+
+function PrepExcelExport(searchTerm) {
+
+    table = $('.results-table');
+
+    csv = '';
+    table.find('tr').each(function() {
+      $(this).find('td').each(function() {
+        csv += $(this).text() + ', ';
+      });
+      csv += '\n';
+    });
+
+    $('.excel-link').attr('href', 'data:application/vnd.ms-excel,' + encodeURIComponent(csv));
+    $('.excel-link').attr('download', 'Simmons Directory results for ' + searchTerm + '.csv');
+};
+
+function ClearExcelExport() {
+    $('.excel-link').attr('href', '');
+    $('.excel-link').attr('download', '');
 };
