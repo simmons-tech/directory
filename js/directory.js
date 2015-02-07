@@ -224,13 +224,7 @@ function search(event, input) {
     for (var i = 0; i < numberOfResults; i++) {
       display(results[i]);
     }
-    // if/else purely for correct pluralization of word "result(s)"
-    if (numberOfResults > 1) {
-      $(".results-explanation").html(numberOfResults + " results for \"" + input + "\"");
-    }
-    else {
-      $(".results-explanation").html(numberOfResults + " result for \"" + input + "\"");
-    }
+    $(".results-explanation").html(numberOfResults + " for \"" + input + "\"");
     PrepareDownload(input);
   }
 };
