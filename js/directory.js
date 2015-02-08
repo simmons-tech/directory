@@ -56,7 +56,8 @@ $(document).ready( function(){
     },
     select: function( event, ui ) {
       $( '.search-box' ).val( ui.item.label );
-      return false;
+      $('.search-btn').click();
+      return true;
     },
     messages: {
       noResults: '',
