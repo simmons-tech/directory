@@ -163,6 +163,7 @@ function openDarkness() {
   $('.search-btn').one('click', search);
   $('.darkness').fadeIn(300);
   darknessOpen = true;
+  $('.search-box').autocomplete('enable');
 };
 
 
@@ -172,6 +173,7 @@ function closeDarkness() {
   $('.search').animate({top: '-60px'}, 150);
   $('.map-preferences').animate({top: '-300px'}, 150);
   darknessOpen = false;
+  $('.search-box').autocomplete('disable');
 };
 
 function getTopOf(modal) {
