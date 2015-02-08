@@ -1,0 +1,7 @@
+{
+	"name": "Simmons Directory",
+	"type": "default",
+	"document_root": "",
+	"path": "directory",
+	"repo": "https://github.com/simmons-tech/directory"
+}
