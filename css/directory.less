@@ -55,16 +55,31 @@ a {
   display: block;
   position: relative;
   width: 100%;
-  &.nav-region     { background-color: #FFFFFF; z-index: 4; height: 100px; }
-  &.main           { background-color: #000000; z-index: 3; }
-  &.results-region { background-color: #FFFFFF; z-index: 2;
+  &.relative-spacer {
+    height: 100px;
+  }
+  &.nav-region {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    background-color: #FFF;
+    border-bottom: solid 1px #EEE;
+    z-index: 4;
+  }
+  &.main {
+    background-color: #000;
+    z-index: 3;
+  }
+  &.results-region {
+    background-color: #FFF;
     box-shadow: 0px 0px 10px #DDD;
     padding: 40px 0 40px 0;
+    z-index: 2;
   }
   &.footer {
     background-color: #F7F7F7;
-    height: 100px;
     padding: 40px 0 40px 0;
+    min-height: 100px;
   }
 }
 

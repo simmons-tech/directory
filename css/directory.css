@@ -1,10 +1,11 @@
 html,body{min-width:700px;margin:0;padding:0;border:0;font-family:Roboto,sans-serif;background-color:#f7f7f7;overflow-x:hidden;color:#222}
 html{overflow-y:scroll;}
 a{text-decoration:none}
-.horizontal-region{display:block;position:relative;width:100%}.horizontal-region.nav-region{background-color:#fff;z-index:4;height:100px}
+.horizontal-region{display:block;position:relative;width:100%}.horizontal-region.relative-spacer{height:100px}
+.horizontal-region.nav-region{position:fixed;top:0;height:100px;background-color:#fff;border-bottom:solid 1px #eee;z-index:4}
 .horizontal-region.main{background-color:#000;z-index:3}
-.horizontal-region.results-region{background-color:#fff;z-index:2;box-shadow:0 0 10px #ddd;padding:40px 0 40px 0}
-.horizontal-region.footer{background-color:#f7f7f7;height:100px;padding:40px 0 40px 0}
+.horizontal-region.results-region{background-color:#fff;box-shadow:0 0 10px #ddd;padding:40px 0 40px 0;z-index:2}
+.horizontal-region.footer{background-color:#f7f7f7;padding:40px 0 40px 0;min-height:100px}
 .content{display:block;position:relative;width:82%;margin-left:auto;margin-right:auto}
 .nav-region .masthead{position:relative;top:20px;left:0;font-weight:300;font-size:48px;color:#444;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}
 .nav-region .nav-box{display:block;position:absolute;top:20px;height:60px;background-color:rgba(255,255,255,0);border:solid 2px #000;border-radius:3px;cursor:pointer;opacity:.4;transition:all .2s}.nav-region .nav-box:hover{opacity:.7}
