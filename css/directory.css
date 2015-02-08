@@ -4,57 +4,47 @@ a{text-decoration:none}
 .horizontal-region{display:block;position:relative;width:100%}.horizontal-region.nav-region{background-color:#fff;z-index:4;height:100px}
 .horizontal-region.main{background-color:#000;z-index:3}
 .horizontal-region.results-region{background-color:#fff;z-index:2;box-shadow:0 0 10px #ddd;padding:40px 0 40px 0}
-.horizontal-region.footer{background-color:#f7f7f7;padding:40px 0 40px 0}
+.horizontal-region.footer{background-color:#f7f7f7;height:100px;padding:40px 0 40px 0}
 .content{display:block;position:relative;width:82%;margin-left:auto;margin-right:auto}
 .nav-region .masthead{position:relative;top:20px;left:0;font-weight:300;font-size:48px;color:#444;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}
 .nav-region .nav-box{display:block;position:absolute;top:20px;height:60px;background-color:rgba(255,255,255,0);border:solid 2px #000;border-radius:3px;cursor:pointer;opacity:.4;transition:all .2s}.nav-region .nav-box:hover{opacity:.7}
 .nav-region .nav-box.magnifying-glass{right:0}
 .nav-region .nav-icon{height:40px;margin:10px}
-.bg{position:absolute;top:0;left:0;height:100%;width:100%}
-.simmons-night{z-index:7;opacity:0}
-.simmons-day{z-index:6;opacity:1}
-.extras{z-index:6;opacity:1}
-.sky-golden{z-index:5;opacity:0}
-.sky-night{z-index:4;opacity:0}
-.sky-dusk{z-index:3;opacity:0}
-.sky-cloudy{z-index:2;opacity:0}
-.sky-clear{z-index:1;opacity:1}
-.gear{display:block;position:absolute;width:2%;height:5.2%;bottom:3.2%;right:8%;padding:1%;cursor:pointer;z-index:500}.gear .gear-icon{position:relative;width:100%;opacity:.2;transition:all .2s}
-.gear:hover .gear-icon{opacity:.7}
-.map-wrapper{width:100%;display:block;position:relative}
-.map-wrapper:after{padding-top:37.5%;display:block;content:''}
-.map{position:absolute;top:0;bottom:0;right:0;left:0;background-repeat:no-repeat;background-size:100%;z-index:10;}
-.modal{z-index:10001}
+.main .map-wrapper{width:100%;display:block;position:relative}.main .map-wrapper:after{padding-top:37.5%;display:block;content:''}
+.main .map-wrapper .map{position:absolute;top:0;bottom:0;right:0;left:0;background-repeat:no-repeat;background-size:100%;z-index:10;}
+.main .bg{position:absolute;top:0;left:0;height:100%;width:100%;}.main .bg.simmons-night{z-index:7;opacity:0}
+.main .bg.simmons-day{z-index:6;opacity:1}
+.main .bg.extras{z-index:6;opacity:1}
+.main .bg.sky-golden{z-index:5;opacity:0}
+.main .bg.sky-night{z-index:4;opacity:0}
+.main .bg.sky-dusk{z-index:3;opacity:0}
+.main .bg.sky-cloudy{z-index:2;opacity:0}
+.main .bg.sky-clear{z-index:1;opacity:1}
+.main .gear{display:block;position:absolute;width:2%;height:5.2%;bottom:3.2%;right:8%;padding:1%;cursor:pointer;z-index:500}.main .gear .gear-icon{position:relative;width:100%;opacity:.2;transition:all .2s}
+.main .gear:hover .gear-icon{opacity:.7}
+.modal{z-index:10001}.modal .search{display:inline-block;position:absolute;width:600px;left:50%;margin-left:-300px;z-index:1001}
+.modal .search-box,.modal .search-btn{display:inline-block;position:absolute;top:0;border-radius:32px}
+.modal .search-box{left:0;width:600px;border:solid 3px #ddd;padding:12px 18px;outline:0;font-size:21px;font-weight:300}
+.modal .search-btn{right:3px;top:3px;width:120px;padding:14px;background-color:#222;font-size:18px;font-weight:400;color:#fff;text-align:center;cursor:pointer;border:0;transition:all .2s}.modal .search-btn:hover{background-color:#111}
 .darkness{position:fixed;height:100%;width:100%;background-color:#000;z-index:1000;opacity:.5}
-.search{display:inline-block;position:absolute;width:600px;left:50%;margin-left:-300px;z-index:1001}
-.search-box,.search-btn{display:inline-block;position:absolute;top:0;border-radius:32px}
-.search-box{left:0;width:558px;border:solid 3px #ddd;padding:12px 18px;outline:0;font-size:21px;font-weight:300}
-.search-btn{right:3px;top:3px;width:120px;padding:14px;background-color:#222;font-size:18px;font-weight:400;color:#fff;text-align:center;cursor:pointer;border:0;transition:all .2s}
-.search-btn:hover{background-color:#111}
 .autocomplete-list{position:absolute}
-.ui-autocomplete{list-style-type:none;max-width:458px;overflow:hidden;padding-top:3px;padding-left:21px;z-index:1005}
-.ui-autocomplete .ui-menu-item{background-color:#fff;padding:10px}
-.ui-autocomplete .ui-menu-item:first-child{border-radius:5px 5px 0 0}
+.ui-autocomplete{list-style-type:none;max-width:458px;overflow:hidden;padding-top:3px;padding-left:21px;z-index:1005}.ui-autocomplete .ui-menu-item{background-color:#fff;padding:10px}.ui-autocomplete .ui-menu-item:first-child{border-radius:5px 5px 0 0}
 .ui-autocomplete .ui-menu-item:last-child{border-radius:0 0 5px 5px}
 .ui-autocomplete .ui-menu-item:only-child{border-radius:5px 5px 5px 5px}
 .ui-autocomplete .ui-menu-item.ui-state-focus{background-color:#eee}
 .ui-helper-hidden-accessible{display:none}
-.map-preferences{display:block;position:absolute;width:360px;left:50%;margin-left:-200px;z-index:1001;padding:20px;background-color:#fff;border-radius:3px}
-.map-preferences-masthead{font-weight:300;font-size:24px;margin-bottom:20px}
-.map-preferences-instructions{font-weight:300;font-size:18px;color:#777}
-.btn{position:relative;display:block;width:200px;padding:3px 13px;background-color:#fff;text-align:left;color:#222;border:0;cursor:pointer}
-.btn .circ{position:absolute;top:4px;height:10px;width:10px;border-radius:20px;cursor:pointer}
-.btn.active .circ{position:absolute;top:4px;height:0;width:0;border-radius:10px;border-width:7px}
-.btn .text{display:inline;position:relative;left:30px;color:#777}
-.btn.active .text{color:#222}
-.circ-lounges{border:solid 2px #00aeef}
-.circ-kitchens{border:solid 2px #662d91}
-.circ-firestairs{border:solid 2px #d96069}
-.circ-facilities{border:solid 2px #ffde17}
-.circ-laundry{border:solid 2px #8dc63f}
-.circ-elevators{border:solid 2px #009444}
-.circ-dining{border:solid 2px #603913}
-.controls{margin-top:15px}
+.map-preferences{display:block;position:absolute;width:360px;left:50%;margin-left:-200px;z-index:1001;padding:20px;background-color:#fff;border-radius:3px}.map-preferences .masthead{font-weight:300;font-size:24px;margin-bottom:20px}
+.map-preferences .instructions{font-weight:300;font-size:18px;color:#777}
+.map-preferences .controls{margin-top:15px}.map-preferences .controls .btn{position:relative;display:block;width:200px;padding:3px 13px;background-color:#fff;text-align:left;border:0;cursor:pointer}.map-preferences .controls .btn .circ{position:absolute;top:4px;height:10px;width:10px;border-radius:20px;cursor:pointer}.map-preferences .controls .btn .circ.circ-lounges{border:solid 2px #00aeef}
+.map-preferences .controls .btn .circ.circ-kitchens{border:solid 2px #662d91}
+.map-preferences .controls .btn .circ.circ-firestairs{border:solid 2px #d96069}
+.map-preferences .controls .btn .circ.circ-facilities{border:solid 2px #ffde17}
+.map-preferences .controls .btn .circ.circ-laundry{border:solid 2px #8dc63f}
+.map-preferences .controls .btn .circ.circ-elevators{border:solid 2px #009444}
+.map-preferences .controls .btn .circ.circ-dining{border:solid 2px #603913}
+.map-preferences .controls .btn .text{display:inline;position:relative;left:30px;color:#777}
+.map-preferences .controls .btn.active .circ{height:0;width:0;border-radius:10px;border-width:7px}
+.map-preferences .controls .btn.active .text{color:#222}
 .results-region .masthead{position:relative;top:0;left:0;font-weight:300;font-size:48px;color:#444;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}
 .results-region .results-table{width:100%;z-index:1000;padding-top:20px}.results-region .results-table th{position:relative;font-weight:400;color:#222;text-align:left;cursor:n-resize;background-color:#f7f7f7;padding:8px 50px 8px 20px}.results-region .results-table th .icon{position:absolute;top:5px;right:20px;opacity:.1;transition:all .2s}
 .results-region .results-table th:hover .icon{opacity:.4}

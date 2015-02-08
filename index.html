@@ -29,14 +29,16 @@
   <div class="modal">
 
     <div class="search" onclick="onSearchBoxClick()" style="top: -100%">
-      <input type="search" onkeydown="handleKeyDown(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search for people, lounges, rooms, etc.">
-      <button class="search-btn">Search</button>
+      <form action=""> <!-- for iOS Safari -->
+        <input type="search" id="search" onkeydown="handleKeyDown(event)" onkeyup="userHasTyped(this.value)" class="search-box" placeholder="search for people, lounges, rooms, etc.">
+        <button class="search-btn" onclick="return false;">Search</button>
+      </form>
     </div>
 
     <div class="map-preferences" style="top: -100%">
       <div class="column">
-        <div class="map-preferences-masthead">Map Preferences</div>
-        <div class="map-preferences-instructions">Select what you'd like to see.</div>
+        <div class="masthead">Map Preferences</div>
+        <div class="instructions">Select what you'd like to see.</div>
         <div class="controls">
           <button class="btn active btn-lounges" onclick="$(this).toggleClass('active'); $('#Lounges').fadeToggle(400);">
             <div class="circ circ-lounges"></div>
