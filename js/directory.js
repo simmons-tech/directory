@@ -51,9 +51,6 @@ $(document).ready( function(){
       var results = matchAutocomplete(request.term);
       response(results);
     },
-    focus: function( event, ui ) {
-      return false;
-    },
     select: function( event, ui ) {
       $( '.search-box' ).val( ui.item.label );
       $('.search-btn').click();
@@ -62,6 +59,13 @@ $(document).ready( function(){
     messages: {
       noResults: '',
       results: function() {}
+    },
+    change: function(event, ui) {
+      if (ui.item) {
+        console.log(ui.item.value);
+      } else {
+        console.log('nothing');
+      }
     }
   })
   .autocomplete({appendTo: '.autocomplete-list'})
