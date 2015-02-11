@@ -1,375 +1,439 @@
-username,firstname,lastname,room,year,type,email,lounge
-andresg,Andres,Galindo,675,2018,U,andresg@mit.edu,lounge-milehigh
-eponce23,Eric,Ponce,525,2018,U,eponce23@mit.edu,\N
-abajwa,Ayesha,Bajwa,978,2018,U,abajwa@mit.edu,\N
-jhbell,John,Bell,451,2018,U,jhbell@mit.edu,lounge-spa
-rmacd,Ruaridh,Macdonald,335,\N,GRT,rmacd@mit.edu,\N
-kimberli,Kimberli,Zhong,228,2018,U,kimberli@mit.edu,\N
-jinglin,Jing,Lin,440,2018,U,jinglin@mit.edu,lounge-milehigh
-allylasky@gmail.com,Alexandra,Adendorff,831,\N,GRT,allyadendorff-gmail@mit.edu,\N
-randolph,Robert,Randolph,1080,\N,OTHER,randolph@mit.edu,\N
-bcoston,Brianna,Coston,875,2015,U,bcoston@mit.edu,lounge-thirsty
-joseff,Joseff,Kolman,340A,2017,U,joseff@mit.edu,lounge-partylounge
-skalford,Shannon,Hughes,528,\N,VS,skalford@mit.edu,\N
-egiurleo,Emily,Giurleo,433,2017,U,egiurleo@mit.edu,lounge-spa
-cehall,Caitlin,Hall,772,\N,OTHER,cehall@mit.edu,\N
-asoltis,Anthony Robert,Soltis,528,\N,VS,asoltis@mit.edu,\N
-phaine,Peter,Haine,865,2016,U,phaine@mit.edu,\N
-vontell,Aaron,Vontell,329,2018,U,vontell@mit.edu,lounge-appa
-hesslink,David,Hesslink,732,2017,U,hesslink@mit.edu,lounge-spa
-hgr,Hans,Rinderknecht,536,\N,GRT,hgr@mit.edu,lounge-nyan
-tmilakov,Tim,Milakovich,621,\N,GRT,tmilakov@mit.edu,\N
-ammier,Andres,Mier,748B,2018,U,ammier@mit.edu,lounge-perreo
-jessig,John,Essigmann,365,\N,HM,jessig@mit.edu,\N
-yji,Yuge,Ji,631B,2018,U,yji@mit.edu,lounge-nyan
-katelyns,Katelyn,Sweeney,424A,2018,U,katelyns@mit.edu,lounge-milehigh
-popovw,William,Popov,1024,2018,U,popovw@mit.edu,lounge-milehigh
-aboggust,Angie,Boggust,421C,2018,U,aboggust@mit.edu,lounge-spa
-mcheung,Michael,Cheung,534,2016,U,mcheung@mit.edu,lounge-nyan
-adelusi,Oluwatomisin,Adelusi,624B,2018,U,adelusi@mit.edu,lounge-milehigh
-jbrophy,Jennifer,Brophy,880,\N,GRT,jbrophy@mit.edu,\N
-edstiles,Elijah,Stiles,322C,2018,U,edstiles@mit.edu,lounge-appa
-aandre,Andre,Aboulian,474,2016,U,aandre@mit.edu,lounge-smash
-chauhans,Shivani,Chauhan,1022B,2018,U,chauhans@mit.edu,lounge-appa
-mjtracy,Molly,Tracy,972,2016,U,mjtracy@mit.edu,lounge-mixers
-irena_m,Irena,Martinez,932,2018,U,irena_m@mit.edu,lounge-spa
-aliciacm,Alicia,Cabrera-Mino,1052A,2017,U,aliciacm@mit.edu,lounge-spa
-cosmosd,Cosmos,Darwin,678,2015,U,cosmosd@mit.edu,\N
-pdoming,Patricia,Dominguez,939,2017,U,pdoming@mit.edu,lounge-mixers
-msellke,Mark,Sellke,548,2018,U,msellke@mit.edu,\N
-pnoyola,Patricio,Noyola,1024,2018,U,pnoyola@mit.edu,lounge-appa
-eghosa,Eghosa,Eke,941,2018,U,eghosa@mit.edu,lounge-spa
-mfeffer,Michael,Feffer,422C,2018,U,mfeffer@mit.edu,lounge-appa
-dssun,Daphne,Sun,1052B,2015,U,dssun@mit.edu,lounge-mixers
-anblank,Andrea,Blankenship,1040,2018,U,anblank@mit.edu,lounge-spa
-eviolin,Eveline,Postelnicu,472,2017,U,eviolin@mit.edu,lounge-partylounge
-catcolon,Caterina,Colon,878,2015,U,catcolon@mit.edu,lounge-perreo
-sayeedt,Sayeed,Tasnim,545,2015,U,sayeedt@mit.edu,lounge-nyan
-evancb,Evan,Brown,428,2018,U,evancb@mit.edu,lounge-spa
-vdean,Victoria,Dean,465,2017,U,vdean@mit.edu,lounge-spa
-kaugdahl,Kirsten,Augdahl,664,2016,U,kaugdahl@mit.edu,lounge-spa
-kmuhlrad,Katherine,Muhlrad,940,2018,U,kmuhlrad@mit.edu,lounge-partylounge
-jennt,Jennifer,Thornton,244C,2015,U,jennt@mit.edu,lounge-thirsty
-rosarion,Nelly,Rosario,480,\N,VS,rosarion@mit.edu,\N
-ribbeck,Katharina,Ribbeck,436,\N,VS,ribbeck@mit.edu,\N
-claudiav,Claudia,Valdez,621,\N,GRT,claudiav@mit.edu,\N
-zrneely,Zachary,Neely,466,2017,U,zrneely@mit.edu,lounge-spa
-twinkel,Tessa,Winkel,379A,2018,U,twinkel@mit.edu,lounge-partylounge
-zjbier,Zachary,Bierstedt,840,2017,U,zjbier@mit.edu,lounge-partylounge
-zoeh,Zoe,Hinton,922C,2018,U,zoeh@mit.edu,lounge-spa
-edenmark,Evan,Denmark,732,2017,U,edenmark@mit.edu,lounge-spa
-maby,Madeline,Aby,1066,2015,U,maby@mit.edu,lounge-mixers
-larsj,Lars,Johnson,667,2015,U,larsj@mit.edu,lounge-nyan
-orlowski,Jesse,Orlowski,966,2016,U,orlowski@mit.edu,lounge-spa
-mcyoung,Miguel,Young de la Sota,224B,2018,U,mcyoung@mit.edu,lounge-spa
-ashin,Ashin,Modak,230,\N,GRT,ashin@mit.edu,\N
-mengle,Marissa,Engle,979,2015,U,mengle@mit.edu,\N
-mkordell,Mari,Kordell,626,2015,U,mkordell@mit.edu,\N
-bhwang,Bryce,Hwang,428,2018,U,bhwang@mit.edu,\N
-cierag,Ciera,Gordon,821,2018,U,cierag@mit.edu,\N
-elian,Tony,Elian,1021D,2018,U,elian@mit.edu,\N
-bwxu,Brian,Xu,446,2018,U,bwxu@mit.edu,lounge-appa
-dscota,Dencil,Wilmot,738B,2018,U,dscota@mit.edu,lounge-perreo
-benharpt,Benjamin,Harpt,832,2018,U,benharpt@mit.edu,lounge-milehigh
-dunham,Amy,Dunham,624A,2018,U,dunham@mit.edu,\N
-akshayr,Akshay,Ravikumar,524,2018,U,akshayr@mit.edu,\N
-cchitty,Chelsea,Chitty,652,2018,U,cchitty@mit.edu,lounge-mixers
-aazele,Alexandra,Zele,422B,2018,U,aazele@mit.edu,lounge-milehigh
-dcornejo,Diego,Cornejo,322C,2018,U,dcornejo@mit.edu,\N
-cathart,Cathryn,Hart,729,2018,U,cathart@mit.edu,\N
-burklund,Robert,Burklund,924,2018,U,burklund@mit.edu,lounge-spa
-b_ark,Bettina,Arkhurst,341,2018,U,b_ark@mit.edu,\N
-carnet,Cameron,Arnet,921C,2018,U,carnet@mit.edu,lounge-spa
-aksuzuki,Aya,Suzuki,225,2018,U,aksuzuki@mit.edu,lounge-partylounge
-ellewu,Michelle,Wu,724,2018,U,ellewu@mit.edu,lounge-milehigh
-alemus,Allison,Lemus,326,2018,U,alemus@mit.edu,\N
-cperez95,Christian,Perez,322B,2018,U,cperez95@mit.edu,lounge-milehigh
-susko,Tyler,Susko,980,\N,GRT,susko@mit.edu,\N
-cstubbe,Camille,Stubbe,464,2018,U,cstubbe@mit.edu,lounge-spa
-eleanorp,Eleanor,Pence,328,2017,U,eleanorp@mit.edu,\N
-grdavis,Graham,Davis,322B,2018,U,grdavis@mit.edu,lounge-milehigh
-gyl,George,Liu-Krason,631C,2018,U,gyl@mit.edu,lounge-nyan
-jsmith12,Jarrod,Smith,1031C,2016,U,jsmith12@mit.edu,lounge-mixers
-jacqliu,Jacqueline,Liu,522B,2018,U,jacqliu@mit.edu,lounge-appa
-ffosb22,Jon,Osborne,1033,2015,U,ffosb22@mit.edu,lounge-mixers
-rogetmo,Roget,Mo,1032,2017,U,rogetmo@mit.edu,lounge-mixers
-aradha,Adityanarayanan,Radhakrishnan,1031B,2016,U,aradha@mit.edu,lounge-mixers
-hdiehl,Hannah,Diehl,922D,2018,U,hdiehl@mit.edu,lounge-nyan
-sahmediq,Sabrine,Ahmed Iqbal,1032,2017,U,sahmediq@mit.edu,lounge-mixers
-snvd,Sarah,Van Dierdonck,1022B,2018,U,snvd@mit.edu,lounge-appa
-edwardsa,Allison,Edwards,1034,2017,U,edwardsa@mit.edu,lounge-spa
-ewadkins,Eric,Wadkins,329,2018,U,ewadkins@mit.edu,lounge-appa
-floresa,Alberto,Flores,252,2018,U,floresa@mit.edu,lounge-milehigh
-jbjoseph,Jasmin,Joseph,922C,2018,U,jbjoseph@mit.edu,lounge-spa
-ifndez,Ignacio,Fernandez,451,2018,U,ifndez@mit.edu,\N
-irosado,Isaac,Rosado,1021D,2018,U,irosado@mit.edu,\N
-gginorio,Gabriel,Ginorio,675,2018,U,gginorio@mit.edu,lounge-perreo
-nsgarcia,Nathaniel,Garcia,1038,2015,U,nsgarcia@mit.edu,lounge-mixers
-hlutwak,Hope,Lutwak,225,2018,U,hlutwak@mit.edu,lounge-partylounge
-hjrhee,Hyun,Rhee,652,2018,U,hjrhee@mit.edu,lounge-mixers
-guerrce,Cesar,Guerrero,252,2018,U,guerrce@mit.edu,lounge-spa
-gsnyder7,Garrison,Snyder,921C,2018,U,gsnyder7@mit.edu,lounge-spa
-jeaniep,Jeanine,Pearson,464,2018,U,jeaniep@mit.edu,lounge-spa
-lpkoolik,Libby,Koolik,1039,2017,U,lpkoolik@mit.edu,lounge-spa
-kcchan,Kameron,Chan,977,2013,U,kcchan@mit.edu,lounge-thirsty
-jennyjli,Jennifer,Li,724,2018,U,jennyjli@mit.edu,lounge-milehigh
-rimadas,Madhurima,Das,379A,2018,U,rimadas@mit.edu,lounge-partylounge
-ksriwatt,Kanokwan,Sriwattanapong,365,\N,OTHER,ksriwatt@mit.edu,\N
-fjgarcia,Francisco,Garcia,438,2017,U,fjgarcia@mit.edu,lounge-partylounge
-jujzwang,Zhishen,Wang,371,2017,U,jujzwang@mit.edu,lounge-partylounge
-12040303@cgi.ac.th,Preechaya,Tajai,365,\N,OTHER,12040303@cgi.ac.th,\N
-craigtho,Craig,Thorburn,340B,2018,U,craigtho@mit.edu,lounge-partylounge
-pwahl,Patrick,Wahl,645B,2018,U,pwahl@mit.edu,lounge-spa
-daewook,Daewook,Kim,476,2015,U,daewook@mit.edu,\N
-erdozain,Jack,Erdozain,572A,2017,U,erdozain@mit.edu,lounge-spa
-ananova,Anastassia,Bobokalonova,647,2016,U,ananova@mit.edu,\N
-ayosafat,Ariella,Yosafat,644,2016,U,ayosafat@mit.edu,lounge-smash
-jmorrell,Jonathan,Morrell,1064,2017,U,jmorrell@mit.edu,lounge-mixers
-apark93,Allen,Park,578A,2015,U,apark93@mit.edu,lounge-nyan
-akashnil,Akashnil,Dutta,925,2015,U,akashnil@mit.edu,\N
-afadhel,Armando,Fadhel,776,2017,U,afadhel@mit.edu,lounge-perreo
-delaneyd,Dante,Delaney,727,2016,U,delaneyd@mit.edu,lounge-mixers
-gschulte,Garrett,Schulte,741A,2017,U,gschulte@mit.edu,\N
-rgulland,Ryan,Gulland,479B,2018,U,rgulland@mit.edu,lounge-nyan
-wajeeha,Wajeeha,Ahmad,379B,2017,U,wajeeha@mit.edu,lounge-partylounge
-yousif,Yousif,Rouben,938,2015,U,yousif@mit.edu,lounge-mixers
-jktong,Jason,Tong,871,2016,U,jktong@mit.edu,lounge-cnpul
-janran,Jan,Randolph,1080,\N,OTHER,janran@mit.edu,\N
-drysewyk,Devyn,Rysewyk,1021C,2015,U,drysewyk@mit.edu,\N
-kbridbur,Kyle,Bridburg,832,2018,U,kbridbur@mit.edu,lounge-milehigh
-aoriole,Alexis,Oriole,229,2018,U,aoriole@mit.edu,lounge-spa
-alisono,Alison,Olechowski,680,\N,GRT,alisono@mit.edu,\N
-efarias,Edgardo,Farias,569,2015,U,efarias@mit.edu,lounge-nyan
-amowayed,Abdulmohsen,Alowayed,553,2018,U,amowayed@mit.edu,lounge-appa
-nfranco,Nestor,Franco,1065,2018,U,nfranco@mit.edu,lounge-milehigh
-fanqig,Fanqi,Gao,971,2016,U,fanqig@mit.edu,lounge-mixers
-srhall,Steven,Hall,772,\N,AHM,srhall@mit.edu,\N
-anr,Antonio,Rivera,741B,2017,U,anr@mit.edu,\N
-jogon_1,Joshua,Gonzalez,580,\N,RLA,jogon_1@mit.edu,\N
-lwestlak,Lindsay,Westlake,344,2018,U,lwestlak@mit.edu,\N
-karamlou,Amir,Karamlou,779,2018,U,karamlou@mit.edu,lounge-milehigh
-jspileck,Jack,Spilecki,553,2018,U,jspileck@mit.edu,\N
-jcorona,Jesus,Corona,224A,2018,U,jcorona@mit.edu,lounge-appa
-kiss,Szabolcs,Kiss,340B,2018,U,kiss@mit.edu,lounge-partylounge
-kayenyau,Ka-Yen,Yau,833,2018,U,kayenyau@mit.edu,lounge-milehigh
-jerios,Jose,Rios,527C,2018,U,jerios@mit.edu,lounge-appa
-jiahaoli,Jiahao,Li,846,2018,U,jiahaoli@mit.edu,\N
-ktabb,Kayla,Tabb,1078B,2018,U,ktabb@mit.edu,lounge-thirsty
-kelswong,Kelsey,Wong,228,2018,U,kelswong@mit.edu,\N
-loctrinh,Loc,Trinh,452,2018,U,loctrinh@mit.edu,lounge-spa
-jlgordon,John,Gordon,578B,2018,U,jlgordon@mit.edu,\N
-juliarue,Julia,Rue,639,2018,U,juliarue@mit.edu,lounge-nyan
-leonyu,Yongliang,Yu,941,2018,U,leonyu@mit.edu,lounge-spa
-kpalisoc,Kevin,Palisoc,440,2018,U,kpalisoc@mit.edu,lounge-milehigh
-nkogan,Nicole,Kogan,341,2018,U,nkogan@mit.edu,\N
-nessuman,Nana-Efua,Essuman,740,2018,U,nessuman@mit.edu,\N
-chansyphanthalangsy,Chansy,Phanthalangsy,580,\N,OTHER,cphant@mit.edu,\N
-nayoung,Nayoung,Lee,344,2018,U,nayoung@mit.edu,\N
-rburns95,Rachel,Burns,940,2018,U,rburns95@mit.edu,\N
-ruili,Rui,Li,522C,2018,U,ruili@mit.edu,lounge-spa
-regirock,Laurel,Regibeau-Rockett,1022C,2018,U,regirock@mit.edu,lounge-appa
-rprice,Rachel,Price,424A,2018,U,rprice@mit.edu,lounge-appa
-lmclark,Lillian,Clark,422B,2018,U,lmclark@mit.edu,lounge-milehigh
-rparus,Rachel,Parus,421C,2018,U,rparus@mit.edu,lounge-spa
-nchabibe,Nicole,Habibe Burgos,572B,2018,U,nchabibe@mit.edu,lounge-perreo
-oliveren,Oliver,Ren,924,2018,U,oliveren@mit.edu,lounge-spa
-remorgan,Rachel,Morgan,624A,2018,U,remorgan@mit.edu,lounge-milehigh
-sabrinah,Sabrina,Henry,326,2018,U,sabrinah@mit.edu,\N
-lilydove,Lilian,Dove,522B,2018,U,lilydove@mit.edu,lounge-appa
-skumari,Sapna,Kumari,821,2018,U,skumari@mit.edu,\N
-sanchitb,Sanchit,Bhattacharjee,548,2018,U,sanchitb@mit.edu,lounge-spa
-sgrunsfe,Sarah,Grunsfeld,833,2018,U,sgrunsfe@mit.edu,lounge-milehigh
-ssrusso,Sophia,Russo,328,2018,U,ssrusso@mit.edu,\N
-efhlla,Christian,Hyacinthe,833,2015,U,efhlla@mit.edu,\N
-msteele,Mariah,Steele,536,\N,GRT,msteele@mit.edu,\N
-vfazel,Vahid,Fazel-Rezai,524,2018,U,vfazel@mit.edu,\N
-mraden,Matthew,Adendorff,831,\N,GRT,mraden@mit.edu,\N
-emessig,Ellen,Essigmann,365,\N,HM,emessig@mit.edu,\N
-tomotomo,Tomohiro,Maeda,224A,2018,U,tomotomo@mit.edu,lounge-partylounge
-tlopez,Kristina,Lopez,729,2018,U,tlopez@mit.edu,\N
-tksafrit,Taylor,Safrit,645B,2018,U,tksafrit@mit.edu,lounge-spa
-vadams,Virginia,Adams,1076,2018,U,vadams@mit.edu,lounge-milehigh
-wrod,William,Rodriguez,747,2018,U,wrod@mit.edu,lounge-perreo
-wguraziu,Wendi,Guraziu,1040,2018,U,wguraziu@mit.edu,lounge-spa
-tromero,Trevor,Romero,446,2018,U,tromero@mit.edu,\N
-vancise,Samuel,VanCise,738B,2018,U,vancise@mit.edu,lounge-perreo
-amva13,Alejandro,Velez-Arce,775,2017,U,amva13@mit.edu,lounge-perreo
-asheidt,Anna,Heidt,533,2018,U,asheidt@mit.edu,lounge-nyan
-kotowick,Kyle,Kotowick,444,\N,GRT,kotowick@mit.edu,\N
-parrishb,Parrish,Bergquist,841,\N,GRT,parrishb@mit.edu,\N
-lysfoo@gmail.com,Lisa,Foo,335,\N,GRT,lysfoo@alum.mit.edu,\N
-danamkinek@gmail.com,Dana,Susko,980,\N,GRT,dsusko@mit.edu,\N
-dalyk,Katharine,Daly,1046,2015,U,dalyk@mit.edu,\N
-jpmccabe,James,McCabe,479A,2016,U,jpmccabe@mit.edu,\N
-kcooper,Kenneth,Cooper,825,2015,U,kcooper@mit.edu,\N
-kianna,Kianna,Jackson,577,2016,U,kianna@mit.edu,\N
-kmfarris,Kathryn,Farris,371,2017,U,kmfarris@mit.edu,lounge-partylounge
-dmetri,Dmetri,Hayes,976,2015,U,dmetri@mit.edu,lounge-thirsty
-edwinjaf,Edwin,Africano,324,2017,U,edwinjaf@mit.edu,lounge-bluths
-btushig,Battushig,Myanganbayar,846,2017,U,btushig@mit.edu,\N
-damato,Emily,Damato,1036,2018,U,damato@mit.edu,lounge-milehigh
-jwli,Jennifer,Li,537,2017,U,jwli@mit.edu,lounge-mixers
-bce,Benjamin,Eysenbach,931,2017,U,bce@mit.edu,lounge-spa
-jdonavon,John,Stephens,324,2017,U,jdonavon@mit.edu,lounge-bluths
-joyceyc,Joyce,Chen,634,2015,U,joyceyc@mit.edu,lounge-nyan
-cori,Corinne,Drysdale,533,2018,U,cori@mit.edu,lounge-nyan
-ignacioe,Ignacio,Estay Forno,322D,2018,U,ignacioe@mit.edu,lounge-spa
-hdaywill,Hugh,Day-Williams,627,2018,U,hdaywill@mit.edu,lounge-milehigh
-elyudism,Elyud,Ismail,1021A,2015,U,elyudism@mit.edu,lounge-cnpul
-evargo,Emma,Vargo,1036,2018,U,evargo@mit.edu,lounge-milehigh
-lagray,Luke,Gray,478,2018,U,lagray@mit.edu,\N
-curlette,Christina,Curlette,538,2016,U,curlette@mit.edu,\N
-rchipman,Ryan,Chipman,725,2016,U,rchipman@mit.edu,\N
-rrshep,Rex,Shepherd,627,2018,U,rrshep@mit.edu,\N
-sokaine,Simon,Okaine,1025,2015,U,sokaine@mit.edu,\N
-taylorr,Rebecca,Taylor,649,2015,U,taylorr@mit.edu,\N
-timwu,Tianqi,Wu,874,2015,U,timwu@mit.edu,\N
-ldunphy,Laura,Dunphy,1074,2015,U,ldunphy@mit.edu,\N
-arios,Andres,Rios,1045,2017,U,arios@mit.edu,\N
-lepertc,Chloe,Lepert,1075,2015,U,lepertc@mit.edu,\N
-caseyfu1,Casey,Fu,330,2015,U,caseyfu1@mit.edu,\N
-dve,Debra,Van Egeren,1044,2016,U,dve@mit.edu,\N
-ferrantj,Joseph,Ferrante,327,2015,U,ferrantj@mit.edu,\N
-hzaini,Hesham,Zaini,1078A,2015,U,hzaini@mit.edu,\N
-seropian,Emma,Seropian,380,2015,U,seropian@mit.edu,\N
-slmoore,Samuel,Moore,376,2016,U,slmoore@mit.edu,\N
-kkim17,Kristina,Kim,1039,2017,U,kkim17@mit.edu,lounge-partylounge
-pbrito,Pedro,Brito,776,2016,U,pbrito@mit.edu,lounge-perreo
-mecunha,Mary,Cunha,1052A,2017,U,mecunha@mit.edu,lounge-spa
-minyilee,Minyi,Lee,537,2017,U,minyilee@mit.edu,lounge-mixers
-leungs,Selina,Leung,321,2017,U,leungs@mit.edu,lounge-bluths
-annaju,Anna,Jungbluth,372,2017,U,annaju@mit.edu,lounge-partylounge
-shanasia,Shanasia,Sylman,244B,2015,U,shanasia@mit.edu,lounge-thirsty
-amohr,Alan,Mohr,340A,2017,U,amohr@mit.edu,lounge-partylounge
-lyk,Larissa,Kunz,1066,2015,U,lyk@mit.edu,lounge-mixers
-rkchung,Ryan,Chung,824,2018,U,rkchung@mit.edu,lounge-milehigh
-akurtz,Andrew,Kurtz,373,2017,U,akurtz@mit.edu,lounge-partylounge
-sarastik,Sara,Stiklickas,321,2017,U,sarastik@mit.edu,lounge-bluths
-alashley,Aaron,Ashley,1077,2016,U,alashley@mit.edu,\N
-smjoseph,Sebastian,Joseph,573,2015,U,smjoseph@mit.edu,lounge-nyan
-whartman,William,Hartman,748C,2017,U,whartman@mit.edu,\N
-jyucra,Jonatan,Yucra Rodriguez,345,2017,U,jyucra@mit.edu,lounge-bluths
-shannenk,Shannen,Kizilski,1043,2015,U,shannenk@mit.edu,lounge-nyan
-denigris,Michael,Denigris,325,2017,U,denigris@mit.edu,lounge-bluths
-wlouie,Wilson,Louie,535,2015,U,wlouie@mit.edu,lounge-nyan
-vtoro,Veronica,Toro,878,2016,U,vtoro@mit.edu,lounge-perreo
-briantom,Brian,Tom,1064,2017,U,briantom@mit.edu,lounge-mixers
-bberrios,Brianna,Berrios,424B,2017,U,bberrios@mit.edu,lounge-bluths
-sarahliu,Xiaoxue,Liu,971,2016,U,sarahliu@mit.edu,lounge-mixers
-mollyb,Molly,Brennan,1078B,2018,U,mollyb@mit.edu,lounge-spa
-ncolant,Noelle,Colant,328,2017,U,ncolant@mit.edu,\N
-eoklatt,Erik,Klatt,1072,2015,U,eoklatt@mit.edu,lounge-mixers
-mbelland,Michael,Belland,521C,2016,U,mbelland@mit.edu,lounge-smash
-toriw,Tori,Wuthrich,731,2017,U,toriw@mit.edu,\N
-lopezna,Nicolas,Lopez,946,2015,U,lopezna@mit.edu,lounge-mixers
-rohanb,Rohan,Banerjee,824,2018,U,rohanb@mit.edu,lounge-milehigh
-smthomas,Shawn,Thomas,429,2016,U,smthomas@mit.edu,lounge-smash
-johnstep,Stephen,Johnson,1073,2015,U,johnstep@mit.edu,\N
-trujano,Fernando,Trujano,337,2017,U,trujano@mit.edu,lounge-partylounge
-selamg,Selam,Gano,978,2018,U,selamg@mit.edu,\N
-dmayo2,David,Mayo,381,2017,U,dmayo2@mit.edu,\N
-guerrero,Diego,Guerrero Cardenas,543,2016,U,guerrero@mit.edu,\N
-bazuzi,Samira,Bazuzi,550,2016,U,bazuzi@mit.edu,\N
-cegarris,Catherine,Garrison,551,2016,U,cegarris@mit.edu,\N
-kelly16,Kelly,O'Brien,549A,2016,U,kelly16@mit.edu,\N
-runbobby,Robert,Shen,540,2017,U,runbobby@mit.edu,\N
-sjbray,Samantha,Bray,549B,2016,U,sjbray@mit.edu,\N
-marissas,Marissa,Stephens,645A,2016,U,marissas@mit.edu,\N
-raudelh,Raudel,Hernandez,637,2016,U,raudelh@mit.edu,\N
-cwicker,Christina,Wicker,650,2017,U,cwicker@mit.edu,\N
-argonaut,Jonas,Gonzalez,447,2017,U,argonaut@mit.edu,lounge-bluths
-kkleidal,Kenneth,Leidal,421B,2017,U,kkleidal@mit.edu,lounge-spa
-sburch,Sean,Burchesky,539,2017,U,sburch@mit.edu,lounge-spa
-slowder,Sean,Lowder,552,2017,U,slowder@mit.edu,lounge-spa
-owly,Faith,Huynh,433,2017,U,owly@mit.edu,lounge-spa
-tlliu,Teng,Liu,575,2017,U,tlliu@mit.edu,lounge-mixers
-chenta,Tiffany,Chen,665,2017,U,chenta@mit.edu,lounge-mixers
-hlzhou,Helen,Zhou,575,2017,U,hlzhou@mit.edu,lounge-mixers
-pliscio,Patrick,Liscio,438,2017,U,pliscio@mit.edu,lounge-partylounge
-dafolabi,David,Afolabi,426,2016,U,dafolabi@mit.edu,lounge-smash
-cica,Christian,Cardozo-Aviles,378,2017,U,cica@mit.edu,\N
-stephach,Stephanie,Chen,635,2015,U,stephach@mit.edu,lounge-nyan
-gebhard,Megan,Gebhard,467,2017,U,gebhard@mit.edu,lounge-spa
-erikalu,Erika,Lu,472,2017,U,erikalu@mit.edu,lounge-partylounge
-stang95,Stephen,Tang,521B,2017,U,stang95@mit.edu,\N
-ethai,Emily,Thai,632,2017,U,ethai@mit.edu,lounge-mixers
-lmarkey,Lara,Markey,467,2017,U,lmarkey@mit.edu,lounge-spa
-dfellows,David,Fellows,427,2017,U,dfellows@mit.edu,lounge-bluths
-icrystal,Isabel,Crystal,570,2016,U,icrystal@mit.edu,lounge-nyan
-czheng32,Claus,Zheng,574,2016,U,czheng32@mit.edu,lounge-nyan
-bpsong,Benjamin,Song,477,2016,U,bpsong@mit.edu,lounge-nyan
-klkim,Lina,Kim,565,2015,U,klkim@mit.edu,lounge-nyan
-holachek,Michael,Holachek,381,2017,U,holachek@mit.edu,\N
-dejuan,DeJuan,Anderson,628,2015,U,dejuan@mit.edu,\N
-bgunby,Benjamin,Gunby,374,2015,U,bgunby@mit.edu,lounge-partylounge
-knazemi,Katherine,Nazemi,473,2017,U,knazemi@mit.edu,lounge-partylounge
-gendron,Cathleen,Gendron,475,2016,U,gendron@mit.edu,lounge-smash
-kyan,Kevin,Yan,532,2015,U,kyan@mit.edu,lounge-nyan
-ahrens,Malte,Ahrens,377,2017,U,ahrens@mit.edu,lounge-partylounge
-c_mccoy,Colleen,McCoy,650,2017,U,c_mccoy@mit.edu,lounge-spa
-jennwu,Jennifer,Wu,544,2016,U,jennwu@mit.edu,\N
-enguyen,Erik,Nguyen,633,2017,U,enguyen@mit.edu,lounge-mixers
-jb16,Jake,Barnwell,636,2016,U,jb16@mit.edu,lounge-cnpul
-kstatham,Kayla,Statham,375,2015,U,kstatham@mit.edu,\N
-lu16j,Richard,Lu,448,2016,U,lu16j@mit.edu,\N
-acburgos,Ana,Burgos,450,2015,U,acburgos@mit.edu,lounge-perreo
-cliou,Catherine,Liou,566,2015,U,cliou@mit.edu,lounge-nyan
-bcarter,Brandon,Carter,936,2017,U,bcarter@mit.edu,lounge-spa
-justinjc,Justin,Cheung,648,2016,U,justinjc@mit.edu,\N
-tonych,Sen,Chang,739,2017,U,tonych@mit.edu,\N
-woursler,William,Oursler,631D,2015,U,woursler@mit.edu,\N
-magallon,Nadia,Magallon,721,2017,U,magallon@mit.edu,\N
-adat,Ada,Taylor,674,2016,U,adat@mit.edu,\N
-akashk16,Akash,Krishnan,738C,2016,U,akashk16@mit.edu,\N
-daniman,Danielle,Man,743,2016,U,daniman@mit.edu,\N
-dreback,Dana,Reback,670,2015,U,dreback@mit.edu,\N
-geronm,Geronimo,Mirano,672,2016,U,geronm@mit.edu,\N
-mdeyo,Matthew,Deyo,728,2016,U,mdeyo@mit.edu,\N
-jbeau16,Jon,Beaulieu,931,2016,U,jbeau16@mit.edu,\N
-anthonyo,Anthony,Occidentale,973,2017,U,anthonyo@mit.edu,\N
-jlugo,Jorge,Lugo,921B,2016,U,jlugo@mit.edu,lounge-smash
-becorts,Brandon,Corts,730,2017,U,becorts@mit.edu,lounge-spa
-vivianhu,Vivian,Hu,653,2018,U,vivianhu@mit.edu,lounge-milehigh
-jkchen,Joanna,Chen,634,2015,U,jkchen@mit.edu,lounge-mixers
-colbertc,Caroline,Colbert,939,2017,U,colbertc@mit.edu,lounge-mixers
-bwanek,Brian,Wanek.jpg,966,2017,U,bwanek@mit.edu,lounge-spa
-nhynes,Nicholas,Hynes,673,2016,U,nhynes@mit.edu,lounge-mixers
-artsy568,Kira,Street,866,2016,U,artsy568@mit.edu,lounge-cnpul
-pradosan,Daniel,Prado Sanchez,780,2017,U,pradosan@mit.edu,lounge-perreo
-meroldan,Maria,Roldan,873,2017,U,meroldan@mit.edu,lounge-perreo
-anater,Andres,Nater,741A,2017,U,anater@mit.edu,lounge-perreo
-rluoh,Rebecca,Luoh,872,2016,U,rluoh@mit.edu,lounge-cnpul
-ajmulero,Alberto,Mulero,780,2017,U,ajmulero@mit.edu,lounge-perreo
-cjholz,Carolyn,Holz,839,2015,U,cjholz@mit.edu,lounge-perreo
-devneal,Devin,Neal,933,2017,U,devneal@mit.edu,lounge-spa
-adelmore,Alexandra,Delmore,721,2017,U,adelmore@mit.edu,lounge-perreo
-jherring,Jessica,Herring,635,2015,U,jherring@mit.edu,lounge-nyan
-marquez,Elliott,Marquez,921B,2016,U,marquez@mit.edu,lounge-smash
-boquinr,Raul,Boquin,840,2017,U,boquinr@mit.edu,lounge-thirsty
-hojinj,Hojin,Jeon,945,2016,U,hojinj@mit.edu,lounge-smash
-amireles,Abdiel,Mireles,974,2015,U,amireles@mit.edu,lounge-thirsty
-faul5740,A.,Faulkner,945,2016,U,faul5740@mit.edu,lounge-mixers
-cfh119,Christian,Hyacinthe,1072,2015,U,cfh119@mit.edu,lounge-mixers
-leyatt,Leyatt,Betre,866,2016,U,leyatt@mit.edu,lounge-cnpul
-abdihd,Abdi-Hakin,Dirie,871,2016,U,abdihd@mit.edu,lounge-cnpul
-jtsao,Chih-Cheng,Tsao,638,2016,U,jtsao@mit.edu,\N
-kavleh,Henry,Kavle,933,2017,U,kavleh@mit.edu,lounge-spa
-fcolon,Fransheska,Colon,744,2016,U,fcolon@mit.edu,lounge-smash
-bbelland,Brent,Belland,521C,2016,U,bbelland@mit.edu,\N
-baggib2,Sebastian,Santos,629,2017,U,baggib2@mit.edu,\N
-ccdlott,Chloe,Dlott,733,2016,U,ccdlott@mit.edu,\N
-cheber,Caitlin,Heber,733,2016,U,cheber@mit.edu,\N
-djbattag,Dillon,Battaglia,643,2016,U,djbattag@mit.edu,\N
-emilyyau,Emily,Yau,571,2015,U,emilyyau@mit.edu,lounge-nyan
-aerblugo,Anthony,Erb Lugo,778,2016,U,aerblugo@mit.edu,lounge-perreo
-dagarcia,Dennis,Garcia,778,2016,U,dagarcia@mit.edu,lounge-perreo
-ambhave,Amol,Bhave,337,2017,U,ambhave@mit.edu,lounge-partylounge
-jcborn,Joshua,Born,746,2016,U,jcborn@mit.edu,lounge-mixers
-gcassidy,Grace,Cassidy,664,2016,U,gcassidy@mit.edu,lounge-smash
-cwetters,Christina,Wettersten,1021C,2015,U,cwetters@mit.edu,lounge-nyan
-asevert,Alexander,Severt,975,2015,U,asevert@mit.edu,lounge-thirsty
-volanski,Sydney,Volanski,932,2018,U,volanski@mit.edu,lounge-spa
-estein,Emma,Steinhardt,640,2016,U,estein@mit.edu,lounge-nyan
-alicez,Alice,Zielinski,564,2016,U,alicez@mit.edu,\N
-ajack,Alexander,Jackson,625,2015,U,ajack@mit.edu,\N
-cklingsh,Christopher,Klingshirn,526,2015,U,cklingsh@mit.edu,lounge-nyan
+username,firstname,lastname,room,phone,year,cellphone,homepage,home_city,home_state,home_country,quote,favorite_category,favorite_value,private,type,email,lounge,title,loungevalue,showreminders,guest_list_expiration
+skumari,Sapna,Kumari,821,452-3914,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,skumari@mit.edu,\N,\N,\N,t,month
+andresg,Andres,Galindo,675,225-6683,2018,,,,,,,,,f,U,andresg@mit.edu,lounge-milehigh,\N,25,t,\N
+eponce23,Eric,Ponce,525,452-3079,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,eponce23@mit.edu,\N,\N,\N,t,\N
+abajwa,Ayesha,Bajwa,978,452-4574,2018,,,Palo Alto,CA,,,tea,rooibos,f,U,abajwa@mit.edu,lounge-partylounge,\N,25,t,\N
+jhbell,John,Bell,451,577-5980,2018,2522958876,,Greenville,NC,USA,"ἈΛΉΘΕΙΑ
+ἈΓΆΠΗ
+ΠΥΡ",color,fire red,f,U,jhbell@mit.edu,lounge-spa,\N,25,t,year
+rmacd,Ruaridh,Macdonald,335,577-5970,\N,6176825708,,London,,UK,,,,f,GRT,rmacd@mit.edu,\N,\N,\N,t,year
+kimberli,Kimberli,Zhong,228,577-5925,2018,9252555196,,Dublin,CA,USA,Don't let me get in my zone. Don't let me get in my zone. Don't let me get in my zone.,,,f,U,kimberli@mit.edu,\N,\N,\N,t,year
+jinglin,Jing,Lin,440,452-2954,2018,3475567572,,Elmhurst,New York,United States,You never really forget anyone you've met. It just takes a while for the memories to come back.,movie,The Secret Life of Walter Mitty,f,U,jinglin@mit.edu,lounge-milehigh,\N,25,t,year
+allylasky@gmail.com,Alexandra,Adendorff,831,452-3906,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,allyadendorff-gmail@mit.edu,\N,Ally,\N,t,\N
+randolph,Robert,Randolph,1080,452-2216,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,randolph@mit.edu,\N,\N,\N,t,year
+bcoston,Brianna,Coston,875,452-3923,2015,619-518-8074,,San Diego,CA,USA,,,,f,U,bcoston@mit.edu,lounge-thirsty,\N,25,t,year
+joseff,Joseff,Kolman,340A,225-1410,2017,,,"Savannah,",Georgia,,"""Life is not lost by dying; life is lost minute by minute, day by dragging day, in all the thousand small uncaring ways.""
+-Steven Vincent Benet",era of classical music,le romantic era.,f,U,joseff@mit.edu,lounge-partylounge,\N,25,t,\N
+skalford,Shannon,Hughes,528,452-3086,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,VS,skalford@mit.edu,\N,\N,\N,t,year
+egiurleo,Emily,Giurleo,433,452-2952,2017,,,Brooklyn,NY,USA,"Why can't you borrow Disney movies from Rick Astley? 
+...Because he's never gonna give you Up.",,,f,U,egiurleo@mit.edu,lounge-spa,\N,25,t,year
+cehall,Caitlin,Hall,772,253-5387,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,cehall@mit.edu,\N,\N,\N,t,\N
+asoltis,Anthony Robert,Soltis,528,452-3086,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,VS,asoltis@mit.edu,\N,\N,\N,t,\N
+phaine,Peter,Haine,865,452-3905,2016,6039867450,www.mit.edu/~phaine/,"Conway,",NH,,,branch of math,algebraic topology,f,U,phaine@mit.edu,\N,\N,\N,t,year
+vontell,Aaron,Vontell,329,577-5930,2018,8608050050,github.com/vontell,Bristol,Connecticut,USA,"Maybe if I am lucky, this will show up in the 15 Seconds of Frame",Programming Language,Java,f,U,vontell@mit.edu,lounge-appa,\N,25,t,year
+hesslink,David,Hesslink,732,225-1404,2017,301-919-1338,,El Cajon,CA,USA,"Baseball, it is said, is only a game. This is true. And the Grand Canyon is only a hole in Arizona. -George Will",Dorm,Simmons!,f,U,hesslink@mit.edu,lounge-spa,Baby Giraffe,25,t,year
+hgr,Hans,Rinderknecht,536,452-3298,\N,,quicksilverdance.com,Shaker Heights,OH,,,,,f,GRT,hgr@mit.edu,lounge-nyan,\N,25,t,year
+tmilakov,Tim,Milakovich,621,452-3332,\N,623-238-2091,,Phoenix,AZ,USA!,It's my money and I need it now!,cookie,chocolate chip,f,GRT,tmilakov@mit.edu,\N,GR,\N,t,month
+ammier,Andres,Mier,748B,452-4768,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ammier@mit.edu,lounge-perreo,\N,25,t,\N
+jessig,John,Essigmann,365,225-1403,\N,,http://jessig.mit.edu/jmegroup/,Brookline,MA,,"Nolan, stop that .... Now!  I really mean it.  C'mon Nolan, gimme a break here ....  ELLEN!!!!",,,f,HM,jessig@mit.edu,\N,Sith Lord,\N,t,year
+yji,Yuge,Ji,631B,452-3446,2018,203-554-4866,,Stamford,CT,United States,Behind you.,hair color,white,f,U,yji@mit.edu,lounge-nyan,\N,25,t,year
+katelyns,Katelyn,Sweeney,424A,577-5993,2018,,,Natick,MA,USA,,Fish,Puddingwife,f,U,katelyns@mit.edu,lounge-milehigh,\N,25,t,year
+popovw,William,Popov,1024,452-2182,2018,2075548872,,Stratton,Maine,United States,,,,f,U,popovw@mit.edu,lounge-milehigh,\N,25,t,year
+aboggust,Angie,Boggust,421C,577-5988,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,aboggust@mit.edu,lounge-spa,\N,25,t,\N
+adelusi,Oluwatomisin,Adelusi,624B,452-3488,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,adelusi@mit.edu,lounge-milehigh,\N,25,t,year
+jbrophy,Jennifer,Brophy,880,452-3946,\N,661-607-1179,,Valencia,CA,,,,,f,GRT,jbrophy@mit.edu,\N,\N,\N,t,year
+edstiles,Elijah,Stiles,322C,577-5940,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,edstiles@mit.edu,lounge-appa,\N,25,t,\N
+aandre,Andre,Aboulian,474,SIM-FONE,2016,617-475-0256,andreaboulian.com,Los Angeles,CA,,"""It's like the last three words of Ulysses of Joyce, which is one of the tremendous works which has ever been written. Its yes, yes, yes. [...] And there is no maybe. All the maybes should go to trash because it's very instant, it's the presence, it's a moment, its there. And it's a respect of it and it's an enjoyment it's a tremendous enjoyment of saying yes! Even if it's something you hate…yes! It's an affirmation…Yes!""
+
+- Henri Cartier-Bresson, ""The Decisive Moment""",position,0,f,U,aandre@mit.edu,lounge-smash,\N,25,t,year
+chauhans,Shivani,Chauhan,1022B,452-2167,2018,,,Highlands Ranch,CO,,"Procrastination is the art of keeping up with yesterday.
+
+-Don Marquis",alleyway,classy,f,U,chauhans@mit.edu,lounge-appa,\N,25,t,year
+mjtracy,Molly,Tracy,972,452-4244,2016,,,Hollywood,Maryland,USA,"""Courage is not the absence of fear, but rather the judgment that something else is more important than fear.""--Princess Diaries",cartoon character,Perry. Perry the platypus.,f,U,mjtracy@mit.edu,lounge-mixers,\N,25,t,year
+irena_m,Irena,Martinez,932,452-4250,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,irena_m@mit.edu,lounge-spa,The Euphoric,25,t,year
+aliciacm,Alicia,Cabrera-Mino,1052A,225-1459,2017,,,San Diego,,,"“There are two ways to pass a hurdle: leaping over or plowing through... There needs to be a monster truck option.”
+― Jeph Jacques",color,blue,f,U,aliciacm@mit.edu,lounge-spa,\N,25,t,year
+pdoming,Patricia,Dominguez,939,452-4282,2017,(646) 945-6368,,Valley Stream,NY,U.S.,"""Reproduction is the beginning of death.""
+- James Joyce, A Portrait of the Artist as a Young Man",,,f,U,pdoming@mit.edu,lounge-mixers,\N,25,t,\N
+cosmosd,Cosmos,Darwin,678,225-6682,2015,617-412-0949,www.cosmosdarwin.com,"Ottawa,",ON,Canada,,meeting,closed-door,f,U,cosmosd@mit.edu,lounge-nyan,Cosmoose,25,t,year
+javilop,Javier,Lopez,381,577-5963,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,javilop@mit.edu,\N,\N,\N,t,\N
+nathasha,Nathasha,Rodriguez,475,,2015,,,Ponce,Puerto Rico,,,,,f,U,nathasha@mit.edu,lounge-perreo,\N,25,t,year
+msellke,Mark,Sellke,548,452-3097,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,msellke@mit.edu,\N,\N,\N,t,year
+pnoyola,Patricio,Noyola,1024,452-2181,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,pnoyola@mit.edu,lounge-appa,\N,25,t,\N
+eghosa,Eghosa,Eke,941,452-4284,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,eghosa@mit.edu,\N,\N,\N,t,\N
+mfeffer,Michael,Feffer,422C,577-5992,2018,,,State College,PA,United States,"""I can't wait for this nanoquiz today!"" 
+- No one ever",Book,The Stranger,f,U,mfeffer@mit.edu,lounge-appa,\N,25,t,\N
+dssun,Daphne,Sun,1052B,452-2098,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dssun@mit.edu,lounge-mixers,\N,25,t,year
+anblank,Andrea,Blankenship,1040,452-2217,2018,,,Saline,Michigan,USA,,,,f,U,anblank@mit.edu,lounge-spa,\N,25,t,year
+eviolin,Eveline,Postelnicu,472,452-2980,2017,,,Tempe,Arizona,,"""The unforeseen does not exist."" - Phileas Fogg, Around the World in 80 Days",Star Trek,The Next Generation,f,U,eviolin@mit.edu,lounge-partylounge,\N,25,t,\N
+catcolon,Caterina,Colon,878,452-3921,2015,7872459168,,San Juan,Puerto Rico,,FOLLOW THE SPIDERS,villain,He-Who-Must-Not-Be-Named,f,U,catcolon@mit.edu,lounge-perreo,Auror,25,f,year
+sayeedt,Sayeed,Tasnim,545,452-3101,2015,,,Lake Mary,FL,United States,There's no sense in being precise when you don't even know what you're talking about.,'); DROP TABLE residents;--,'); DROP TABLE students;--,f,U,sayeedt@mit.edu,lounge-nyan,The Pirate King,25,t,year
+evancb,Evan,Brown,428,577-5999,2018,,,White River Jct.,Vermont,Untied Stats O' Murica,"“Our virtues and our failings are inseparable, like force and matter. When they separate, man is no more” 
+
+""Let the future tell the truth and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I really worked, is mine.""
+-Nikola Tesla",anything,everything,f,U,evancb@mit.edu,lounge-spa,"""Frevan""",25,t,year
+vdean,Victoria,Dean,465,577-5975,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,vdean@mit.edu,lounge-spa,\N,25,t,month
+kaugdahl,Kirsten,Augdahl,664,452-3415,2016,952-693-5967,,Chaska,Minnesota,USA,,sock,black,f,U,kaugdahl@mit.edu,lounge-spa,Illuminati Member,25,f,year
+kmuhlrad,Katherine,Muhlrad,940,225-1458,2018,,,,Colorado,,"""When we hit our lowest point, we are open to the greatest change."" - Avatar Aang",life form,robots,f,U,kmuhlrad@mit.edu,lounge-partylounge,\N,25,t,year
+jennt,Jennifer,Thornton,244C,577-5915,2015,,,,,,hey you.,,,f,U,jennt@mit.edu,lounge-thirsty,\N,25,t,year
+rosarion,Nelly,Rosario,480,452-2958,\N,917-209-4078,,BROOKLYN,NY,US,,,,f,VS,rosarion@mit.edu,\N,\N,\N,t,year
+ribbeck,Katharina,Ribbeck,436,452-2985,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,VS,ribbeck@mit.edu,\N,\N,\N,t,year
+claudiav,Claudia,Valdez,621,452-3332,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,claudiav@mit.edu,\N,\N,\N,t,\N
+zrneely,Zachary,Neely,466,577-5974,2017,6024053678,,Leroy,Michigan,'murica,"The world needs dreamers, and the world needs doers, but most of all the world needs dreamers who do.",,,f,U,zrneely@mit.edu,lounge-spa,Vanilla,25,t,\N
+twinkel,Tessa,Winkel,379A,577-5961,2018,618-322-8331,,Okawville,IL,USA,,Winchester brother,Dean,f,U,twinkel@mit.edu,lounge-partylounge,\N,25,t,\N
+zjbier,Zachary,Bierstedt,840,452-4008,2017,(605)3212495,,,,,"A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
+Douglas Adams",,,f,U,zjbier@mit.edu,lounge-partylounge,\N,25,t,month
+zoeh,Zoe,Hinton,922C,452-4023,2018,,,,,,"""Never half-ass two things. Whole-ass one thing."" -Ron Swanson",Dixon,Daryl,f,U,zoeh@mit.edu,lounge-spa,\N,25,t,\N
+edenmark,Evan,Denmark,732,225-9541,2017,7743138868,,Sandwich,MA,,"""So if I type something in this box, it will show up on the Simmons DB?""",Sandwich,My Hometown,f,U,edenmark@mit.edu,lounge-spa,Great Dane,25,t,\N
+maby,Madeline,Aby,1066,452-2061,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,maby@mit.edu,lounge-mixers,Chipmunk,25,t,year
+larsj,Lars,Johnson,667,225-1525,2015,651-319-3487,larsj.mit.edu,Eagan,MN,USA,"""Life can only be understood backwards; but it must be lived forwards.""
+Soren Kierkegaard",,,f,U,larsj@mit.edu,lounge-nyan,Swede,25,f,year
+orlowski,Jesse,Orlowski,966,452-4238,2016,,,San Diego,California,,"If weakness is a wound that no one wants to speak of
+Then ""cool"" is just how far we have to fall
+I am not immune, I only want to be loved
+But I feel safe behind the firewall
+
+Can I lose my need to impress?
+If you want the truth, I need to confess
+
+I'm not alright, I'm broken inside, broken inside
+And all I go through, leads me to You, leads me to You
+
+Burn away the pride, bring me to my weakness
+'Til everything I hide behind is gone
+And when I'm open wide, with nothing left to cling to
+Only You are there to lead me on
+
+'Cause honestly, I'm not that strong.
+
+~I'm Not Alright, Sanctus Real",Ex-Rooming Chair,Tim Wilz,f,U,orlowski@mit.edu,lounge-spa,The Incredible,25,t,year
+mcyoung,Miguel,Young de la Sota,224B,,2018,,https://github.com/drXor,San Juan,Puerto Rico,United States,,language,Scala,f,U,mcyoung@mit.edu,lounge-spa,\N,25,t,year
+ashin,Ashin,Modak,230,577-5927,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,ashin@mit.edu,\N,\N,\N,t,\N
+mengle,Marissa,Engle,979,452-4535,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,mengle@mit.edu,\N,\N,\N,t,\N
+mkordell,Mari,Kordell,626,452-3462,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,mkordell@mit.edu,\N,\N,\N,t,year
+bhwang,Bryce,Hwang,428,452-2945,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bhwang@mit.edu,\N,\N,\N,t,\N
+cierag,Ciera,Gordon,821,452-3913,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cierag@mit.edu,\N,\N,\N,t,\N
+bwxu,Brian,Xu,446,577-5984,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bwxu@mit.edu,lounge-appa,\N,25,t,year
+dscota,Dencil,Wilmot,738B,452-3875,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dscota@mit.edu,lounge-perreo,\N,25,t,year
+benharpt,Benjamin,Harpt,832,225-1409,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,benharpt@mit.edu,lounge-milehigh,\N,25,t,\N
+akshayr,Akshay,Ravikumar,524,452-3075,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,akshayr@mit.edu,\N,\N,\N,t,year
+cchitty,Chelsea,Chitty,652,452-3386,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cchitty@mit.edu,lounge-mixers,\N,25,t,\N
+aazele,Alexandra,Zele,422B,577-5990,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,aazele@mit.edu,lounge-milehigh,\N,25,t,year
+dcornejo,Diego,Cornejo,322C,577-5939,2018,6178999555,,Santiago de Chile,,Chile,,,,f,U,dcornejo@mit.edu,\N,\N,\N,t,year
+cathart,Cathryn,Hart,729,225-9272,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cathart@mit.edu,\N,\N,\N,t,month
+burklund,Robert,Burklund,924,452-4030,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,burklund@mit.edu,lounge-spa,\N,25,t,\N
+b_ark,Bettina,Arkhurst,341,577-5945,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,b_ark@mit.edu,\N,\N,\N,t,year
+carnet,Cameron,Arnet,921C,452-4020,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,carnet@mit.edu,lounge-spa,\N,25,t,year
+aksuzuki,Aya,Suzuki,225,577-5922,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,aksuzuki@mit.edu,lounge-partylounge,\N,25,t,\N
+ellewu,Michelle,Wu,724,225-7358,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ellewu@mit.edu,lounge-milehigh,\N,25,t,\N
+alemus,Allison,Lemus,326,577-5934,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,alemus@mit.edu,\N,\N,\N,t,year
+cperez95,Christian,Perez,322B,577-5941,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cperez95@mit.edu,lounge-milehigh,\N,25,t,year
+susko,Tyler,Susko,980,452-4424,\N,,,,PA,,,movie,Pumping Iron,f,GRT,susko@mit.edu,\N,GRT,\N,t,year
+cstubbe,Camille,Stubbe,464,577-5976,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cstubbe@mit.edu,lounge-spa,Forever Scummy,25,t,\N
+elian,Tony,Elian,635,225-6751,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,elian@mit.edu,\N,\N,\N,t,\N
+eleanorp,Eleanor,Pence,328,577-5932,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,eleanorp@mit.edu,\N,\N,\N,t,\N
+grdavis,Graham,Davis,322B,577-5942,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,grdavis@mit.edu,lounge-milehigh,\N,25,t,year
+gyl,George,Liu-Krason,631C,452-3427,2018,,http://xgeomj.wordpress.com/,Boston,MA,,"""清一色, 対々和, 三暗刻, 三槓子,赤一, 嶺上開花""",thing to do,MAHJONG!!,f,U,gyl@mit.edu,lounge-nyan,\N,25,t,year
+jsmith12,Jarrod,Smith,1031C,225-1799,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jsmith12@mit.edu,lounge-mixers,\N,25,t,month
+jacqliu,Jacqueline,Liu,522B,452-3070,2018,530-902-4139,,Woodland,CA,,,,,f,U,jacqliu@mit.edu,lounge-appa,\N,25,t,year
+ffosb22,Jon,Osborne,1033,452-2114,2015,,,Wilmington,DE,USA,,musical artist,Kendrick Lamar,f,U,ffosb22@mit.edu,lounge-mixers,\N,25,t,year
+rogetmo,Roget,Mo,1032,452-2105,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rogetmo@mit.edu,lounge-mixers,\N,25,t,year
+aradha,Adityanarayanan,Radhakrishnan,1031B,452-2099,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,aradha@mit.edu,lounge-mixers,\N,25,t,year
+hdiehl,Hannah,Diehl,922D,,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,hdiehl@mit.edu,lounge-nyan,\N,25,t,month
+sahmediq,Sabrine,Ahmed Iqbal,1032,452-2110,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,sahmediq@mit.edu,lounge-mixers,\N,25,t,year
+snvd,Sarah,Van Dierdonck,1022B,452-2174,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,snvd@mit.edu,lounge-appa,\N,25,t,\N
+edwardsa,Allison,Edwards,1034,452-2125,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,edwardsa@mit.edu,lounge-spa,\N,25,t,year
+ewadkins,Eric,Wadkins,329,577-5929,2018,6178395035,,Boston,MA,United States,"“Few will have the greatness to bend history itself; but each of us can work to change a small portion of events, and in the total of all those acts will be written the history of this generation.”
+~Robert Kennedy",country,Murica,f,U,ewadkins@mit.edu,lounge-appa,\N,25,t,year
+jbjoseph,Jasmin,Joseph,922C,452-4022,2018,8182057110,,Los Angeles,CA,USA,Donkey status: ?,PowerPuff Girl,Buttercup,f,U,jbjoseph@mit.edu,lounge-spa,\N,25,t,year
+ifndez,Ignacio,Fernandez,451,577-5979,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ifndez@mit.edu,\N,\N,\N,t,\N
+gginorio,Gabriel,Ginorio,675,225-6685,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,gginorio@mit.edu,lounge-perreo,\N,25,t,year
+nsgarcia,Nathaniel,Garcia,1038,452-2223,2015,,,Fountain Valley,California,US,"""I'm not saying I'm gonna change the world, but I guarantee that I will spark the brain that will change the world"" Tupac Shakur",sport,soccer,f,U,nsgarcia@mit.edu,lounge-mixers,\N,25,t,year
+hlutwak,Hope,Lutwak,225,577-5923,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,hlutwak@mit.edu,lounge-partylounge,\N,25,t,\N
+hjrhee,Hyun,Rhee,652,452-3405,2018,3523591346,,Gainesville,Florida,United States,,,,f,U,hjrhee@mit.edu,lounge-mixers,\N,25,t,year
+guerrce,Cesar,Guerrero,252,577-5918,2018,,,Wilmington (LA),CA,United States,"""The delay's quite bad""",Number,42,f,U,guerrce@mit.edu,lounge-spa,\N,25,t,\N
+gsnyder7,Garrison,Snyder,921C,452-4021,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,gsnyder7@mit.edu,lounge-spa,\N,25,t,\N
+floresa,Alberto,Flores,252,577-5917,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,floresa@mit.edu,lounge-milehigh,\N,25,t,month
+irosado,Isaac,Rosado,635,225-7114,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,irosado@mit.edu,\N,\N,\N,t,\N
+jeaniep,Jeanine,Pearson,464,577-5977,2018,,,Portland,Oregon,USA,,,,f,U,jeaniep@mit.edu,lounge-spa,\N,25,t,\N
+lpkoolik,Libby,Koolik,1039,452-2222,2017,,,Boca Raton,FL,United States,"""Adventure is out there.""",mineral,malachite,f,U,lpkoolik@mit.edu,lounge-spa,\N,25,t,year
+jennyjli,Jennifer,Li,724,225-7397,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jennyjli@mit.edu,lounge-milehigh,\N,25,t,\N
+ksriwatt,Kanokwan,Sriwattanapong,365,225-1403,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,ksriwatt@mit.edu,\N,Home,\N,t,\N
+rimadas,Madhurima,Das,379A,577-5960,2018,,,Canton,Michigan,,,facial feature,dimples,f,U,rimadas@mit.edu,lounge-partylounge,\N,25,t,year
+fjgarcia,Francisco,Garcia,438,452-2988,2017,,,Sassville,Sassachusetts,Sassy States of Amerisass,"""I'm sassy...deal with it!""",,,f,U,fjgarcia@mit.edu,lounge-partylounge,\N,25,t,year
+jujzwang,Zhishen,Wang,371,577-5950,2017,,,"Iowa City,",IOWA! YEAH!,,Hi. You can call me Juju. Slightly more pronounceable.,cult,#teampaper,f,U,jujzwang@mit.edu,lounge-partylounge,Pointy,25,t,month
+12040303@cgi.ac.th,Preechaya,Tajai,365,225-1403,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,12040303@cgi.ac.th,\N,Yui,\N,t,\N
+craigtho,Craig,Thorburn,340B,577-5965,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,craigtho@mit.edu,lounge-partylounge,\N,25,t,year
+pwahl,Patrick,Wahl,645B,452-3345,2018,401-480-6769,,Glocester,Rhode Island,United States of America,"""If the doors of perception were cleansed every thing would appear to man as it is, Infinite."" 
+
+~William Blake",emotion,despair,f,U,pwahl@mit.edu,lounge-spa,\N,25,t,\N
+daewook,Daewook,Kim,476,452-2966,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,daewook@mit.edu,\N,\N,\N,t,\N
+erdozain,Jack,Erdozain,572A,452-3274,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,erdozain@mit.edu,lounge-spa,"""Wack""",25,t,year
+ayosafat,Ariella,Yosafat,644,452-3344,2016,,,,,,âI pretty much try to stay in a constant state of confusion just because of the expression it leaves on my face.â - Johnny Depp,baseball team,the Cincinnati Reds!!!,f,U,ayosafat@mit.edu,lounge-smash,\N,25,t,year
+jmorrell,Jonathan,Morrell,1064,452-2064,2017,8013919974,www.motivationalcactus.com,Ogden,Utah,USA,"""Physics is like sex; sure, it may give some practical results, but that's not why we do it."" -Richard Feynman",Succulent,Cactus,f,U,jmorrell@mit.edu,lounge-mixers,\N,25,t,\N
+apark93,Allen,Park,578A,452-3112,2015,404-775-3661,nyan.cat,Marietta,GA,US,"""Don't underestimate the value of doing nothing, of just going along, listening to all the things you can't hear, and not bothering."" - Winnie the Pooh",sleeping position,facedesk,f,U,apark93@mit.edu,lounge-nyan,Derpmeister,25,t,year
+mrencken,Martin,Rencken,775,452-3833,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,mrencken@mit.edu,\N,\N,\N,t,\N
+akashnil,Akashnil,Dutta,925,452-4056,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,akashnil@mit.edu,\N,\N,\N,t,\N
+afadhel,Armando,Fadhel,776,452-3834,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,afadhel@mit.edu,lounge-perreo,\N,25,t,year
+delaneyd,Dante,Delaney,727,225-8499,2016,,,Nassau,,Bahamas,“We were created to create ourselves…it’s the greatest gift our creator gave to us.”,animal,my pet dolphin Ignacio,f,U,delaneyd@mit.edu,lounge-mixers,Big Daddy,25,t,year
+gschulte,Garrett,Schulte,741A,225-7258,2017,7274176699,,Tierra Verde,FL,United States,,,,f,U,gschulte@mit.edu,\N,Unnecessarily Buff,\N,t,year
+rgulland,Ryan,Gulland,479B,452-2960,2018,,,Manhattan Beach,CA,,,,,f,U,rgulland@mit.edu,lounge-nyan,\N,25,t,year
+rossitto,Leigh-Ana,Rossitto,572B,452-3276,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rossitto@mit.edu,\N,\N,\N,t,\N
+wajeeha,Wajeeha,Ahmad,379B,577-5959,2017,,,Lahore,,Pakistan,Think of all the beauty still left around you and be happy. - Anne Frank,,,f,U,wajeeha@mit.edu,lounge-partylounge,\N,25,t,\N
+yousif,Yousif,Rouben,938,452-4261,2015,+973 17711111,,,,,,,,f,U,yousif@mit.edu,lounge-mixers,\N,25,t,year
+jktong,Jason,Tong,871,452-3898,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jktong@mit.edu,lounge-cnpul,\N,25,t,year
+rsridhar,Rahul,Sridhar,941,452-4283,2018,4084767861,,San Jose,CA,USA,,clue character,professor plum,f,U,rsridhar@mit.edu,\N,\N,\N,t,\N
+janran,Jan,Randolph,1080,452-2216,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,janran@mit.edu,\N,\N,\N,t,\N
+drysewyk,Devyn,Rysewyk,1021C,225-1407,2015,7028824494,,Las Vegas,Nevada,United States,,Astronaut,"Virgil ""Gus"" Grissom",f,U,drysewyk@mit.edu,\N,\N,\N,f,year
+kbridbur,Kyle,Bridburg,832,452-3907,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kbridbur@mit.edu,lounge-milehigh,\N,25,t,\N
+aoriole,Alexis,Oriole,229,577-5926,2018,,twitter.com/aoriole19,Concord,North Carolina,,"""Ravioli, Ravioli, give me the formuoli""",type of triangle,right scalene,f,U,aoriole@mit.edu,lounge-spa,\N,25,t,\N
+alisono,Alison,Olechowski,680,225-6681,\N,857-222-2051,,Guelph,Ontario,Canada,,,,f,GRT,alisono@mit.edu,\N,\N,\N,t,year
+mben,Mustafa,Ben,528,452-3086,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,mben@mit.edu,\N,\N,\N,t,\N
+efarias,Edgardo,Farias,569,452-3283,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,efarias@mit.edu,lounge-nyan,"His Honorable Pug Prince ""Edgy"" Eddiegardo the IV",25,t,year
+amowayed,Abdulmohsen,Alowayed,553,452-3090,2018,,http://alowayed.com,Riyadh,,Saudi Arabia,"""I'm not a perfectionist, because perfectionism won't result in the perfect workflow""",Color,Blue... no wait yeLLOW!,f,U,amowayed@mit.edu,lounge-appa,\N,25,t,year
+lscott18,Lauren,Scott,321,577-5944,2017,,,Rockland,MA,USA,,,,f,U,lscott18@mit.edu,\N,\N,\N,t,year
+nfranco,Nestor,Franco,1065,452-2062,2018,,http://www.texas.gov/en/Pages/default.aspx,Texas,Texas,Texas,Texas,president,Sam Houston,f,U,nfranco@mit.edu,lounge-milehigh,\N,25,t,year
+fanqig,Fanqi,Gao,971,452-4239,2016,,,,,,,boy band,ONE DIRECTION,f,U,fanqig@mit.edu,lounge-mixers,Louder,25,t,year
+srhall,Steven,Hall,772,253-5387,\N,,,St. Petersburg,Florida,,A good self-referential pun is its own reword.,airplane,a Cessna Cutlass,f,AHM,srhall@mit.edu,\N,\N,\N,f,year
+anr,Antonio,Rivera,741B,225-7297,2017,,,Kent,Washington,,A pessimist is what an optimist calls a realist.,director,Christopher Nolan,f,U,anr@mit.edu,\N,\N,\N,t,year
+jogon_1,Joshua,Gonzalez,580,452-3111,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,RLA,jogon_1@mit.edu,\N,RLAD,\N,t,year
+lwestlak,Lindsay,Westlake,344,577-5947,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,lwestlak@mit.edu,\N,\N,\N,t,\N
+karamlou,Amir,Karamlou,779,452-3849,2018,,,Granite Bay,CA,USA,"“Physics is like sex: sure, it may give some practical results, but that's not why we do it.”
+
+― Richard P. Feynman",drink,orange juice,f,U,karamlou@mit.edu,lounge-milehigh,\N,25,t,\N
+jspileck,Jack,Spilecki,553,452-3091,2018,,,"Sydney,","NSW,",Australia,,,,f,U,jspileck@mit.edu,\N,\N,\N,t,\N
+jcorona,Jesus,Corona,224A,577-5919,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jcorona@mit.edu,lounge-appa,\N,25,t,\N
+kiss,Szabolcs,Kiss,340B,577-5966,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kiss@mit.edu,lounge-partylounge,\N,25,t,\N
+kayenyau,Ka-Yen,Yau,833,452-3908,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kayenyau@mit.edu,lounge-milehigh,\N,25,t,year
+jiahaoli,Jiahao,Li,846,225-1527,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jiahaoli@mit.edu,\N,\N,\N,t,year
+ktabb,Kayla,Tabb,1078B,452-2206,2018,,,Bay Area,California,,,music,loud,f,U,ktabb@mit.edu,lounge-thirsty,\N,25,t,year
+kelswong,Kelsey,Wong,228,577-5924,2018,,,"Dobbs Ferry, NY",,,,,blueberry,f,U,kelswong@mit.edu,\N,\N,\N,t,month
+loctrinh,Loc,Trinh,452,577-5978,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,loctrinh@mit.edu,lounge-spa,\N,25,t,\N
+jlgordon,John,Gordon,578B,452-3113,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jlgordon@mit.edu,\N,\N,\N,t,year
+juliarue,Julia,Rue,639,225-7197,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,juliarue@mit.edu,lounge-nyan,\N,25,t,\N
+jerios,Jose,Rios,527C,452-3082,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jerios@mit.edu,lounge-appa,\N,25,t,year
+kpalisoc,Kevin,Palisoc,440,452-2956,2018,,,,Alaska,,Life begins at the end of your comfort zone.,Pick-up Line,"""Hello""",f,U,kpalisoc@mit.edu,lounge-milehigh,\N,25,t,\N
+nkogan,Nicole,Kogan,341,577-5946,2018,,,,,,,,,f,U,nkogan@mit.edu,\N,\N,\N,t,\N
+nessuman,Nana-Efua,Essuman,740,452-3862,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,nessuman@mit.edu,\N,\N,\N,t,year
+chansyphanthalangsy,Chansy,Phanthalangsy,580,452-3111,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,OTHER,cphant@mit.edu,\N,\N,\N,t,\N
+nayoung,Nayoung,Lee,344,577-5948,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,nayoung@mit.edu,\N,\N,\N,t,year
+rburns95,Rachel,Burns,940,452-4282,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rburns95@mit.edu,\N,\N,\N,t,\N
+ruili,Rui,Li,522C,452-3074,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ruili@mit.edu,lounge-spa,\N,25,t,year
+regirock,Laurel,Regibeau-Rockett,1022C,452-2180,2018,,,,,BRITANNIA,,Food,Cheese/Brownies,f,U,regirock@mit.edu,lounge-appa,\N,25,t,\N
+rprice,Rachel,Price,424A,577-5994,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rprice@mit.edu,lounge-appa,\N,25,t,\N
+lmclark,Lillian,Clark,422B,577-5991,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,lmclark@mit.edu,lounge-milehigh,\N,25,t,year
+rparus,Rachel,Parus,421C,577-5989,2018,,,Fraser,MI,United States,,,,f,U,rparus@mit.edu,lounge-spa,\N,25,t,year
+nchabibe,Nicole,Habibe Burgos,572B,452-3275,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,nchabibe@mit.edu,lounge-perreo,\N,25,t,\N
+oliveren,Oliver,Ren,924,452-4031,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,oliveren@mit.edu,lounge-spa,\N,25,t,\N
+remorgan,Rachel,Morgan,624A,225-6679,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,remorgan@mit.edu,lounge-milehigh,\N,25,t,year
+sabrinah,Sabrina,Henry,326,577-5935,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,sabrinah@mit.edu,\N,\N,\N,t,year
+lilydove,Lilian,Dove,522B,452-3071,2018,,,"St. Augustine,",Florida,,Be humble for you are made of earth. Be noble for you are made of stars.,Disney princess,Rapunzel,f,U,lilydove@mit.edu,lounge-appa,\N,25,t,year
+sanchitb,Sanchit,Bhattacharjee,548,452-3099,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,sanchitb@mit.edu,lounge-spa,\N,25,t,\N
+sgrunsfe,Sarah,Grunsfeld,833,452-3910,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,sgrunsfe@mit.edu,lounge-milehigh,\N,25,t,year
+lynnyu,Lynn,Yu,634,225-6695,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,lynnyu@mit.edu,\N,\N,\N,t,\N
+ssrusso,Sophia,Russo,328,577-5931,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ssrusso@mit.edu,\N,\N,\N,t,\N
+efhlla,Christian,Hyacinthe,833,452-3908,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,efhlla@mit.edu,\N,\N,\N,t,\N
+msteele,Mariah,Steele,536,452-3298,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,msteele@mit.edu,\N,\N,\N,t,year
+vfazel,Vahid,Fazel-Rezai,524,452-3078,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,vfazel@mit.edu,\N,\N,\N,t,\N
+mraden,Matthew,Adendorff,831,452-3906,\N,8572077845,,Durban,Kwa-Zulu Natal,South Africa,,songwrite,David Crosby,f,GRT,mraden@mit.edu,\N,\N,\N,t,year
+emessig,Ellen,Essigmann,365,225-1403,\N,617 584-8921,,Brookline,Massachusetts,USA,,Children,(are) Amy & Nolan,f,HM,emessig@mit.edu,\N,Jedi Master,\N,t,month
+tomotomo,Tomohiro,Maeda,224A,577-5920,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,tomotomo@mit.edu,lounge-partylounge,\N,25,t,\N
+tlopez,Kristina,Lopez,729,225-9364,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,tlopez@mit.edu,\N,\N,\N,t,year
+tksafrit,Taylor,Safrit,645B,452-3346,2018,,,Santa Monica,California,,,,,f,U,tksafrit@mit.edu,lounge-spa,\N,25,t,year
+wrod,William,Rodriguez,747,452-4770,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,wrod@mit.edu,lounge-perreo,\N,25,t,year
+wguraziu,Wendi,Guraziu,1040,452-2218,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,wguraziu@mit.edu,lounge-spa,\N,25,t,year
+vadams,Virginia,Adams,1076,452-2202,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,vadams@mit.edu,lounge-milehigh,\N,25,t,year
+tromero,Trevor,Romero,446,577-5985,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,tromero@mit.edu,\N,\N,\N,t,year
+vancise,Samuel,VanCise,738B,452-3880,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,vancise@mit.edu,lounge-perreo,\N,25,t,year
+vtran,Vivian,Tran,866,452-3901,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,vtran@mit.edu,\N,\N,\N,t,\N
+asheidt,Anna,Heidt,533,452-3288,2018,,,,,,,Anime,Hetalia,f,U,asheidt@mit.edu,lounge-nyan,Ace,25,t,\N
+kotowick,Kyle,Kotowick,444,577-5986,\N,6172999873,,Bridge Lake,British Columbia,Canada,,snack,poutine,f,GRT,kotowick@mit.edu,\N,\N,\N,t,year
+parrishb,Parrish,Bergquist,841,452-3912,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,parrishb@mit.edu,\N,\N,\N,t,year
+lysfoo@gmail.com,Lisa,Foo,335,577-5970,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,lysfoo@alum.mit.edu,\N,\N,\N,t,\N
+danamkinek@gmail.com,Dana,Susko,980,452-4424,\N,\N,\N,\N,\N,\N,\N,\N,\N,f,GRT,dsusko@mit.edu,\N,\N,\N,t,\N
+dalyk,Katharine,Daly,1046,452-2130,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dalyk@mit.edu,\N,\N,\N,t,\N
+jpmccabe,James,McCabe,479A,452-2959,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jpmccabe@mit.edu,\N,\N,\N,t,\N
+kcooper,Kenneth,Cooper,825,452-3919,2015,949 554 5192,,Newport Coast,CA,USA,,Super Saiyan,Vegeta,f,U,kcooper@mit.edu,\N,\N,\N,t,year
+kianna,Kianna,Jackson,577,452-3114,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kianna@mit.edu,\N,\N,\N,t,year
+kmfarris,Kathryn,Farris,371,577-5950,2017,,,Chicago,,,,season,snow,f,U,kmfarris@mit.edu,lounge-partylounge,Snow Queen,25,f,year
+dmetri,Dmetri,Hayes,976,452-4577,2015,,,Owosso,Michigan,,,,,f,U,dmetri@mit.edu,lounge-thirsty,\N,25,t,year
+edwinjaf,Edwin,Africano,324,577-5938,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,edwinjaf@mit.edu,lounge-bluths,\N,25,t,\N
+btushig,Battushig,Myanganbayar,846,452-3911,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,btushig@mit.edu,\N,\N,\N,t,month
+damato,Emily,Damato,1036,452-2126,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,damato@mit.edu,lounge-milehigh,\N,25,t,\N
+jwli,Jennifer,Li,537,452-3299,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jwli@mit.edu,lounge-mixers,Spuddy,25,t,year
+bce,Benjamin,Eysenbach,931,452-4259,2017,6179819018,,Belmont,MA,USA,,,,f,U,bce@mit.edu,lounge-spa,\N,25,t,\N
+jdonavon,John,Stephens,324,577-5937,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jdonavon@mit.edu,lounge-bluths,\N,25,t,year
+joyceyc,Joyce,Chen,570,,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,joyceyc@mit.edu,lounge-nyan,Viking,25,t,year
+ignacioe,Ignacio,Estay Forno,322D,,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ignacioe@mit.edu,lounge-spa,\N,25,t,year
+hdaywill,Hugh,Day-Williams,627,452-3461,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,hdaywill@mit.edu,lounge-milehigh,\N,25,t,year
+elyudism,Elyud,Ismail,1021A,452-2148,2015,,,Addis Ababa,,Ethiopia,,soccer team,Manchester United,f,U,elyudism@mit.edu,lounge-cnpul,\N,25,t,year
+evargo,Emma,Vargo,1036,452-2126,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,evargo@mit.edu,lounge-milehigh,\N,25,t,year
+cori,Corinne,Drysdale,533,452-3288,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cori@mit.edu,lounge-nyan,\N,25,t,year
+yangjj,Jessica,Yang,977,,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,yangjj@mit.edu,lounge-nyan,\N,25,t,year
+lagray,Luke,Gray,478,,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,lagray@mit.edu,\N,\N,\N,t,\N
+curlette,Christina,Curlette,538,,2016,,,Atlanta,Georgia,,,,,f,U,curlette@mit.edu,\N,\N,\N,t,year
+rchipman,Ryan,Chipman,725,225-8447,2016,508-838-8902,,Norfolk,Massachusetts,USA,,Musician,Van Morrison,f,U,rchipman@mit.edu,\N,\N,\N,t,year
+rrshep,Rex,Shepherd,627,452-3461,2018,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rrshep@mit.edu,\N,\N,\N,t,\N
+sokaine,Simon,Okaine,1025,452-2183,2015,,,Nanuet,New York,,,sport,tennis,f,U,sokaine@mit.edu,\N,\N,\N,t,year
+taylorr,Rebecca,Taylor,649,452-3363,2015,,,Ann Arbor,Michigan,United States,,,,f,U,taylorr@mit.edu,\N,\N,\N,t,year
+timwu,Tianqi,Wu,874,452-3943,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,timwu@mit.edu,\N,\N,\N,t,year
+ldunphy,Laura,Dunphy,1074,452-2197,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ldunphy@mit.edu,\N,\N,\N,t,year
+arios,Andres,Rios,1045,452-2133,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,arios@mit.edu,\N,\N,\N,t,year
+lepertc,Chloe,Lepert,1075,452-2198,2015,6507303061,,Belmont,California,USA,,,,f,U,lepertc@mit.edu,\N,\N,\N,t,year
+caseyfu1,Casey,Fu,330,577-5928,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,caseyfu1@mit.edu,\N,\N,\N,t,\N
+dve,Debra,Van Egeren,1044,452-2136,2016,2489181851,,Troy,MI,,,eel,snowflake moray,f,U,dve@mit.edu,\N,\N,\N,t,\N
+ferrantj,Joseph,Ferrante,327,577-5933,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ferrantj@mit.edu,\N,\N,\N,t,\N
+hzaini,Hesham,Zaini,1078A,452-2214,2015,,,,,,,food,mac & cheese,f,U,hzaini@mit.edu,\N,\N,\N,t,year
+slmoore,Samuel,Moore,376,577-5956,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,slmoore@mit.edu,\N,\N,\N,t,\N
+kkim17,Kristina,Kim,1039,452-2221,2017,,,Federal Way,Washington,USA,"“Hope” is the thing with feathers -
+That perches in the soul -
+And sings the tune without the words -
+And never stops - at all -
+-Emily Dickinson","fruit, dried,",pineapple,f,U,kkim17@mit.edu,lounge-partylounge,Forever Helpful,25,t,year
+pbrito,Pedro,Brito,776,452-3835,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,pbrito@mit.edu,lounge-perreo,\N,25,t,year
+mecunha,Mary,Cunha,1052A,452-2065,2017,,,"Arcata,",California,,"(I actually go by Elaine.)
+
+""Come, my friends, / 'Tis not too late to seek a newer world.""
+- Tennyson",,,f,U,mecunha@mit.edu,lounge-spa,MEFC,25,t,year
+minyilee,Minyi,Lee,537,452-3300,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,minyilee@mit.edu,lounge-mixers,"""MINE-YIE""",25,t,month
+rkchung,Ryan,Chung,824,452-3917,2018,,,,,,,flavor,life,f,U,rkchung@mit.edu,lounge-milehigh,\N,25,t,\N
+annaju,Anna,Jungbluth,372,577-5952,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,annaju@mit.edu,lounge-partylounge,Ketchup Enthusiast,25,t,year
+shanasia,Shanasia,Sylman,244B,577-5916,2015,,,San Antonio,Texas,,I'm all about that bass,sex position,birthday cake,f,U,shanasia@mit.edu,lounge-thirsty,\N,25,t,year
+amohr,Alan,Mohr,340A,577-5971,2017,,http://heyyeyaaeyaaaeyaeyaa.com/,Farmingville,New York,United States of America,"""In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.""
+Douglas Adams",Number,16,f,U,amohr@mit.edu,lounge-partylounge,\N,25,t,\N
+lyk,Larissa,Kunz,1066,452-2047,2015,,,,,,"""Fear less, hope more; eat less, chew more; whine less, breathe more; talk less, say more; hate less, love more; and all good things will be yours."" ~Swedish proverb",,,f,U,lyk@mit.edu,lounge-mixers,\N,25,t,year
+selamg,Selam,Gano,978,452-4575,2018,,selamie.tumblr.com,Denver,CO,USA/China/Ethiopia,"I can't say I really know you, but one's got to help a neighbour, hasn't one?",roommate,Ayesha,f,U,selamg@mit.edu,lounge-partylounge,\N,25,t,year
+akurtz,Andrew,Kurtz,373,577-5953,2017,,,,,,The technology exists.,swag,yolo,f,U,akurtz@mit.edu,lounge-partylounge,Amputee,25,t,\N
+sarastik,Sara,Stiklickas,321,577-5943,2017,,,Franklin Square,New York,,,,,f,U,sarastik@mit.edu,lounge-bluths,\N,25,t,year
+alashley,Aaron,Ashley,1077,452-2204,2016,(402) 403-9008,,Gretna,Nebraska,,,Star Trek,Voyager,f,U,alashley@mit.edu,\N,\N,\N,t,year
+smjoseph,Sebastian,Joseph,573,452-3260,2015,,,Silver Spring,MD,,True glory consists in doing what deserves to be written; in writing what deserves to be read.,PC game,Civ V,f,U,smjoseph@mit.edu,lounge-nyan,Archbaron,25,t,\N
+whartman,William,Hartman,748C,452-4769,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,whartman@mit.edu,\N,\N,\N,t,year
+jyucra,Jonatan,Yucra Rodriguez,345,577-5949,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jyucra@mit.edu,lounge-bluths,\N,25,t,\N
+shannenk,Shannen,Kizilski,1043,452-2140,2015,,,,CT,,,,,f,U,shannenk@mit.edu,lounge-nyan,\N,25,t,year
+denigris,Michael,Denigris,647,452-3349,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,denigris@mit.edu,lounge-bluths,\N,25,t,month
+wlouie,Wilson,Louie,535,452-3296,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,wlouie@mit.edu,lounge-nyan,Doctor,25,t,year
+vtoro,Veronica,Toro,878,452-3922,2016,787-685-7275,,San Juan,Puerto Rico,,,,,f,U,vtoro@mit.edu,lounge-perreo,\N,25,t,year
+briantom,Brian,Tom,1064,452-2063,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,briantom@mit.edu,lounge-mixers,\N,25,t,\N
+bberrios,Brianna,Berrios,424B,577-5995,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bberrios@mit.edu,lounge-bluths,\N,25,t,year
+sarahliu,Xiaoxue,Liu,971,452-4240,2016,5156577759,,Urbandale,Iowa,USA,,people,allen and skyler,f,U,sarahliu@mit.edu,lounge-mixers,Loud,25,f,year
+mollyb,Molly,Brennan,1078B,452-2205,2018,,,,,,,,,f,U,mollyb@mit.edu,lounge-spa,\N,25,t,year
+eoklatt,Erik,Klatt,1072,452-2037,2015,,,Pittsburgh,PA,USA,,,,f,U,eoklatt@mit.edu,lounge-mixers,\N,25,t,\N
+mbelland,Michael,Belland,521C,452-3032,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,mbelland@mit.edu,lounge-smash,\N,25,t,year
+lopezna,Nicolas,Lopez,946,452-4066,2015,,,Los Angeles,CA,,Hi,number,4,f,U,lopezna@mit.edu,lounge-mixers,\N,25,t,\N
+rohanb,Rohan,Banerjee,824,452-3917,2018,,,Oak Hill,VA,USA,,Color,Orange,f,U,rohanb@mit.edu,lounge-milehigh,\N,25,t,\N
+smthomas,Shawn,Thomas,429,452-2946,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,smthomas@mit.edu,lounge-smash,\N,25,t,\N
+johnstep,Stephen,Johnson,1073,452-2195,2015,,,Green Bay,Wisconsin,,Birthdays are good for you. Statistics show that those who have the most live the longest.,Soil,Peat Moss,f,U,johnstep@mit.edu,\N,\N,\N,f,\N
+trujano,Fernando,Trujano,337,577-5969,2017,407-754-8527,http://www.fernandotrujano.com,,,,,,,f,U,trujano@mit.edu,lounge-partylounge,Quiet of the Small Sheep,25,t,year
+seropian,Emma,Seropian,673,,2015,,,,,,"My name's not Emma, it's Lily.",pronoun,they,f,U,seropian@mit.edu,\N,\N,\N,f,year
+guerrero,Diego,Guerrero Cardenas,543,452-3105,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,guerrero@mit.edu,\N,\N,\N,t,year
+bazuzi,Samira,Bazuzi,550,452-3094,2016,4438789463,,,,,,,,f,U,bazuzi@mit.edu,\N,\N,\N,f,year
+cegarris,Catherine,Garrison,551,452-3093,2016,,,,,,,,,f,U,cegarris@mit.edu,\N,\N,\N,f,year
+kelly16,Kelly,O'Brien,549A,452-3095,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kelly16@mit.edu,\N,\N,\N,t,year
+runbobby,Robert,Shen,540,452-3304,2017,no lo uso,,"Sugar Land,",Texas,,"""All there's left to do is run"" - Taylor Swift (""Love Story"")",anagram,generations/nitrogenase,f,U,runbobby@mit.edu,\N,\N,\N,t,\N
+sjbray,Samantha,Bray,549B,452-3096,2016,,,Omaha,Ne,USA,"""What you can't get out of, get into wholeheartedly.""  
+~Mignon McLaughlin",food,puppy chow,f,U,sjbray@mit.edu,\N,\N,\N,f,year
+raudelh,Raudel,Hernandez,637,225-7158,2016,,,San Fernando,CA,,"""Life is like a mountain, you can say you have reached the top but only after climbing back down.""
+                       -Sakata Gintoki",Thing,Something,f,U,raudelh@mit.edu,\N,\N,\N,t,\N
+cwicker,Christina,Wicker,650,452-3368,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cwicker@mit.edu,\N,\N,\N,t,year
+argonaut,Jonas,Gonzalez,447,577-5983,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,argonaut@mit.edu,lounge-bluths,\N,25,t,\N
+kkleidal,Kenneth,Leidal,421B,577-5987,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kkleidal@mit.edu,lounge-spa,\N,25,t,year
+sburch,Sean,Burchesky,539,452-3302,2017,,,Walpole,MA,,,,,f,U,sburch@mit.edu,lounge-spa,\N,25,t,\N
+slowder,Sean,Lowder,552,452-3092,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,slowder@mit.edu,lounge-spa,\N,25,t,year
+tlliu,Teng,Liu,575,452-3253,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,tlliu@mit.edu,lounge-mixers,Plant Eater,25,t,year
+chenta,Tiffany,Chen,665,452-3425,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,chenta@mit.edu,lounge-mixers,Princess,25,t,year
+hlzhou,Helen,Zhou,575,452-3252,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,hlzhou@mit.edu,lounge-mixers,Way Too Nice,25,t,\N
+pliscio,Patrick,Liscio,438,452-2989,2017,,,Not Chicago,,,,,,f,U,pliscio@mit.edu,lounge-partylounge,Sources Consulted,25,t,year
+dafolabi,David,Afolabi,426,577-5996,2016,765-491-5528,,West Lafayette,Indiana,USA,,pet animal,guinea pig,f,U,dafolabi@mit.edu,lounge-smash,The Smashing,25,t,year
+cica,Christian,Cardozo-Aviles,378,577-5958,2017,,https://www.youtube.com/watch?v=eaLWEjp8uaE,Miami,FL,USA,,,,f,U,cica@mit.edu,\N,\N,\N,t,\N
+stephach,Stephanie,Chen,534,,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,stephach@mit.edu,lounge-nyan,\N,25,t,\N
+gebhard,Megan,Gebhard,467,577-5973,2017,,,,,,,,,f,U,gebhard@mit.edu,lounge-spa,\N,25,t,\N
+erikalu,Erika,Lu,472,452-3007,2017,,,Lexington,MA,,,*NSYNC member,JC Chasez,f,U,erikalu@mit.edu,lounge-partylounge,\N,25,t,year
+stang95,Stephen,Tang,521B,452-2994,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,stang95@mit.edu,\N,\N,\N,t,year
+ethai,Emily,Thai,632,225-6692,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ethai@mit.edu,lounge-mixers,\N,25,t,\N
+lmarkey,Lara,Markey,467,577-5972,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,lmarkey@mit.edu,lounge-spa,\N,25,t,year
+dfellows,David,Fellows,427,577-5997,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dfellows@mit.edu,lounge-bluths,\N,25,t,\N
+czheng32,Claus,Zheng,574,452-3255,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,czheng32@mit.edu,lounge-nyan,Chocolate,25,t,year
+bpsong,Benjamin,Song,477,452-2965,2016,,,Audubon,Pennsylvania,United States,,Basketball Player,LeBron James,f,U,bpsong@mit.edu,lounge-nyan,\N,25,t,\N
+klkim,Lina,Kim,565,452-3088,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,klkim@mit.edu,lounge-nyan,\N,25,t,year
+dejuan,DeJuan,Anderson,628,452-3451,2015,240-688-5993,,,MD,USA,"If there is evil in this world,
+it lurks in the hearts of men.",Thing to Do,speaking Japanese~,f,U,dejuan@mit.edu,\N,\N,\N,t,year
+bgunby,Benjamin,Gunby,374,577-5954,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bgunby@mit.edu,lounge-partylounge,The Mathemagician,25,t,\N
+knazemi,Katherine,Nazemi,473,452-2973,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,knazemi@mit.edu,lounge-partylounge,\N,25,t,year
+marissas,Marissa,Stephens,645A,452-3347,2016,,,,,,,Sport,Climbing,f,U,marissas@mit.edu,\N,Lord of the Kitchen Files,\N,t,year
+kyan,Kevin,Yan,532,452-3087,2015,2403885866,,Gaithersburg,Maryland,United States,,,,f,U,kyan@mit.edu,lounge-nyan,\N,25,t,year
+ahrens,Malte,Ahrens,377,577-5957,2017,,mit.edu/ahrens,Melbourne,,Australia,Be bold.,,,f,U,ahrens@mit.edu,lounge-partylounge,\N,25,t,year
+c_mccoy,Colleen,McCoy,650,452-3369,2017,,,,,,,,,f,U,c_mccoy@mit.edu,lounge-spa,Ridiculously Athletic,25,t,year
+jennwu,Jennifer,Wu,544,452-3102,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jennwu@mit.edu,\N,\N,\N,t,year
+enguyen,Erik,Nguyen,633,225-6693,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,enguyen@mit.edu,lounge-mixers,\N,25,t,year
+jb16,Jake,Barnwell,636,225-7142,2016,340-277-5870,,Christiansted,VI,,"""One cries because one is sad. For example, I cry because others are stupid, and that makes me sad."" - Sheldon",Islands,Virgin,f,U,jb16@mit.edu,lounge-cnpul,\N,25,t,year
+kstatham,Kayla,Statham,375,577-5955,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,kstatham@mit.edu,\N,\N,\N,t,year
+lu16j,Richard,Lu,448,577-5982,2016,9782427307,,Chapel Hill,North Carolina,United States,,fruit,mango,f,U,lu16j@mit.edu,\N,\N,\N,t,year
+acburgos,Ana,Burgos,450,577-5981,2015,,,San Juan,Puerto Rico,,,,,f,U,acburgos@mit.edu,lounge-perreo,Water Bender,25,t,year
+cliou,Catherine,Liou,566,452-3284,2015,,,Cairo,,Egypt,"Build a man a fire, and he'll be warm for a day. Set a man on fire, and he'll be warm for the rest of his life.
+- Terry Pratchett",,,f,U,cliou@mit.edu,lounge-nyan,Councillor Momo,25,t,year
+bcarter,Brandon,Carter,936,452-4245,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bcarter@mit.edu,lounge-spa,B-Swole,25,t,year
+dmayo2,David,Mayo,380,,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dmayo2@mit.edu,\N,\N,\N,t,year
+owly,Faith,Huynh,433,452-2953,2017,,,,,,"""The greatest day of your life and mine is when we take total responsibility for our attitudes. This is the day that we truly grow up."" -- John C. Maxwell",exercise,sleeping,f,U,owly@mit.edu,lounge-spa,\N,25,f,year
+justinjc,Justin,Cheung,648,452-3362,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,justinjc@mit.edu,\N,\N,\N,t,year
+tonych,Sen,Chang,739,452-3869,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,tonych@mit.edu,\N,\N,\N,t,\N
+woursler,William,Oursler,631D,452-3426,2015,541-601-8295,ninjinuity.blogspot.com,Ashland,OR,USA,,Function,cosh( x ),f,U,woursler@mit.edu,\N,Sir,\N,t,year
+magallon,Nadia,Magallon,721,225-7357,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,magallon@mit.edu,\N,Hon Hon Baguette Eiffel Tower,\N,t,year
+adat,Ada,Taylor,674,225-6687,2016,,,Durham,NC,USA,"""It's kind of fun to do the impossible.""
+~Walt Disney
+
+""The trouble with quotes on the Internet is that you can never know if they are genuine."" -Abraham Lincoln",day,today,f,U,adat@mit.edu,\N,Non-typical Simmons Tech,\N,t,year
+akashk16,Akash,Krishnan,738C,452-3871,2016,5035678648,,Portland,OR,United States,,,,f,U,akashk16@mit.edu,\N,\N,\N,t,\N
+daniman,Danielle,Man,743,452-3832,2016,,,Redwood City,CA,,,,,f,U,daniman@mit.edu,\N,\N,\N,t,year
+dreback,Dana,Reback,670,225-6691,2015,,,Bethesda,MD,,"""'They say that genius is an infinite capacity for taking pains,' he remarked with a smile. 'It's a very bad definition, but it does apply to detective work.'"" - A Study in Scarlet, by Sir Arthur Conan Doyle.",food,potatoes,f,U,dreback@mit.edu,\N,\N,\N,t,year
+geronm,Geronimo,Mirano,672,225-6690,2016,(360) 434-6453,,Silverdale,WA,,"Marvel at the beauty of nature! And at the wonder of existence. The secrets of life are out there somewhere, but even if we never find them, the little we're permitted to understand is wonderful itself.",author,Richard Dawkins,f,U,geronm@mit.edu,\N,"""""The Friendly""""",\N,t,year
+mdeyo,Matthew,Deyo,728,225-8800,2016,,,Manlius,NY,,,,,f,U,mdeyo@mit.edu,\N,\N,\N,t,\N
+jbeau16,Jon,Beaulieu,931,452-4258,2016,857-318-2940,,Carlisle,PA,USA,"""The most powerful force on earth is the human soul on fire.""
+-Ferdinand Foch",vegetable,French Fries,f,U,jbeau16@mit.edu,\N,\N,\N,t,\N
+anthonyo,Anthony,Occidentale,973,452-4580,2017,,,Bergenfield,NJ,USA,,activity,DJing,f,U,anthonyo@mit.edu,\N,\N,\N,t,year
+jlugo,Jorge,Lugo,921B,452-4011,2016,518-420-6999,,Bronx,NY,USA,"""Karma police, arrest this man, he talks in maths..."" -Radiohead",,,f,U,jlugo@mit.edu,lounge-smash,\N,25,t,year
+becorts,Brandon,Corts,730,225-9522,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,becorts@mit.edu,lounge-spa,\N,25,t,\N
+vivianhu,Vivian,Hu,653,452-3409,2018,,,Westlake Village,CA,USA,,,,f,U,vivianhu@mit.edu,lounge-milehigh,\N,25,t,year
+jkchen,Joanna,Chen,634,225-6698,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,jkchen@mit.edu,lounge-mixers,Sultana,25,t,year
+colbertc,Caroline,Colbert,939,452-4281,2017,7724530784,,Sebastian,Florida,United States,Exercise releases endorphins. Endorphins make you happy. Happy people just don't kill their husbands.,,,f,U,colbertc@mit.edu,lounge-mixers,Frozen,25,t,month
+bwanek,Brian,Wanek.jpg,966,452-4237,2017,,,,,,yo,,,f,U,bwanek@mit.edu,lounge-spa,Master of the File Extensions,25,t,year
+pradosan,Daniel,Prado Sanchez,780,452-3853,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,pradosan@mit.edu,lounge-perreo,\N,25,t,\N
+meroldan,Maria,Roldan,873,225-1408,2017,787-487-8699,,San Juan,,Puerto Rico,,,,f,U,meroldan@mit.edu,lounge-perreo,\N,25,t,\N
+anater,Andres,Nater,741A,225-7257,2017,,http://baller.com,Dorado,,Puerto Rico,Mo money mo problems,,,f,U,anater@mit.edu,lounge-perreo,\N,25,t,year
+rluoh,Rebecca,Luoh,872,452-3887,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,rluoh@mit.edu,lounge-cnpul,\N,25,t,year
+ajmulero,Alberto,Mulero,780,452-3858,2017,,,Caguas,Puerto Rico,United States,,,,f,U,ajmulero@mit.edu,lounge-perreo,\N,25,t,year
+cjholz,Carolyn,Holz,839,452-4006,2015,,,Oakland,ME,,,,,f,U,cjholz@mit.edu,lounge-perreo,\N,25,t,year
+devneal,Devin,Neal,933,452-4248,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,devneal@mit.edu,lounge-spa,\N,25,t,\N
+adelmore,Alexandra,Delmore,721,225-7347,2017,\N,\N,\N,\N,\N,\N,\N,\N,f,U,adelmore@mit.edu,lounge-perreo,"""I get shit done""",25,t,\N
+jherring,Jessica,Herring,643,,2015,,,Burkburnett,Texas,,"""...But for me, it was Amon-day."" - Bad Joke Amon",,,f,U,jherring@mit.edu,lounge-nyan,\N,25,t,year
+marquez,Elliott,Marquez,921B,452-4009,2016,210.883.4335,http://web.mit.edu/marquez,San Antonio,TX,United States,To err is human. To blame it on a computer is even more so.,person,you,f,U,marquez@mit.edu,lounge-smash,\N,25,t,year
+boquinr,Raul,Boquin,840,452-4007,2017,,,Ft. Lauderdale,Fl,,"""The best way to find yourself is to lose yourself in the service of others.""
+Gandhi",dog,a golden retriever,f,U,boquinr@mit.edu,lounge-thirsty,\N,25,t,year
+hojinj,Hojin,Jeon,945,452-4080,2016,,,El Centro,CA,,:),person,you,f,U,hojinj@mit.edu,lounge-smash,\N,25,t,\N
+amireles,Abdiel,Mireles,974,452-4579,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,amireles@mit.edu,lounge-thirsty,\N,25,t,year
+faul5740,A.,Faulkner,945,452-4083,2016,(469) 226-6802,,"Mesquite,",TX,,"""Knowledge acquired, and knowledge not shared, is knowledge wasted.""",,,f,U,faul5740@mit.edu,lounge-mixers,\N,25,t,year
+cfh119,Christian,Hyacinthe,1072,452-2024,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,cfh119@mit.edu,lounge-mixers,\N,25,t,year
+leyatt,Leyatt,Betre,866,452-3902,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,leyatt@mit.edu,lounge-cnpul,\N,25,t,year
+abdihd,Abdi-Hakin,Dirie,871,452-3900,2016,,,,,,"""And I have by me, for my comfort, two strange white flowers - shriveled now, and brown and flat and brittle - to witness that even when mind and strength had gone, gratitude and a mutual tenderness still lived on in the heart of man."" - The Time Machine by H.G. Wells",mode of travel,via train,f,U,abdihd@mit.edu,lounge-cnpul,\N,25,t,year
+jtsao,Chih-Cheng,Tsao,638,225-7159,2016,650-823-8071,,,,,,,,f,U,jtsao@mit.edu,\N,\N,\N,t,year
+kavleh,Henry,Kavle,933,452-4247,2017,,,Litchfield,CT,United States,,,,f,U,kavleh@mit.edu,lounge-spa,Prince of Shwank,25,t,\N
+fcolon,Fransheska,Colon,744,225-9829,2016,2108873777,zombo.com,"San Antonio,",Texas,,"""When the power of love overcomes the love of power, the world will know peace.""
+ -Jimi Hendrix",quote,"""When the power of love overcomes the love of power, the world will know peace""",f,U,fcolon@mit.edu,lounge-smash,\N,25,f,year
+keldins,Keldin,Sergheyev,731,225-9525,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,keldins@mit.edu,\N,\N,\N,t,year
+bbelland,Brent,Belland,521C,452-3069,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,bbelland@mit.edu,\N,\N,\N,t,year
+baggib2,Sebastian,Santos,629,452-3450,2017,760-791-5805,,Imperial,CA,,,,,f,U,baggib2@mit.edu,\N,\N,\N,t,year
+ccdlott,Chloe,Dlott,733,225-9607,2016,,,Aptos,CA,USA,,Color,Purple,f,U,ccdlott@mit.edu,\N,\N,\N,t,year
+cheber,Caitlin,Heber,733,225-9618,2016,,,Silverdale,Washington,USA,,Color,Lime Green,f,U,cheber@mit.edu,\N,The Fiercest,\N,f,year
+emilyyau,Emily,Yau,571,452-3277,2015,,,Allentown,Pennsylvania,,"""Knowing is not enough; we must apply. Willing is not enough; we must do."" 
+-Johann von Goethe",,,f,U,emilyyau@mit.edu,lounge-nyan,Oil Baroness IX,25,t,year
+aerblugo,Anthony,Erb Lugo,778,452-3838,2016,787-461-0922,,San Juan,PR,US,"""Say a wise saying and your name will live on forever"" - Anonymous",Color,7,f,U,aerblugo@mit.edu,lounge-perreo,\N,25,t,year
+dagarcia,Dennis,Garcia,778,452-3846,2016,\N,\N,\N,\N,\N,\N,\N,\N,f,U,dagarcia@mit.edu,lounge-perreo,\N,25,t,year
+ambhave,Amol,Bhave,337,577-5968,2017,,http://www.amolbhave.in,"Shire,","Kingdom of Arnor,",Eriador,"Three Rings for the Elven-kings under the sky,
+Seven for the Dwarf-lords in their halls of stone,
+Nine for Mortal Men doomed to die,
+One for the Dark Lord on his dark throne
+In the Land of Mordor where the Shadows lie.
+One Ring to rule them all, One Ring to find them,
+One Ring to bring them all and in the darkness bind them
+In the Land of Mordor where the Shadows lie.",obsession,One Ring,f,U,ambhave@mit.edu,lounge-partylounge,"""Whack""",25,t,month
+jcborn,Joshua,Born,746,225-9787,2016,4178252121,,Goodman,Missouri,,,,,f,U,jcborn@mit.edu,lounge-mixers,\N,25,t,\N
+gcassidy,Grace,Cassidy,664,452-3416,2016,281-995-6835,,,,,,,,f,U,gcassidy@mit.edu,lounge-smash,\N,25,t,year
+cwetters,Christina,Wettersten,1021C,452-2161,2015,,,Palo Alto,CA,,"âThe universe is a pretty big place. If it's just us, seems like an awful waste of space.â
+â Carl Sagan",building,a library,f,U,cwetters@mit.edu,lounge-nyan,Board Game Master,25,f,\N
+asevert,Alexander,Severt,975,452-4578,2015,,,Paterson,NJ,USA,,activity,sleep.......,f,U,asevert@mit.edu,lounge-thirsty,\N,25,t,year
+volanski,Sydney,Volanski,932,452-4251,2018,,,The Woodlands,Texas,,"""Fear is a current we all get caught in, and in its motion, faith can be so hard to find, and we all falter 'cause we're all broken, we're all just trying to turn the shadows into light.""",Mean Girl,Gretchen Wieners,f,U,volanski@mit.edu,lounge-spa,"Her ""Highness""",25,t,month
+estein,Emma,Steinhardt,640,225-7247,2016,703-907-9033,estein.mit.edu,Vienna,Virginia,USA,"""Yesterday is history, tomorrow is a mystery, but today is a gift. That's why it's called the present.""
+-Eleanor Roosevelt",dessert,apple pie,f,U,estein@mit.edu,lounge-nyan,Not For Public Consumption,25,f,year
+alicez,Alice,Zielinski,564,452-3089,2016,,,Los Angeles,California,USA,,Doggy,chihuahua!!!!!,f,U,alicez@mit.edu,\N,\N,\N,f,\N
+ajack,Alexander,Jackson,625,452-3487,2015,\N,\N,\N,\N,\N,\N,\N,\N,f,U,ajack@mit.edu,\N,\N,\N,t,year
+cklingsh,Christopher,Klingshirn,526,452-3081,2015,,,,,,"""I'm a PC and I run Linux.""",supercomputer,Colossus,f,U,cklingsh@mit.edu,lounge-nyan,\N,25,f,year
+castanom,Michael,Castano,381,577-5963,2017,,,Miami,FL,USA,"â""If A is success in life, then A = x + y + z. Work is x, play is y, and z is keeping your mouth shut."" -Albert Einstein,",car,BMW,f,U,castanom@mit.edu,\N,\N,\N,t,\N
