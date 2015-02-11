@@ -131,6 +131,10 @@ People.prototype.getEmail = function(i) {
   return everyone[i][8];
 };
 
+People.prototype.getTitle = function(i) {
+  return everyone[i][9];
+};
+
 People.prototype.getFullName = function(i) {
   return this.getFName(i) + " " + this.getLName(i);
 };
