@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <?xml version="1.0" enc oding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,16 +12,16 @@
   <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
   <!-- jQuery Tipsy -->
-  <script type="text/javascript" src="js/jquery.tipsy.js"></script>
-  <link rel="stylesheet" href="css/tipsy.css" type="text/css" />
+  <script type="text/javascript" src="{% static "js/jquery.tipsy.js" %}"></script>
+  <link rel="stylesheet" href="{% static "css/tipsy.css" %}" type="text/css" />
 
-  <link rel="stylesheet" type="text/css" href="css/directory.css">
-  <script type="text/javascript" src="js/sections.js"></script>
-  <script type="text/javascript" src="js/everyone.js"></script>
-  <script type="text/javascript" src="js/people.js"></script>
-  <script type="text/javascript" src="js/directory.js"></script>
-  <script type="text/javascript" src="js/sky.js"></script>
-  <script type="text/javascript" src="js/sort.js"></script>
+  <link rel="stylesheet" type="text/css" href="{% static "css/directory.css" %}">
+  <script type="text/javascript" src="{% static "js/sections.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/everyone.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/people.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/directory.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/sky.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/sort.js" %}"></script>
 
 </head>
 
@@ -77,7 +78,7 @@
     <div class="content">
         <div class="masthead">Directory</div>
         <div class="nav-box magnifying-glass">
-          <img src="img/magnifying-glass-black.png" class="nav-icon">
+          <img src="{% static "img/magnifying-glass-black.png" %}" class="nav-icon">
         </div>
     </div>
   </div>
@@ -1815,18 +1816,18 @@
 
       </div> <!-- map -->
 
-      <img class="bg extras" src="img/sky/extras.png">
-      <img class="bg simmons-night" src="img/sky/simmons-night.png">
-      <img class="bg simmons-day" src="img/sky/simmons-day.png">
+      <img class="bg extras" src="{% static "img/sky/extras.png" %}">
+      <img class="bg simmons-night" src="{% static "img/sky/simmons-night.png" %}">
+      <img class="bg simmons-day" src="{% static "img/sky/simmons-day.png" %}">
 
-      <img class="bg sky-night" src="img/sky/bg-night.png">
-      <img class="bg sky-dusk" src="img/sky/bg-dusk.png">
-      <img class="bg sky-golden" src="img/sky/bg-golden.png">
-      <img class="bg sky-cloudy" src="img/sky/bg-cloudy.png">
-      <img class="bg sky-clear" src="img/sky/bg-clear.png">
+      <img class="bg sky-night" src="{% static "img/sky/bg-night.png" %}">
+      <img class="bg sky-dusk" src="{% static "img/sky/bg-dusk.png" %}">
+      <img class="bg sky-golden" src="{% static "img/sky/bg-golden.png" %}">
+      <img class="bg sky-cloudy" src="{% static "img/sky/bg-cloudy.png" %}">
+      <img class="bg sky-clear" src="{% static "img/sky/bg-clear.png" %}">
 
       <div class="gear">
-        <img class="gear-icon" src="img/gear-black.png">
+        <img class="gear-icon" src="{% static "img/gear-black.png" %}">
       </div>
 
     </div>
@@ -1844,23 +1845,23 @@
           <tr>
             <th>
               First Name
-              <img class="icon" src="img/sort-icon.png">
+              <img class="icon" src="{% static "img/sort-icon.png" %}">
             </th>
             <th>
               Last Name
-              <img class="icon" src="img/sort-icon.png">
+              <img class="icon" src="{% static "img/sort-icon.png" %}">
             </th>
             <th>
               Kerberos
-              <img class="icon" src="img/sort-icon.png">
+              <img class="icon" src="{% static "img/sort-icon.png" %}">
             </th>
             <th>
               Room
-              <img class="icon" src="img/sort-icon.png">
+              <img class="icon" src="{% static "img/sort-icon.png" %}">
             </th>
             <th>
               Title
-              <img class="icon" src="img/sort-icon.png">
+              <img class="icon" src="{% static "img/sort-icon.png" %}">
             </th>
           </tr>
         </thead>
