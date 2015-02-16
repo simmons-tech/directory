@@ -1,0 +1,15 @@
+AddHandler wsgi-script .py
+Options +ExecCGI
+
+RewriteEngine On
+RewriteBase /directory
+
+RewriteRule ^(static.*)$ - [L]
+
+RewriteCond %{REQUEST_URI} ^/directory/$
+RewriteRule ^$ directory/wsgi.py [L]
+
+RewriteCond %{REQUEST_URI} !/directory/directory/wsgi.py
+RewriteRule ^(.*)$ directory/wsgi.py/$1 [L]
+
+SSLVerifyClient require
