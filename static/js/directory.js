@@ -267,7 +267,7 @@ function display(result) {
   var kerb = people.getKerb(result);
   var title = people.getTitle(result);
   $('.results-table tbody').append(
-    '<tr> <td>'+fname+'</td> <td>'+lname+'</td> <td>'+kerb+'</td> <td>'+room+'</td> <td>'+title+'</td> </tr> '
+    '<tr> <td>'+title+'</td> <td>'+fname+'</td> <td>'+lname+'</td> <td>'+kerb+'</td> <td>'+room+'</td> </tr> '
   );
   $('#r' + room).fadeIn(300);
 
