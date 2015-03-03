@@ -1,7 +1,7 @@
 var people;
 var darknessOpen;
 
-$(document).ready( function(){
+function render_everyone() {
   // create tooltips
   $('#Rooms').children().children().tipsy({gravity: 'e', opacity: 1.0});
 
@@ -74,7 +74,7 @@ $(document).ready( function(){
       .append( '<a>' + item.label + '<br>' + item.desc + '</a>' )
       .appendTo( ul );
   };
-});
+};
 
 function contains(s1, s2) {
   return s1.toLowerCase().indexOf(s2.toLowerCase()) === 0;

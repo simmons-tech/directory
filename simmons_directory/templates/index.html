@@ -5,11 +5,11 @@
 <head>
 
   <!-- Lato Webfont -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
 
   <!-- jQuery -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 
   <!-- jQuery Tipsy -->
   <script type="text/javascript" src="{% static "js/jquery.tipsy.js" %}"></script>
@@ -17,8 +17,61 @@
 
   <link rel="stylesheet" type="text/css" href="{% static "css/directory.css" %}">
   <script type="text/javascript" src="{% static "js/sections.js" %}"></script>
-  <script type="text/javascript" src="{% static "js/everyone.js" %}"></script>
+  <!--script type="text/javascript" src="{% static "js/everyone.js" %}"></script-->
+
+  <script type="text/javascript" src="{% static "js/jquery.cookie.js" %}"></script>
+  <script type="text/javascript" src="{% static "js/simmons-api.js" %}"></script>
+  <script>
+    sim.init({
+      'clientid': 'ydKmEgtbosUeu6zE30VgnNeO2vmpzhvRLg5WkP4o'
+    });
+    sim.login();
+    sim.people.all(function(data) {
+      everyone = data;
+      render_everyone();
+    });
+  </script>
   <script type="text/javascript" src="{% static "js/people.js" %}"></script>
+  <script>
+
+    People.prototype.getLName = function(i) {
+      return everyone[i]['lastname'];
+    };
+
+    People.prototype.getFName = function(i) {
+      return everyone[i]['firstname'];
+    };
+
+    People.prototype.getTitle = function(i) {
+      return everyone[i]['title'] == null ? "" : everyone[i]['title'];
+    };
+
+    People.prototype.getKerb = function(i) {
+      return everyone[i]['username'];
+    };
+
+    People.prototype.getRoom = function(i) {
+      return everyone[i]['room'] == null ? "" : everyone[i]['room'];
+    };
+
+    People.prototype.getYear = function(i) {
+      return everyone[i]['year'] == null ? "" : everyone[i]['year'];
+    };
+
+    People.prototype.getLounge = function(i) {
+      return 'partylounge'; //return everyone[i][6];
+    };
+
+    People.prototype.getType = function(i) {
+      return 'Undergraduate'; //everyone[i][7];
+    };
+
+    People.prototype.getEmail = function(i) {
+      return everyone[i]['username'];
+    };
+
+  </script>
+
   <script type="text/javascript" src="{% static "js/directory.js" %}"></script>
   <script type="text/javascript" src="{% static "js/sky.js" %}"></script>
   <script type="text/javascript" src="{% static "js/sort.js" %}"></script>
